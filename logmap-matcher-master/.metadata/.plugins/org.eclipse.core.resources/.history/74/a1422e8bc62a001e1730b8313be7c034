@@ -1,0 +1,1166 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"
+     xmlns:mappings="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/goodrelations/v1#offers -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/goodrelations/v1#offers">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/saref#offers"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#offers</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#offers</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#offers"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#offers"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2006/time#after -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#after"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#before -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#before"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#dayOfWeek -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#dayOfWeek"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasBeginning -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#hasBeginning"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasDateTimeDescription -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#hasDateTimeDescription"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasDuration -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#hasDuration"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasDurationDescription -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#hasDurationDescription"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasEnd -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#hasEnd"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasTRS -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#hasTRS"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasTemporalDuration -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#hasTemporalDuration"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasTime -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#hasTime"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inDateTime -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#inDateTime"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inTemporalPosition -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#inTemporalPosition"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inTimePosition -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#inTimePosition"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inside -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#inside"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalAfter -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalAfter"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalBefore -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalBefore"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalContains -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalContains"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalDisjoint -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalDisjoint"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalDuring -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalDuring"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalEquals -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalEquals"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalFinishedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalFinishedBy"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalFinishes -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalFinishes"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalIn -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalIn"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalMeets -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalMeets"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalMetBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalMetBy"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalOverlappedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalOverlappedBy"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalOverlaps -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalOverlaps"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalStartedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalStartedBy"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalStarts -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#intervalStarts"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#monthOfYear -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#monthOfYear"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#timeZone -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#timeZone"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#unitType -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#unitType"/>
+    
+
+
+    <!-- https://w3id.org/saref#hasPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/saref#hasPrice">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/seas/price"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#hasPrice</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/price</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#hasPrice"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/price"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#measuresProperty -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/saref#measuresProperty">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/seas/measuresProperty"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#measuresProperty</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/measuresProperty</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#measuresProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/measuresProperty"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#offers -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/saref#offers"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#offers</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#offers</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#offers"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#offers"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/measuresProperty -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/seas/measuresProperty"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#measuresProperty</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/measuresProperty</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#measuresProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/measuresProperty"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/price -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/seas/price"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#hasPrice</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/price</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#hasPrice"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/price"/>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/goodrelations/v1#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/goodrelations/v1#hasValue">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/saref#hasValue"/>
+    </owl:DatatypeProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#hasValue</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#hasValue</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#hasValue"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#hasValue"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2006/time#day -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#day"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#dayOfYear -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#dayOfYear"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#days -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#days"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasXSDDuration -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#hasXSDDuration"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hour -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#hour"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hours -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#hours"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inXSDDate -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#inXSDDate"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inXSDDateTime -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#inXSDDateTime"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inXSDDateTimeStamp -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#inXSDDateTimeStamp"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inXSDgYear -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#inXSDgYear"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inXSDgYearMonth -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#inXSDgYearMonth"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#minute -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#minute"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#minutes -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#minutes"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#month -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#month"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#months -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#months"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#nominalPosition -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#nominalPosition"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#numericDuration -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#numericDuration"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#numericPosition -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#numericPosition"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#second -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#second"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#seconds -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#seconds"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#week -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#week"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#weeks -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#weeks"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#xsdDateTime -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#xsdDateTime"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#year -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#year"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#years -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#years"/>
+    
+
+
+    <!-- https://w3id.org/saref#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/saref#hasValue"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#hasValue</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#hasValue</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#hasValue"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#hasValue"/>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2006/time#DateTimeDescription -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#DateTimeDescription"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DateTimeInterval -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#DateTimeInterval"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DayOfWeek -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#DayOfWeek"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Duration -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#Duration"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DurationDescription -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#DurationDescription"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#GeneralDateTimeDescription -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#GeneralDurationDescription -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#GeneralDurationDescription"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Instant -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Interval -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#Interval"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#January -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#January"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#MonthOfYear -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#MonthOfYear"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#ProperInterval -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#ProperInterval"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TRS -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#TRS"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalDuration -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#TemporalDuration"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalEntity -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#TemporalEntity"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalPosition -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#TemporalPosition"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalUnit -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#TemporalUnit"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TimePosition -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#TimePosition"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TimeZone -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#TimeZone"/>
+    
+
+
+    <!-- https://w3id.org/saref#Actuator -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Actuator">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Actuator"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.77</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Actuator</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Actuator</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Actuator"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Actuator"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Commodity -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Commodity">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Commodity"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Commodity</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Commodity</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Commodity"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Commodity"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Device -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Device">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Device"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.79</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Device</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Device</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Device"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Device"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Humidity -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Humidity">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/HumidityProperty"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Humidity</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/HumidityProperty</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Humidity"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/HumidityProperty"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Light -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Light">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Lighting"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Light</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Lighting</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Light"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Lighting"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Meter -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Meter">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Meter"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.84</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Meter</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Meter</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Meter"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Meter"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Property -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Property">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Property"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.87</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Property</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Property</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Property"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Property"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Sensor -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Sensor">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Sensor"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.85</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Sensor</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Sensor</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Sensor"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Sensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Service -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Service">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Service"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Service</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Service</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Service"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Service"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Actuator -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Actuator"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.77</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Actuator</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Actuator</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Actuator"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Actuator"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Commodity -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Commodity"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Commodity</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Commodity</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Commodity"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Commodity"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Device -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Device"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.79</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Device</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Device</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Device"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Device"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/HumidityProperty -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/HumidityProperty"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Humidity</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/HumidityProperty</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Humidity"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/HumidityProperty"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Lighting -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Lighting"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Light</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Lighting</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Light"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Lighting"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Meter -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Meter"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.84</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Meter</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Meter</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Meter"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Meter"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Property -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Property"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.87</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Property</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Property</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Property"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Property"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Sensor -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Sensor"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.85</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Sensor</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Sensor</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Sensor"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Sensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Service -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Service"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Service</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Service</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="https://w3id.org/saref#Service"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Service"/>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/goodrelations/v1#Friday -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/goodrelations/v1#Friday">
+        <owl:sameAs rdf:resource="http://www.w3.org/2006/time#Friday"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Friday</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#Friday</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#Friday"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.org/goodrelations/v1#Sunday -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/goodrelations/v1#Sunday">
+        <owl:sameAs rdf:resource="http://www.w3.org/2006/time#Sunday"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Sunday</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#Sunday</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#Sunday"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.org/goodrelations/v1#Thursday -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/goodrelations/v1#Thursday">
+        <owl:sameAs rdf:resource="http://www.w3.org/2006/time#Thursday"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Thursday</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#Thursday</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#Thursday"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.org/goodrelations/v1#Tuesday -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/goodrelations/v1#Tuesday">
+        <owl:sameAs rdf:resource="http://www.w3.org/2006/time#Tuesday"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Tuesday</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#Tuesday</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#Tuesday"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.opengis.net/def/uom/ISO-8601/0/Gregorian -->
+
+    <rdf:Description rdf:about="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Friday -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#Friday"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Friday</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#Friday</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#Friday"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Monday -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#Monday"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Saturday -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#Saturday"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Sunday -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#Sunday"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Sunday</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#Sunday</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#Sunday"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Thursday -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#Thursday"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Thursday</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#Thursday</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#Thursday"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Tuesday -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#Tuesday"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Tuesday</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#Tuesday</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#Tuesday"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Wednesday -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#Wednesday"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#unitDay -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#unitDay"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#unitHour -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#unitHour"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#unitMinute -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#unitMinute"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#unitMonth -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#unitMonth"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#unitSecond -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#unitSecond"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#unitWeek -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#unitWeek"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#unitYear -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#unitYear"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

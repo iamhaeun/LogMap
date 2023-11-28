@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>https://w3id.org/saref</onto1>
+<onto2>https://w3id.org/saref</onto2>
+<uri1>https://w3id.org/saref</uri1>
+<uri2>https://w3id.org/saref</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Switch"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#Switch"/>
+		<measure rdf:datatype="xsd:float">0.75</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#DateTimeInterval"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#DateTimeInterval"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Sensor"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#Sensor"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Service"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#ServiceKind"/>
+		<measure rdf:datatype="xsd:float">0.44</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Command"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#Command"/>
+		<measure rdf:datatype="xsd:float">0.82</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Time"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#Time"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Time"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#TimeOfUse"/>
+		<measure rdf:datatype="xsd:float">0.39</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Commodity"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#CommodityKind"/>
+		<measure rdf:datatype="xsd:float">0.45</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#TimeZone"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#TimeZoneType"/>
+		<measure rdf:datatype="xsd:float">0.45</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#Duration"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#Duration"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Measurement"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#MeasurementValue"/>
+		<measure rdf:datatype="xsd:float">0.45</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Measurement"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#Measure"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Device"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#EndDevice"/>
+		<measure rdf:datatype="xsd:float">0.44</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Temperature"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#Temperature"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Price"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#Price"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Pressure"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#Pressure"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Meter"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#Meter"/>
+		<measure rdf:datatype="xsd:float">0.77</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Currency"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#Currency"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Profile"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#Profile"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Start"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#START"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Start"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#START_UP"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Start"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#start"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Start"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#startAndEnd"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Close"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#close"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Open"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#Open"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/saref#Open"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#open"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.wurvoc.org/vocabularies/om-1.8/bar"/>
+		<entity2 rdf:resource="http://www.iec.ch/TC57/CIM#bar"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

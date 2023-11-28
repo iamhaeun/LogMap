@@ -1,0 +1,2564 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://spider.sigappfr.org/HSSNdoc/hssn.ttl#"
+     xml:base="http://spider.sigappfr.org/HSSNdoc/hssn.ttl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/">
+    <owl:Ontology rdf:about="http://spider.sigappfr.org/HSSNdoc/hssn.ttl">
+        <owl:imports rdf:resource="http://www.w3.org/ns/ssn/"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/above -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/above">
+        <rdfs:label>isAbove</rdfs:label>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/directionalRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/below -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/below">
+        <rdfs:label>isBelow</rdfs:label>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/directionalRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/closeTo -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/closeTo">
+        <rdfs:label>isCloseTo</rdfs:label>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/distanceRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/contains -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/contains">
+        <rdfs:label>contains</rdfs:label>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/topologicalRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/covers -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/covers">
+        <rdfs:label>covers</rdfs:label>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/topologicalRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/crosses -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/crosses">
+        <rdfs:label>crosses</rdfs:label>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/topologicalRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/directionalRelation -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/directionalRelation">
+        <rdfs:label>hasDirectionalLocation</rdfs:label>
+        <vann:preferredNamespaceUri>An abstract relation for directional location relations</vann:preferredNamespaceUri>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/locationRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/disjoint -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/disjoint">
+        <rdfs:label>isDisjointWith</rdfs:label>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/topologicalRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/distanceRelation -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/distanceRelation">
+        <rdfs:label>hasDistanceRelation</rdfs:label>
+        <vann:preferredNamespaceUri>An abstract relation for distance relations</vann:preferredNamespaceUri>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/locationRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/equals -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/equals">
+        <rdfs:label>equals</rdfs:label>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/topologicalRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/farFrom -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/farFrom">
+        <rdfs:label>isFarFrom</rdfs:label>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/distanceRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/hasMediaDescriptor -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/hasMediaDescriptor">
+        <rdfs:label>hasMultimediaDescriptor</rdfs:label>
+        <rdfs:comment>A relation between a media segment and a media descriptor</rdfs:comment>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/MediaDescriptor"/>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/MultimediaData"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/hasMediaSegment -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/hasMediaSegment">
+        <rdfs:label>hasMediaSegment</rdfs:label>
+        <rdfs:comment>A relation between MultimediaData and MediaSegment concept</rdfs:comment>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/MediaDescriptor"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/MultimediaData"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/leftOf -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/leftOf">
+        <rdfs:label>isLeftOf</rdfs:label>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/directionalRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/locationRelation -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/locationRelation">
+        <rdfs:label>hasLocationRelation</rdfs:label>
+        <rdfs:comment>A location relation describes a relation between a pair of locations e.g. &quot;Table1&quot; opposite &quot;Table2&quot;.   
+
+A location relation can be either topological relation, directional relation or distance relation.
+
+This relation intends to be use as an abstract relation for other location relations.   Hence, it may not be used directly.    Only sub-relations of this relation should be used</rdfs:comment>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/opposite -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/opposite">
+        <rdfs:label>isOppositeOf</rdfs:label>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/directionalRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/overlaps -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/overlaps">
+        <rdfs:label>overlaps</rdfs:label>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/topologicalRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/rightOf -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/rightOf">
+        <rdfs:label>isRightOf</rdfs:label>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/directionalRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/topologicalRelation -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/topologicalRelation">
+        <rdfs:label>hasTopologicalRelation</rdfs:label>
+        <vann:preferredNamespaceUri>An abstract relation for topological location relations</vann:preferredNamespaceUri>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/locationRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/touches -->
+
+    <owl:ObjectProperty rdf:about="http://mssn.sigappfr.org/mssn/touches">
+        <rdfs:label>touches</rdfs:label>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:subPropertyOf rdf:resource="http://mssn.sigappfr.org/mssn/topologicalRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#atSensingTime -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#atSensingTime">
+        <rdfs:label>hasSensingTime</rdfs:label>
+        <rdfs:comment>Denotes the sensing timestamp for a specific Observation Value</rdfs:comment>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ObservationValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#hasSubMap -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#hasSubMap">
+        <rdfs:label>hasSubMap</rdfs:label>
+        <rdfs:comment>The relationship between a location map and other included location maps</rdfs:comment>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/LocationMap"/>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/LocationMap"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#horizontalSpreadDefinedBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#horizontalSpreadDefinedBy">
+        <rdfs:label>hasHorizontalSpreadDefinedBy</rdfs:label>
+        <rdfs:comment>Helps identify the horizontal rotaional spread of a CoverageArea.</rdfs:comment>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#HorizontalSensingAngle"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#horizontalSpreadDefines -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#horizontalSpreadDefines">
+        <rdfs:label>definesHorizontalSpreadOf</rdfs:label>
+        <rdfs:comment>Helps identify the horizontal rotational spread of a CoverageArea.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#HorizontalSensingAngle"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#horizontalSpreadDefinedBy"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#requestedBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#requestedBy">
+        <rdfs:label>isRequestedBy</rdfs:label>
+        <rdfs:comment>Defines the relation between a service&apos;s Capability / Functionality and the user defined Goals that need to be satisfied.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Capability"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#UserGoal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#verticalSpreadDefinedBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#verticalSpreadDefinedBy">
+        <rdfs:label>hasVerticalSpreadDefinedBy</rdfs:label>
+        <rdfs:comment>Helps identify the vertical rotaional spread of a CoverageArea.</rdfs:comment>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#VerticalSensingAngle"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#verticalSpreadDefines"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#verticalSpreadDefines -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#verticalSpreadDefines">
+        <rdfs:label>definesVerticalSpreadOf</rdfs:label>
+        <rdfs:comment>Helps identify the vertical rotaional spread of a CoverageArea.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#VerticalSensingAngle"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#atCoverageTime -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#atCoverageTime">
+        <rdfs:label>hasCoverageTime</rdfs:label>
+        <skos:definition>Relation that maps a CoverageArea covered by a Sensor to a time:TemporalEntity.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#atLocationTime -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#atLocationTime">
+        <rdfs:label>hasLocationTime</rdfs:label>
+        <skos:definition>Relation that maps a Location of a Sensor to a time:TemporalEntity.</skos:definition>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#centeredAround -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#centeredAround">
+        <rdfs:label>isCenteredAround</rdfs:label>
+        <skos:definition>Relation that maps a Sensor&apos;s Location to its CoverageArea.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#SensingLocation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#centers -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#centers">
+        <rdfs:label>centers</rdfs:label>
+        <skos:definition>Relation that maps a CoverageArea to its Sensor&apos;s Location.</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#SensingLocation"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#centeredAround"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#composedOf -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#composedOf">
+        <rdfs:label>isComposedOf</rdfs:label>
+        <skos:definition>The relation between a LocationMap and the set of individual Locations that compose it.</skos:definition>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/LocationMap"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#composes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#composes -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#composes">
+        <rdfs:label>composes</rdfs:label>
+        <skos:definition>The relation between the set of individual Locations that compose a LocationMap.</skos:definition>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/LocationMap"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyCoveredBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyCoveredBy">
+        <rdfs:label>isCurrentlyCoveredBy</rdfs:label>
+        <rdfs:comment>The inverse of currentlyCoversA</rdfs:comment>
+        <skos:definition>The inverse of currentlyCoversA</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyCoversA -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyCoversA">
+        <rdfs:label>currentlyCovers</rdfs:label>
+        <rdfs:comment>currentlyCoversA is the object property that allows finding the Coverage Area of a Stationary or Mobile Sensor in time. The Coverage Area of a Stationary Sensor does not change in time, this is not the case for a Mobile Sensor. At a point t in time, a Stationary or Mobile Sensor can have exactly one Coverage Area.</rdfs:comment>
+        <skos:definition>currentlyCoversA is the object property that allows finding the Coverage Area of a Stationary or Mobile Sensor in time. The Coverage Area of a Stationary Sensor does not vary in time, this is not the case for a Mobile Sensor. At a point t in time, a Stationary or Mobile Sensor can have exactly one Coverage Area.</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyCoveredBy"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyLocatedAt -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyLocatedAt">
+        <rdfs:label>isCurrentlyLocatedAt</rdfs:label>
+        <skos:definition>currentlyLocatedAt is the object property that allows to localize a Stationary or Mobile Sensor in time. The  Location value for a Stationary Sensor does not change in time, this is not the case for a Mobile Sensor. At a point t in time, a Stationary or Mobile Sensor can have exactly one Location.</skos:definition>
+        <rdfs:comment>curentlyLocatedAt is the object property that allows to localize a Stationary or Mobile Sensor in time. The Location value for a Stationary Sensor does not change in time, this is not the case for a Moble Sensor. At a point t in time, a Stationary or Mobile Sensor can have exactly one Location.</rdfs:comment>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyLocates -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyLocates">
+        <rdfs:label>currentlyLocates</rdfs:label>
+        <skos:definition>The inverse of currentlyLocatedAt</skos:definition>
+        <rdfs:comment>The inverse of currentlyLocatedAt</rdfs:comment>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyLocatedAt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#delimitedBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#delimitedBy">
+        <rdfs:label>isDelimitedBy</rdfs:label>
+        <skos:definition>Defines the relation between CoverageArea and the sensor&apos;s SensingRange.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#SensingRange"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#delimits"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#delimits -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#delimits">
+        <rdfs:label>delimits</rdfs:label>
+        <skos:definition>Defines the impact of the sensor&apos;s SensingRange on the geomerty of the CoverageArea.</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#SensingRange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#describes -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#describes">
+        <rdfs:label>describes</rdfs:label>
+        <skos:definition>The relation between a LocationMap and an Infrastructure helps represent the spatial elements of the latter.</skos:definition>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/LocationMap"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Infrastructure"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#isDescribedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#embeddedOn -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#embeddedOn">
+        <rdfs:label>isEmbeddedOn</rdfs:label>
+        <skos:definition>The relation helps discover the Systems deployed or embedded on a Device&apos;s ExpansionCard.</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ExpansionCard"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasEmbeddedSystem"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/ssn/System"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasCapability -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasCapability">
+        <rdfs:label>hasCapability</rdfs:label>
+        <skos:definition>This relation maps a Service to its Capability description.</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Capability"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasComUnit -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasComUnit">
+        <rdfs:label>hasNetworkInterface</rdfs:label>
+        <skos:definition>This relation maps the Hardware of a Device to its NetworkInterface.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#NetworkInterface"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasDeployUnit -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasDeployUnit">
+        <rdfs:label>hasExpansionCard</rdfs:label>
+        <skos:definition>This relation maps the Hardware of a Device to its ExpansionCard.</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ExpansionCard"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#unitDeployedOn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasEmbeddedSystem -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasEmbeddedSystem">
+        <rdfs:label>hasEmbeddedSystem</rdfs:label>
+        <skos:definition>This relation maps Systems to ExpansionCards where they are embedded or deployed.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ExpansionCard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/ssn/System"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasHardware -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasHardware">
+        <rdfs:label>hasHardware</rdfs:label>
+        <skos:definition>This relation maps a Device to its Hardware.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasInterfaces -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasInterfaces">
+        <rdfs:label>hasInterfaces</rdfs:label>
+        <skos:definition>This relation maps a Service to its Interfaces.</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Interface"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasMetadata -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasMetadata">
+        <rdfs:label>hasMetadata</rdfs:label>
+        <skos:definition>This relation maps a Service to its Metadata descriptors.</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Metadata"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastCoverageArea -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastCoverageArea">
+        <rdfs:label>hasPastCoverageArea</rdfs:label>
+        <skos:definition>This relation maps MobileSensors to their previous CoverageAreas.</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MobileSensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastLocation -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastLocation">
+        <rdfs:label>hasPastLocation</rdfs:label>
+        <skos:definition>Maps each sensor to his past Locations</skos:definition>
+        <rdfs:comment>This allows the tracking of mobile sensors</rdfs:comment>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MobileSensor"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#previouslyLocated"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPowerUnit -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPowerUnit">
+        <rdfs:label>hasPowerSupply</rdfs:label>
+        <skos:definition>This relation maps the Hardware of a Device to its PowerSupply.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#PowerSupply"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasProcessingUnit -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasProcessingUnit">
+        <rdfs:label>hasProcessor</rdfs:label>
+        <skos:definition>This relation maps the Hardware of a Device to its ProcessingUnit.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Processor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasSoftware -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasSoftware">
+        <rdfs:label>hasSoftware</rdfs:label>
+        <skos:definition>This relation maps a Device to its Software.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasStorageUnit -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasStorageUnit">
+        <rdfs:label>hasMemory</rdfs:label>
+        <skos:definition>This relation maps the Hardware of a Device to its Memory.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Memory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasVariables -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasVariables">
+        <rdfs:label>hasVariables</rdfs:label>
+        <skos:definition>Maps a Service to the Variables it uses / generates.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Variables"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#includedIn -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#includedIn">
+        <rdfs:label>isIncludedIn</rdfs:label>
+        <skos:definition>The inverse of includes.</skos:definition>
+        <rdfs:comment>The inverse of includes.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#includes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#includes -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#includes">
+        <rdfs:label>includes</rdfs:label>
+        <rdfs:comment>includes is the object property that specifies which Locations are included in a Coverage Area.</rdfs:comment>
+        <skos:definition>includes is the object property that specifies which Locations are included in a Coverage Area.</skos:definition>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#isDescribedBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#isDescribedBy">
+        <rdfs:label>isDescribedBy</rdfs:label>
+        <skos:definition>The relation between an Infrastructure and it LocationMap helps represent the spatial elements of the Infrastructure.</skos:definition>
+        <rdfs:range rdf:resource="http://mssn.sigappfr.org/mssn/LocationMap"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Infrastructure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaHaving -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaHaving">
+        <rdfs:label>hasMultimediaValue</rdfs:label>
+        <skos:definition>Maps an &apos;Observable Property&apos; of type MultimediaProperty to its concrete ObservationValue of type MultimediaValue.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaProperty"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaValue"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaOfA"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaOfA -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaOfA">
+        <rdfs:label>isMultimediaValueOf</rdfs:label>
+        <skos:definition>Maps a concrete ObservationValue of type MultimediaValue to its &apos;Observable Property&apos; of type MultimediaProperty .</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaProperty"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaValue"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaSensedBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaSensedBy">
+        <rdfs:label>isMultimediaSensedBy</rdfs:label>
+        <skos:definition>Maps a MultimediaProperty to a Sensor capable of observing it.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaProperty"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaSenses"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaSenses -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaSenses">
+        <rdfs:label>mediaSenses</rdfs:label>
+        <skos:definition>Maps a Sensor to a MultimediaProperty it can observe.</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#previouslyCoveredBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#previouslyCoveredBy">
+        <rdfs:label>isPreviouslyCoveredBy</rdfs:label>
+        <skos:definition>Maps a CoverageArea to MobileSensors that used to cover it.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MobileSensor"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastCoverageArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#previouslyLocated -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#previouslyLocated">
+        <rdfs:label>hasPreviuoslyLocated</rdfs:label>
+        <skos:definition>Maps a Location to MobileSensors that were located at it.</skos:definition>
+        <rdfs:domain rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MobileSensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#producedBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#producedBy">
+        <rdfs:label>isProducedBy</rdfs:label>
+        <skos:definition>Maps an ObservationValue to the Observation process that created the value.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ObservationValue"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#produces"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#produces -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#produces">
+        <rdfs:label>produces</rdfs:label>
+        <skos:definition>Maps an Observation process to the ObservationValues that it produced.</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ObservationValue"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#providedBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#providedBy">
+        <rdfs:label>isProvidedBy</rdfs:label>
+        <skos:definition>Maps a Sevice to the Devices that provide it.</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#provides"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#provides -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#provides">
+        <rdfs:label>provides</rdfs:label>
+        <skos:definition>Maps a Device to the Services it provides</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#relatedToDevice -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#relatedToDevice">
+        <rdfs:label>isRelatedToDevice</rdfs:label>
+        <skos:definition>Maps a Hardware to a Device.</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasHardware"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#scalarHaving -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#scalarHaving">
+        <rdfs:label>hasScalarValue</rdfs:label>
+        <skos:definition>Maps an &apos;Observable Property&apos; of type ScalarPropertyto its concrete ObservationValue of type ScalarValue.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarProperty"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarValue"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#scalarOfA -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#scalarOfA">
+        <rdfs:label>isScalarValueOf</rdfs:label>
+        <skos:definition>Maps a concrete ObservationValue of type ScalarValue to its &apos;Observable Property&apos; of type ScalarProperty .</skos:definition>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarProperty"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarValue"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#scalarHaving"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#sensedBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#sensedBy">
+        <rdfs:label>isScalarSensedBy</rdfs:label>
+        <rdfs:comment>The inverse of senses.</rdfs:comment>
+        <skos:definition>The inverse of senses.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#senses -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#senses">
+        <rdfs:label>scalarSenses</rdfs:label>
+        <skos:definition>senses is the object property mapping a Media or Scalar Sensor to a set of sensed Properties. A Scalar Sensor can only sense a set of Scalar Properties. A Media Sensor can sense a set of Scalar and Multimedia Properties. A Media Sensor has to at least sense one Multimedia Property.</skos:definition>
+        <rdfs:comment>senses is the object property mapping a Media or Scalar Sensor to a set of sensed Properties. A Scalar Sensor can only sense a set of Scalar Properties. A Media Sensor can sense a set of Scalar and Multimedia Properties. A Media Sensor has to a least sense one Multimedia Property.</rdfs:comment>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarProperty"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#sensedBy"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#unitDeployedOn -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#unitDeployedOn">
+        <rdfs:label>isExpansionCardOf</rdfs:label>
+        <skos:definition>Maps an ExpansionCard to the Hardware it belongs to.</skos:definition>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ExpansionCard"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasBeginning -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasBeginning">
+        <rdfs:label>hasBegining</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasDateTimeDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasDateTimeDescription">
+        <rdfs:label>hasDateTimeDescription</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#DateTimeInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasEnd -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasEnd">
+        <rdfs:label>hasEnd</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasTRS -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasTRS">
+        <rdfs:label>hasTRS</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#TRS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inDateTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#inDateTime">
+        <rdfs:label>inDateTime</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inTemporalPosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#inTemporalPosition">
+        <rdfs:label>inTemporalPosition</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inTimePosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#inTimePosition">
+        <rdfs:label>inTimePosition</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inside -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#inside">
+        <rdfs:label>inside</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalAfter -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalAfter">
+        <rdfs:label>intervalAfter</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalBefore -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalBefore">
+        <rdfs:label>intervalBefore</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalContains -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalContains">
+        <rdfs:label>intervalContains</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalDisjoint -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalDisjoint">
+        <rdfs:label>intervalDisjoint</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalDuring -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalDuring">
+        <rdfs:label>intervalDuring</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalEquals -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalEquals">
+        <rdfs:label>intervalEquals</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalFinishedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalFinishedBy">
+        <rdfs:label>intervalFinishedBy</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalFinishes -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalFinishes">
+        <rdfs:label>intervalFinishes</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalIn">
+        <rdfs:label>intervalIn</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalMeets -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalMeets">
+        <rdfs:label>intervalMeets</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalMetBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalMetBy">
+        <rdfs:label>intervalMetBy</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalOverlappedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalOverlappedBy">
+        <rdfs:label>intervalOverlappedBy</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalOverlaps -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalOverlaps">
+        <rdfs:label>intervalOverlaps</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalStartedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalStartedBy">
+        <rdfs:label>intervalStartedBy</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#intervalStarts -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#intervalStarts">
+        <rdfs:label>intervalStarts</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#osDetails -->
+
+    <owl:DatatypeProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#osDetails">
+        <rdfs:label>osDetails</rdfs:label>
+        <rdfs:comment>Describes additional information about the software &amp; operating system of a Device</rdfs:comment>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inXSDDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#inXSDDate">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inXSDDateTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#inXSDDateTime">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inXSDDateTimeStamp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#inXSDDateTimeStamp">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inXSDgYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#inXSDgYear">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inXSDgYearMonth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#inXSDgYearMonth">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#xsdDateTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#xsdDateTime">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#DateTimeInterval"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/AnnotationDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/AnnotationDescriptor">
+        <rdfs:label>AnnotationDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MediaDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/Audio -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/Audio">
+        <rdfs:label>Audio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MediaConcerned"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/AudioDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/AudioDescriptor">
+        <rdfs:label>AudioDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MediaDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/AudioSegment -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/AudioSegment">
+        <rdfs:label>AudioSegment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MediaSegment"/>
+        <rdfs:comment>An audio segment is a segment for modeling audio data of MultimediaData</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/BoundingBoxDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/BoundingBoxDescriptor">
+        <rdfs:label>BoundingBoxDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/SpatialDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/CameraMotionDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/CameraMotionDescriptor">
+        <rdfs:label>CameraMotionDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MotionDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/ColorLayoutDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/ColorLayoutDescriptor">
+        <rdfs:label>ColorLayoutDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/VisualDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/ColorStructureDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/ColorStructureDescriptor">
+        <rdfs:label>ColorStructureDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/VisualDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/ContourShapeDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/ContourShapeDescriptor">
+        <rdfs:label>ContourShapeDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/VisualDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/DominatColorDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/DominatColorDescriptor">
+        <rdfs:label>DominantColorDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/VisualDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/EdgeHistogramDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/EdgeHistogramDescriptor">
+        <rdfs:label>EdgeHistogramDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/VisualDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/FaceRecognitionDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/FaceRecognitionDescriptor">
+        <rdfs:label>FaceRecognitionDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/VisualDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/FundamentalFrequency -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/FundamentalFrequency">
+        <rdfs:label>FundementalFrequency</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/HarmonicDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/HarmonicDescriptor">
+        <rdfs:label>HarmonicDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/HarmonicSpectralCentroid -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/HarmonicSpectralCentroid">
+        <rdfs:label>HormonicSpectralCentroid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/HarmonicSpectralDeviation -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/HarmonicSpectralDeviation">
+        <rdfs:label>HarmonicSpectralDeviation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/HarmonicSpectralSpread -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/HarmonicSpectralSpread">
+        <rdfs:label>HarmonicSpectralSpread</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/HarmonicSpectralVariation -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/HarmonicSpectralVariation">
+        <rdfs:label>HarmonicSpectralVariation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/Image -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/Image">
+        <rdfs:label>Image</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MediaConcerned"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/Location -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/Location">
+        <rdfs:label>Location</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#SensingLocation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyLocates"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#atLocationTime"/>
+                <owl:onClass rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://mssn.sigappfr.org/mssn/locationRelation"/>
+                <owl:someValuesFrom rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#includedIn"/>
+                <owl:onClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#composes"/>
+                <owl:allValuesFrom rdf:resource="http://mssn.sigappfr.org/mssn/LocationMap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#previouslyLocated"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MobileSensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>Locations are the essential component of a Location Map. Each location can be viewed as a set of points in space that form a random or geometrical shape.</skos:definition>
+        <rdfs:comment>Locations are the essential component of a Location Map. Each location can be viewed as a set of points in space that form a random or geometrical shape.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/LocationMap -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/LocationMap">
+        <rdfs:label>LocationMap</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#hasSubMap"/>
+                <owl:someValuesFrom rdf:resource="http://mssn.sigappfr.org/mssn/LocationMap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#composedOf"/>
+                <owl:allValuesFrom rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#describes"/>
+                <owl:allValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Infrastructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>A location map describes the spatial element of an infrastructure. 
+It is composed of a set of locations that are connected via spatial relations (topological, directional, distance...). 
+The entire set of locations and inter-location relations constitute the map of an infrastructure.</skos:definition>
+        <rdfs:comment>A location map describes the spatial element of an infrastructure. 
+It is composed of a set of locations that are connected via spatial relations (topological, directional, distance...). 
+The entire set of locations and inter-location relations constitute the map of an infrastructure.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/LogAttackTime -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/LogAttackTime">
+        <rdfs:label>LogAttackTime</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/MediaConcerned -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/MediaConcerned">
+        <rdfs:label>MediaConcerned</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaProperty"/>
+        <rdfs:comment>MediaConcerned is a concept that is used as a property of a media sensor for indicating a kind of multimedia data that can be produce by a given media sensor.
+For example, a video camera which capture audio and video has &quot;Audio&quot; and &quot;Video&quot; as its media concerned</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/MediaDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/MediaDescriptor">
+        <rdfs:label>MultimediaDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaValue"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://mssn.sigappfr.org/mssn/hasMediaSegment"/>
+                <owl:someValuesFrom rdf:resource="http://mssn.sigappfr.org/mssn/MultimediaData"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/MediaDurationDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/MediaDurationDescriptor">
+        <rdfs:label>MediaDurationDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/TemporalDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/MediaSegment -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/MediaSegment">
+        <rdfs:label>MediaSegment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MultimediaData"/>
+        <rdfs:comment>A media segment is a part of a multimedia data.  It is used for represent a segment or a track of a multimedia data.  For example,  a video file can have one video track, one audio track and one subtitle track.  This can be represented by modeling a &quot;MultimediaData&quot; concept with three MediaSegment concepts.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/MediaTimePointDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/MediaTimePointDescriptor">
+        <rdfs:label>MediaTimePointDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/TemporalDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/MotionActivityDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/MotionActivityDescriptor">
+        <rdfs:label>MotionActivityDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MotionDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/MotionDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/MotionDescriptor">
+        <rdfs:label>MotionDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MediaDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/MultimediaData -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/MultimediaData">
+        <rdfs:label>MultimediaData</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaValue"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://mssn.sigappfr.org/mssn/hasMediaDescriptor"/>
+                <owl:someValuesFrom rdf:resource="http://mssn.sigappfr.org/mssn/MediaDescriptor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A multimedia data is an observation value of a media sensor. A multimedia data can contains multiple media segment where each segment can be decomposed into multiple sub-mediasegments</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/ParametricMotionDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/ParametricMotionDescriptor">
+        <rdfs:label>ParametricMotionDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MotionDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/PointDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/PointDescriptor">
+        <rdfs:label>PointDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/SpatialDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/PowerDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/PowerDescriptor">
+        <rdfs:label>PowerDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/ScalableColorDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/ScalableColorDescriptor">
+        <rdfs:label>ScalableColorDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/VisualDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/SpatialDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/SpatialDescriptor">
+        <rdfs:label>SpatialDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MediaDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/SpectralCentroid -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/SpectralCentroid">
+        <rdfs:label>SpectralCentroid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/SpectrumBasis -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/SpectrumBasis">
+        <rdfs:label>SpectrumBasis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/SpectrumCentroid -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/SpectrumCentroid">
+        <rdfs:label>SpectrumCentroid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/SpectrumEnvelop -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/SpectrumEnvelop">
+        <rdfs:label>SpectrumEnvelop</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/SpectrumFlatness -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/SpectrumFlatness">
+        <rdfs:label>SpectrumFlatness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/SpectrumProjection -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/SpectrumProjection">
+        <rdfs:label>SpectrumProjection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/SpectrumSpread -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/SpectrumSpread">
+        <rdfs:label>SpectrumSpread</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/TemporalCentroid -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/TemporalCentroid">
+        <rdfs:label>TemporalCentroid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/TemporalDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/TemporalDescriptor">
+        <rdfs:label>TemporalDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MediaDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/TextAnnotationDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/TextAnnotationDescriptor">
+        <rdfs:label>TextAnnotationDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AnnotationDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/TrajectoryDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/TrajectoryDescriptor">
+        <rdfs:label>TrajectoryDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MotionDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/Video -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/Video">
+        <rdfs:label>Video</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MediaConcerned"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/VisualDescriptor -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/VisualDescriptor">
+        <rdfs:label>VisualDescriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MediaDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/VisualSegment -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/VisualSegment">
+        <rdfs:label>VisualSegment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MediaSegment"/>
+        <rdfs:comment>A visual segment is a media segment for modeling visual data (e.g. video segment, image segment)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/WarpingParameters -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/WarpingParameters">
+        <rdfs:label>WarpingParameters</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/MotionDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/Waveform -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/Waveform">
+        <rdfs:label>Waveform</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://mssn.sigappfr.org/mssn/AudioDescriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#HorizontalAngle -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#HorizontalAngle">
+        <rdfs:label>HorizontalAngle</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#HorizontalSensingAngle"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+        <rdfs:comment>HorizontalAngle defines the trigonometric horizontal spread of a system&apos;s capability</rdfs:comment>
+        <skos:example>A temperature sensor has a 360° vertical and horizontal angles, i.e., can sense temperature in any given direction.
+
+While a tele-surveillance camera might have an horizontal spread over a 45° angle and a vertical spread over a 30° angle. Any object outside the spread of these angles is not sensed by the camera lens.</skos:example>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#HorizontalSensingAngle -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#HorizontalSensingAngle">
+        <rdfs:label>HorizontalSensingAngle</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#horizontalSpreadDefines"/>
+                <owl:onClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:example>For example a temperature, humidity, noise, etc. sensor has a vertical and horizontal sensing angles are 360°. This changes the geometry of the CovergaeArea to a circle.
+In other cases, e.g., static video surveillance cameras the vertical and horizontal sensing angles differ from one camera to another: e.g., 30°, 45°,  60°, etc. This changes the geometry of the CoverageArea to a sector in space.</skos:example>
+        <rdfs:comment>The maximal horizontal sensing angle provided by the sensor.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#VerticalAngle -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#VerticalAngle">
+        <rdfs:label>VerticalAngle</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#VerticalSensingAngle"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+        <rdfs:comment>VerticalAngle defines the trigonometric vertical spread of a system&apos;s capability</rdfs:comment>
+        <skos:example>A temperature sensor has a 360° vertical and horizontal angles, i.e., can sense temperature in any given direction.
+
+While a tele-surveillance camera might have an horizontal spread over a 45° angle and a vertical spread over a 30° angle. Any object outside the spread of these angles is not sensed by the camera lens.</skos:example>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#VerticalSensingAngle -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#VerticalSensingAngle">
+        <rdfs:label>VerticalSensingAngle</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#verticalSpreadDefines"/>
+                <owl:onClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The maximal vertical sensing angle provided by the sensor.</rdfs:comment>
+        <skos:example>For example a temperature, humidity, noise, etc. sensor has a vertical and horizontal sensing angles are 360°. This changes the geometry of the CovergaeArea to a circle.
+In other cases, e.g., static video surveillance cameras the vertical and horizontal sensing angles differ from one camera to another: e.g., 30°, 45°,  60°, etc. This changes the geometry of the CoverageArea to a sector in space.</skos:example>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Capability -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Capability">
+        <rdfs:label>Capability</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#requestedBy"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#UserGoal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>The functionality provided by a Service is described by its Capability.</skos:definition>
+        <rdfs:comment>The functionality provided by a Service is described by its Capability.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea">
+        <rdfs:label>CoverageArea</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#centeredAround"/>
+                <owl:onClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#SensingLocation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#horizontalSpreadDefinedBy"/>
+                <owl:onClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#HorizontalSensingAngle"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#includes"/>
+                <owl:onClass rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyCoveredBy"/>
+                <owl:onClass rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#previouslyCoveredBy"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MobileSensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#delimitedBy"/>
+                <owl:onClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#SensingRange"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#atCoverageTime"/>
+                <owl:onClass rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#verticalSpreadDefinedBy"/>
+                <owl:onClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#VerticalSensingAngle"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>A CoverageArea is a geographical zone that includes a set of Locations within the range of one sensor. The CoverageArea  is defined by a location L, vertical and horizontal angles VA / HA, and a range R where:
+      L is the Location, i.e., of the location of the sensor covering the area (depending on the sensor type Mobile | Scalar the CoverageArea moves, rotates, or remains still).
+      VA / HA are the Vertical / Horizontal Angles, specified in the sensor&apos;s technical sheet.
+      R is the Range of the sensor, i.e., the distance in meters in any given direction such that the sensor is still capable of sensing. This value is also specified by the sensor&apos;s technical sheet.</skos:definition>
+        <skos:example>Example 1: 
+For a mobile temperature sensor sens1:
+       L is the location of the sensor
+       VA = HA = 360°
+       R = 15m
+Therefore the coverage area is the sphere of center P and radius (range) 15m.
+
+Example 2: 
+For a static video surveillance camera sens2:
+       L is the location of the sensor
+       VA = 45° / HA = 30°
+       R = 30m
+Therefore the coverage area is the sector of space centered around the sensor&apos;s location and spreading on a 45° vertical angle, a 30° horizontal angle, and extending to a 30m range.</skos:example>
+        <rdfs:comment>A Coverage Area is a geographical zone that includes a set of Locations within the range of at least one sensor.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device">
+        <rdfs:label>Device</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasSoftware"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#provides"/>
+                <owl:allValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasHardware"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>A Device is an electronic equipment capable of one or more computing functions and supporting the installation of firmware or third-party software.</skos:definition>
+        <rdfs:comment>A Device is an electonic equipment capable of one or more computing functions and supporting the installation of firmware or third-party software. </rdfs:comment>
+        <skos:example>A Mobile Phone is a Device capable of sensing data through its sensors, processing data, storing data, and communicating with other devices.</skos:example>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#ExpansionCard -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ExpansionCard">
+        <rdfs:label>ExpansionCard</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#unitDeployedOn"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasEmbeddedSystem"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/ssn/System"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The Expansion Card is a plugin (additional) card. Systems (e.g., sensors) are deployed on the Expansion Card of a Device.</rdfs:comment>
+        <skos:definition>The Expansion Card is a plugin (additional) card. Systems (e.g., sensors) are deployed on the Expansion Card of a Device.</skos:definition>
+        <skos:example>Mobile phone sensors are deployed on the expansion card of the device.</skos:example>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware">
+        <rdfs:label>Hardware</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasStorageUnit"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Memory"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasDeployUnit"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ExpansionCard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasComUnit"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#NetworkInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#relatedToDevice"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPowerUnit"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#PowerSupply"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasProcessingUnit"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Processor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A Hardware is a component of a Device responsible of specific functionalities</rdfs:comment>
+        <skos:definition>A Hardware is a component of a Device responsible of specific functionalities.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Infrastructure -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Infrastructure">
+        <rdfs:label>Infrastructure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#isDescribedBy"/>
+                <owl:onClass rdf:resource="http://mssn.sigappfr.org/mssn/LocationMap"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/hosts"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>An infrastructure is a real world physical infrastructure or environment where a sensor network might be deployed.</skos:definition>
+        <rdfs:comment>An infrastructure is a real world physical infrastructure or environment where a sensor network might be deployed.</rdfs:comment>
+        <skos:example>Building, Office, City, Mall</skos:example>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Input -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Input">
+        <rdfs:label>Input</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Variables"/>
+        <rdfs:comment>Input is the set of variables and constraints required at the input end of a service in order to achieve a correct exection of the service&apos;s functionality (capability).</rdfs:comment>
+        <skos:definition>Input is the set of variables and constraints required at the input end of a service in order to achieve a correct exection of the service&apos;s functionality (capability).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Interface -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Interface">
+        <rdfs:label>Interface</rdfs:label>
+        <rdfs:comment>The interface represents how a service can be contacted by / connected to other entities such as service requesters or other services.</rdfs:comment>
+        <skos:definition>The interface represents how a service can be contacted by / connected to other entities such as service requesters or other services.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Memory -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Memory">
+        <rdfs:label>Memory</rdfs:label>
+        <rdfs:comment>The set of all memories of a Device.</rdfs:comment>
+        <skos:definition>The set of all memories of a Device.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Metadata -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Metadata">
+        <rdfs:label>Metadata</rdfs:label>
+        <skos:definition>Metadata represent the properties that describ a Service.</skos:definition>
+        <skos:example>Accuracy, Reliability, Owner, Network-related QoS, Cost, Robustness...</skos:example>
+        <rdfs:comment>Metadata represent the properties that describ a Service.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#MobileSensor -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MobileSensor">
+        <rdfs:label>MobileSensor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastCoverageArea"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastLocation"/>
+                <owl:someValuesFrom rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A Mobile Sensor is a sensor that has the ability to move around, and change position in time.</rdfs:comment>
+        <skos:definition>A Mobile Sensor is a sensor that has the ability to move around, and change position in time.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaProperty -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaProperty">
+        <rdfs:label>MultimediaProperty</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaSensedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaHaving"/>
+                <owl:allValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaValue -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaValue">
+        <rdfs:label>MultimediaValue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ObservationValue"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaOfA"/>
+                <owl:allValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaProperty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#NetworkInterface -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#NetworkInterface">
+        <rdfs:label>NetworkInterface</rdfs:label>
+        <rdfs:comment>The Network Interface is part of the Hardware responsible for communication.</rdfs:comment>
+        <skos:definition>The Network Interface is part of the Hardware responsible for communication.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#ObservationValue -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ObservationValue">
+        <rdfs:label>ObservationValue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Result"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Hybrid-SSN#atSensingTime"/>
+                <owl:onClass rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Specifies the actual concrete value generated due to an Observation.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Output -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Output">
+        <rdfs:label>Output</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Variables"/>
+        <skos:definition>Output is the set of variables and effects generated by a service after a correct exection of the service&apos;s functionality (capability).</skos:definition>
+        <rdfs:comment>Output is the set of variables and effects generated by a service after a correct exection of the service&apos;s functionality (capability).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#PowerSupply -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#PowerSupply">
+        <rdfs:label>PowerSupply</rdfs:label>
+        <skos:definition>Power Supply is the Hardware responsible for providing power in order to allow the Device optimal functioning.</skos:definition>
+        <rdfs:comment>Power Supply is the Hardware responsible for providing power in order to allow the Device optimal functioning.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Processor -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Processor">
+        <rdfs:label>Processor</rdfs:label>
+        <skos:definition>The Processor is the Hardware responsible for the processing of data in the Devices.</skos:definition>
+        <rdfs:comment>The Processor is the Hardware responsible for the processing of data in the Devices.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Range -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Range">
+        <rdfs:label>Range</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#SensingRange"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+        <skos:example>If a sensor has a Range of 10 m, it cannot sense properties that are 20 m away.</skos:example>
+        <skos:definition>The range is the maximal distance (in meters) that delimits a system&apos;s operational capability. 
+i.e., The maximal distance that delimits a sensor&apos;s sensing capability, an actuator&apos;s actuation capability, a sampler&apos;s sampling capability.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarProperty -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarProperty">
+        <rdfs:label>ScalarProperty</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#scalarHaving"/>
+                <owl:allValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#sensedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarValue -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarValue">
+        <rdfs:label>ScalarValue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ObservationValue"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#scalarOfA"/>
+                <owl:allValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarProperty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#SensingLocation -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#SensingLocation">
+        <rdfs:label>SensingLocation</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#centers"/>
+                <owl:onClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>The SensingLocation is the location of the sensor that covers this CoverageArea.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#SensingRange -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#SensingRange">
+        <rdfs:label>SensingRange</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#delimits"/>
+                <owl:onClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>The maximal sensing distance provided by the sensor.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service">
+        <rdfs:label>Service</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasVariables"/>
+                <owl:allValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Variables"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasInterfaces"/>
+                <owl:allValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasCapability"/>
+                <owl:allValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Capability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasMetadata"/>
+                <owl:allValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Metadata"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#providedBy"/>
+                <owl:allValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A Service represents entities capable of providing some value (or a set of values) relative to a given domain.</rdfs:comment>
+        <skos:definition>A Service represents entities capable of providing some value (or a set of values) relative to a given domain.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#ServiceInteractionInterface -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ServiceInteractionInterface">
+        <rdfs:label>ServiceInteractionInterface</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Interface"/>
+        <skos:definition>A ServiceInteractionInterface is used to connect a Service to other Services for composite Service orchestration.</skos:definition>
+        <rdfs:comment>A ServiceInteractionInterface is used to connect a Service to other Services for composite Service orchestration.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software">
+        <rdfs:label>Software</rdfs:label>
+        <rdfs:comment>The set of all operating systems, applications and programs running on a Device.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#StaticSensor -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#StaticSensor">
+        <rdfs:label>StaticSensor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <rdfs:comment>A Static Sensor is a sensor that does not move, or change position after its deployment.</rdfs:comment>
+        <skos:definition>A Static Sensor is a sensor that does not move, or change position after its deployment.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Textual -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Textual">
+        <rdfs:label>Textual</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#UserGoal -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#UserGoal">
+        <rdfs:label>UserGoal</rdfs:label>
+        <rdfs:comment>Goals describe user desires. They provide the means to specify the requester-side objectives. They describe at a high level the concrete task that is required / expected.</rdfs:comment>
+        <skos:definition>Goals describe user desires. They provide the means to specify the requester-side objectives. They describe at a high level the concrete task that is required / expected.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#UserInteractionInterface -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#UserInteractionInterface">
+        <rdfs:label>UserInteractionInterface</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Interface"/>
+        <skos:definition>The UserInteractionInterface is used by users who request services to allow them the exchange of requests / information / variables with a service.</skos:definition>
+        <rdfs:comment>The UserInteractionInterface is used by users who request services to allow them the exchange of requests / information / variables with a service.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Variables -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Variables">
+        <rdfs:label>Variables</rdfs:label>
+        <rdfs:comment>Variables represent the variables that are used / generated by a service.</rdfs:comment>
+        <skos:definition>Variables represent the variables that are used / generated by a service.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DateTimeInterval -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#DateTimeInterval">
+        <rdfs:label xml:lang="en">Date-timeInterval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <skos:note xml:lang="en">:DateTimeInterval can only be used for an interval whose limits coincide with a date-time element aligned to the calendar and timezone indicated. For example, while both have a duration of one day, the 24-hour interval beginning at midnight at the beginning of 8 May in Central Europe can be expressed as a :DateTimeInterval, but the 24-hour interval starting at 1:30pm cannot.</skos:note>
+        <skos:definition xml:lang="en">DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription.</skos:definition>
+        <rdfs:comment xml:lang="en">DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Instant -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Instant">
+        <rdfs:label xml:lang="en">TimeInstant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:comment xml:lang="en">A temporal entity with zero extent or duration</rdfs:comment>
+        <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Interval -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Interval">
+        <rdfs:label xml:lang="en">TimeInterval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#inside"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2006/time#Instant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A temporal entity with an extent or duration</rdfs:comment>
+        <skos:definition xml:lang="en">A temporal entity with an extent or duration</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#ProperInterval -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#ProperInterval">
+        <rdfs:label xml:lang="en">ProperInterval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#Interval"/>
+        <skos:definition xml:lang="en">A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different</skos:definition>
+        <rdfs:comment xml:lang="en">A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TRS -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TRS">
+        <rdfs:label xml:lang="en">TemporalReferenceSystem</rdfs:label>
+        <skos:note xml:lang="en">A taxonomy of temporal reference systems is provided in ISO 19108:2002 [ISO19108], including (a) calendar + clock systems; (b) temporal coordinate systems (i.e. numeric offset from an epoch); (c) temporal ordinal reference systems (i.e. ordered sequence of named intervals, not necessarily of equal duration).</skos:note>
+        <skos:definition xml:lang="en">A temporal reference system, such as a temporal coordinate system (with an origin, direction, and scale), a calendar-clock combination, or a (possibly hierarchical) ordinal system. 
+
+This is a stub class, representing the set of all temporal reference systems.</skos:definition>
+        <rdfs:comment xml:lang="en">A temporal reference system, such as a temporal coordinate system (with an origin, direction, and scale), a calendar-clock combination, or a (possibly hierarchical) ordinal system. 
+
+This is a stub class, representing the set of all temporal reference systems.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalEntity -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#TemporalEntity">
+        <rdfs:label>TemporalEntity</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2006/time#Interval"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sensor -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Sensor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyLocatedAt"/>
+                <owl:onClass rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#mediaSenses"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#MultimediaProperty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#currentlyCoversA"/>
+                <owl:onClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#CoverageArea"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#senses"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ScalarProperty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/System -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/System">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#embeddedOn"/>
+                <owl:someValuesFrom rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#ExpansionCard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://spider.sigappfr.org/HSSNdoc/hssn.ttl#Block_A -->
+
+    <owl:NamedIndividual rdf:about="http://spider.sigappfr.org/HSSNdoc/hssn.ttl#Block_A">
+        <rdf:type rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://spider.sigappfr.org/HSSNdoc/hssn.ttl#Block_B -->
+
+    <owl:NamedIndividual rdf:about="http://spider.sigappfr.org/HSSNdoc/hssn.ttl#Block_B">
+        <rdf:type rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://spider.sigappfr.org/HSSNdoc/hssn.ttl#Block_C -->
+
+    <owl:NamedIndividual rdf:about="http://spider.sigappfr.org/HSSNdoc/hssn.ttl#Block_C">
+        <rdf:type rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://spider.sigappfr.org/HSSNdoc/hssn.ttl#Block_D -->
+
+    <owl:NamedIndividual rdf:about="http://spider.sigappfr.org/HSSNdoc/hssn.ttl#Block_D">
+        <rdf:type rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://spider.sigappfr.org/HSSNdoc/hssn.ttl#CO_sensor_1 -->
+
+    <owl:NamedIndividual rdf:about="http://spider.sigappfr.org/HSSNdoc/hssn.ttl#CO_sensor_1">
+        <rdf:type rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#StaticSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://spider.sigappfr.org/HSSNdoc/hssn.ttl#CO_sensor_2 -->
+
+    <owl:NamedIndividual rdf:about="http://spider.sigappfr.org/HSSNdoc/hssn.ttl#CO_sensor_2">
+        <rdf:type rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#StaticSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://spider.sigappfr.org/HSSNdoc/hssn.ttl#CO_sensor_3 -->
+
+    <owl:NamedIndividual rdf:about="http://spider.sigappfr.org/HSSNdoc/hssn.ttl#CO_sensor_3">
+        <rdf:type rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#StaticSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://spider.sigappfr.org/HSSNdoc/hssn.ttl#CO_sensor_4 -->
+
+    <owl:NamedIndividual rdf:about="http://spider.sigappfr.org/HSSNdoc/hssn.ttl#CO_sensor_4">
+        <rdf:type rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#StaticSensor"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,1201 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.agfa.com/w3c/2009/therapy#"
+     xml:base="http://www.agfa.com/w3c/2009/therapy"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:therapy="http://www.agfa.com/w3c/2009/therapy#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.agfa.com/w3c/2009/therapy#">
+        <dc:publisher xml:lang="en">Agfa Healthcare/Belgium</dc:publisher>
+        <rdfs:comment xml:lang="en">Copyright (c) 2009 Agfa-Gevaert Group and Ghent University - IBBT/ELIS - Multimedia Lab. All Rights Reserved. THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE OF Agfa-Gevaert Group and Ghent University - IBBT/ELIS - Multimedia Lab The copyright notice above does not evidence any actual or intended publication of such source code.</rdfs:comment>
+        <dc:description xml:lang="en">General description of clinical therapy.</dc:description>
+        <dc:creator xml:lang="en">Hans Cools, MD, Agfa Healthcare/Belgium</dc:creator>
+        <dc:format xml:lang="en">OWL Full</dc:format>
+        <dc:title xml:lang="en">Therapy</dc:title>
+        <dc:contributor xml:lang="en">Until 2010: Pieterjan De Potter, Pedro Debevere, Ghent University - IBBT/ELIS - Multimedia Lab/Belgium</dc:contributor>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#therapyResponseOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#therapyResponseOf">
+        <skos:definition xml:lang="en">Specifying a human health disorder having a response to a clinical therapy.</skos:definition>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#State"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/agent#hasAgent -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/agent#hasAgent"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#after -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#after"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#hasInput -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#hasInput"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#hasIntent -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#hasIntent"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#hasOutput -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#hasOutput"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#hasOutputLikelihood -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#hasOutputLikelihood"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#hasState -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#hasState"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#outputOf -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#outputOf"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/humanDisorder#hasState -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#hasState"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/humanDisorder#stateOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#stateOf"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#addedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#addedTo">
+        <skos:definition xml:lang="en">Specifying a therapy to which another is added for the same patient and disease.</skos:definition>
+        <skos:note xml:lang="en">further formalization in an N3 rule.</skos:note>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#firstTreatedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#firstTreatedWith">
+        <rdfs:label xml:lang="en">first treated with</rdfs:label>
+        <skos:definition xml:lang="en">Specifying a primary clinical therapy wherewith a clinical finding is treated.</skos:definition>
+        <skos:note xml:lang="en">Used in an N3 rule to establish this relation.</skos:note>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/clinicalObservation#Finding"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#hasCompleteRemissionAfter -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#hasCompleteRemissionAfter">
+        <skos:definition xml:lang="en">Specifying a clinical therapy whereafter a human health disorder has a complete remission.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasResponseTo"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasTherapyResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#CompleteRemission"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#wheretoResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#CompleteRemission"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#hasCompleteRemissionIPNAfter -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#hasCompleteRemissionIPNAfter">
+        <skos:definition xml:lang="en">Specifying a clinical therapy whereafter a human health disorder has a complete remission with insufficient platelets or neutrophils recovery.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasResponseTo"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#wheretoResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#CompleteRemissionIPN"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasTherapyResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#CompleteRemissionIPN"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#hasCompleteRemissionUnconfirmedAfter -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#hasCompleteRemissionUnconfirmedAfter">
+        <skos:definition xml:lang="en">Specifying a clinical therapy whereafter a human health disorder has an unconfirmed complete remission.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasResponseTo"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#wheretoResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#CompleteRemissionUnconfirmed"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasTherapyResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#CompleteRemissionUnconfirmed"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#hasIntent -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#hasIntent">
+        <skos:definition xml:lang="en">Specifying a therapeutic intent of a clinical therapy.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasIntent"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/therapy#Intent"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#hasNodularPartialRemissionAfter -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#hasNodularPartialRemissionAfter">
+        <skos:definition xml:lang="en">Specifying a clinical therapy whereafter a human health disorder has a nodular partial remission.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasResponseTo"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasTherapyResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#NodularPartialRemission"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#wheretoResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#NodularPartialRemission"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#hasPartialRemissionAfter -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#hasPartialRemissionAfter">
+        <skos:definition xml:lang="en">Specifying a clinical therapy whereafter a human health disorder has a partial remission.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasResponseTo"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasTherapyResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#PartialRemission"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#wheretoResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#PartialRemission"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#hasResponseTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#hasResponseTo">
+        <skos:definition xml:lang="en">Specifying a clinical therapy a human health disorder has a response to.</skos:definition>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#Disorder"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/therapy#hasTherapyResponse"/>
+            <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/therapy#responseTo"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#hasTherapyResponse -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#hasTherapyResponse">
+        <skos:definition xml:lang="en">Specifying a response of a human health disorder to a clinical therapy.</skos:definition>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#Disorder"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#State"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/therapy#treatedWith"/>
+            <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/therapy#wheretoResponse"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#maintainedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#maintainedWith">
+        <skos:definition xml:lang="en">Specifying a clinical therapy wherewith a clinical finding is maintained.</skos:definition>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/clinicalObservation#Finding"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#notTreatedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#notTreatedWith">
+        <skos:definition xml:lang="en">Specifying a clinical therapy not used for treating a clinical finding.</skos:definition>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/clinicalObservation#Finding"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#progressiveAfter -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#progressiveAfter">
+        <skos:definition xml:lang="en">Specifying a clinical therapy whereafter a human health disorder is progressive.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasResponseTo"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasTherapyResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#Progressive"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#wheretoResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#Progressive"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#replaces -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#replaces">
+        <skos:definition xml:lang="en">Specifying a therapy replaced by another for the same patient and disease.</skos:definition>
+        <skos:note xml:lang="en">further formalization in an N3 rule.</skos:note>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#responseTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#responseTo">
+        <skos:definition xml:lang="en">Specifying a clinical therapy whereto of a human health disorder has a response.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#outputOf"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#State"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#stateOf"/>
+            <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/therapy#treatedWith"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#secondarilyTreatedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#secondarilyTreatedWith">
+        <rdfs:label xml:lang="en">secondarily treated with</rdfs:label>
+        <skos:definition xml:lang="en">Specifying a secondary clinical therapy wherewith a clinical finding is treated.</skos:definition>
+        <skos:note xml:lang="en">Used in an N3 rule to establish this relation.</skos:note>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/clinicalObservation#Finding"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#stableAfter -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#stableAfter">
+        <skos:definition xml:lang="en">Specifying a clinical therapy whereafter a human health disorder is stable.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasResponseTo"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#hasTherapyResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#Stable"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/therapy#wheretoResponse"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#Stable"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#therapyResponseOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#therapyResponseOf">
+        <skos:definition xml:lang="en">Specifying a human health disorder having a response to a clinical therapy.</skos:definition>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#Disorder"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/therapy#responseTo"/>
+            <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/therapy#usedToTreat"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#treatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#treatedBy">
+        <skos:definition xml:lang="en">Specifying a health care professional treating a patient.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/healthCare#Patient"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/healthCare#Professional"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#treatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#treatedIn">
+        <skos:definition xml:lang="en">Specifying a therapy wherein a patient is treated.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/healthCare#Patient"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#treatedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#treatedWith">
+        <skos:definition xml:lang="en">Specifying a clinical therapy wherewith a clinical finding is treated.</skos:definition>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/clinicalObservation#Finding"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#treats -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#treats">
+        <skos:definition xml:lang="en">Specifying a patient treated by a health care professional.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <owl:inverseOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#treatedBy"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/healthCare#Patient"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/healthCare#Professional"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#usedToTreat -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#usedToTreat">
+        <skos:definition xml:lang="en">Specifying a clinical finding treated with a clinical therapy.</skos:definition>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/clinicalObservation#Finding"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#whereinTreated -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#whereinTreated">
+        <skos:definition xml:lang="en">Specifying a patient treated in a therapy.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <owl:inverseOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#treatedIn"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/healthCare#Patient"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#wheretoResponse -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#wheretoResponse">
+        <skos:definition xml:lang="en">Specifying a response of a human health disorder to a clinical therapy.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasOutput"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#State"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/therapy#usedToTreat"/>
+            <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#hasState"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#hasNumberOfCycles -->
+
+    <owl:DatatypeProperty rdf:about="http://www.agfa.com/w3c/2009/therapy#hasNumberOfCycles">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <skos:definition xml:lang="en">Specifying a number of cycles of a clinical therapy.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/agent#Role -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/agent#Role"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#Experimental -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#Experimental"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#Intent -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#Intent"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error9 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error9"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalEvaluation#CertainDiagnosis -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalEvaluation#CertainDiagnosis"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalEvaluation#Diagnosing -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalEvaluation#Diagnosing"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalObservation#Finding -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalObservation#Finding"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#Pathway -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#Pathway"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#Procedure -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#Procedure"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#Substance -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#Substance"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/healthCare#Device -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/healthCare#Device"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/healthCare#Patient -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/healthCare#Patient"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/healthCare#Professional -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/healthCare#Professional"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/humanDisorder#CompleteRemission -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#CompleteRemission"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/humanDisorder#CompleteRemissionIPN -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#CompleteRemissionIPN"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/humanDisorder#CompleteRemissionUnconfirmed -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#CompleteRemissionUnconfirmed"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/humanDisorder#Disorder -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#Disorder"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/humanDisorder#NodularPartialRemission -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#NodularPartialRemission"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/humanDisorder#PartialRemission -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#PartialRemission"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/humanDisorder#Progressive -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#Progressive"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/humanDisorder#Residual -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#Residual"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/humanDisorder#Stable -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#Stable"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/humanDisorder#State -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/humanDisorder#State"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Ameliorative -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Ameliorative">
+        <rdfs:label xml:lang="en">ameliorative</rdfs:label>
+        <skos:definition xml:lang="en">Lessening a health affliction.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#BlindTherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#BlindTherapy">
+        <rdfs:label xml:lang="en">blind therapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <skos:definition xml:lang="en">Therapy started without knowing the cause of a disorder and/or the effect of a therapy.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#CausalTherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#CausalTherapy">
+        <rdfs:label xml:lang="en">causal therapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasInput"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/clinicalEvaluation#CertainDiagnosis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Therapy having effect on the cause of a disease.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Curative -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Curative">
+        <rdfs:label xml:lang="en">curative</rdfs:label>
+        <skos:definition xml:lang="en">Freeing of a health affliction.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Cycle -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Cycle">
+        <rdfs:label xml:lang="en">therapy cycle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <rdfs:comment xml:lang="en">A clinical therapy can comprise a number of cycles. A cycle can comprise subprocedures, e.g. administrations of different drugs.</rdfs:comment>
+        <skos:definition xml:lang="en">Cycle as a clinical therapy that can be repeated.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Device -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Device">
+        <rdfs:label xml:lang="en">therapy device</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/healthCare#Device"/>
+        <skos:definition xml:lang="en">Device used in a clinical therapy.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Drain -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Drain">
+        <rdfs:label xml:lang="en">drain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Device"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#DrainageProcedure -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#DrainageProcedure">
+        <rdfs:label xml:lang="en">drainage procedure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#EvacuationProcedure"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#EmpiricalTherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#EmpiricalTherapy">
+        <rdfs:label xml:lang="en">empirical therapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasOutputLikelihood"/>
+                <owl:hasValue rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#Likely"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Therapy started assuming possible effect based on experience (e.g. statistics) from similar cases.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#EvacuationProcedure -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#EvacuationProcedure">
+        <rdfs:label xml:lang="en">evacuation procedure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#ExperimentalTherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#ExperimentalTherapy">
+        <rdfs:label xml:lang="en">experimental therapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasState"/>
+                <owl:someValuesFrom rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#Experimental"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Therapy wherein something is applied having an experimental therapeutic role.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Intent -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Intent">
+        <rdfs:label xml:lang="en">therapeutic intent</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/therapy#Curative"/>
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/therapy#Ameliorative"/>
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/therapy#Stabilizing"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#Intent"/>
+        <skos:definition xml:lang="en">Intended effect of a clinical therapy on the evolution of a disorder.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#IntracerebralDrain -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#IntracerebralDrain">
+        <rdfs:label xml:lang="en">intracerebral drain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Drain"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#LumbarPunctureToLowerIntracranialPressure -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#LumbarPunctureToLowerIntracranialPressure">
+        <rdfs:label xml:lang="en">lumbar puncture to lower intracranial pressure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#DrainageProcedure"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Monotherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Monotherapy">
+        <rdfs:label xml:lang="en">monotherapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <skos:definition xml:lang="en">Applying 1 clinical therapy at a time.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#NonCausalTherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#NonCausalTherapy">
+        <rdfs:label xml:lang="en">noncausal therapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <skos:definition xml:lang="en">Therapy having no effect on the cause of a disease.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#OtherSurgeryThanSplenectomy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#OtherSurgeryThanSplenectomy">
+        <rdfs:label xml:lang="en">other surgery than splenectomy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Surgery"/>
+        <skos:note xml:lang="en">Just to show how far modelling can go :), created for a specific research project GUI.</skos:note>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Polytherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Polytherapy">
+        <rdfs:label xml:lang="en">polytherapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <skos:definition xml:lang="en">Applying 2 or more therapies simultaneously.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Protocol -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Protocol">
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#Pathway"/>
+        <skos:definition xml:lang="en">Binding instructions for a therapy</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Residual -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Residual">
+        <rdfs:label xml:lang="en">residual</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/humanDisorder#Residual"/>
+        <skos:definition xml:lang="en">State of a human health disorder remaining after therapy.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Response -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Response">
+        <rdfs:label xml:lang="en">clinical therapy response</rdfs:label>
+        <skos:definition xml:lang="en">Response of a human health disorder to a clinical therapy.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Stabilizing -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Stabilizing">
+        <rdfs:label xml:lang="en">stabilizing</rdfs:label>
+        <skos:definition xml:lang="en">Stabilizing a health affliction.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Substance -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Substance">
+        <rdfs:label xml:lang="en">therapeutic substance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#Substance"/>
+        <skos:definition xml:lang="en">Substance having a therapeutic effect.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Surgery -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Surgery">
+        <rdfs:label xml:lang="en">clinical surgery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <skos:definition xml:lang="en">Clinical therapy involving opening the coverage (skin, cornea, mucosa, etc) of a human body.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#TargetedTherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#TargetedTherapy">
+        <rdfs:label xml:lang="en">targeted therapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasOutputLikelihood"/>
+                <owl:hasValue rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#MostLikely"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#hasAgent"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole"/>
+                        <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/therapy#TestedTherapeuticRole"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Therapy wherein something is applied having a tested therapeutic role.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#TestedTherapeuticRole -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#TestedTherapeuticRole">
+        <rdfs:label xml:lang="en">tested therapeutic role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#TherapeuticRole"/>
+        <skos:definition xml:lang="en">Therapeutic role confirmed in a test setting.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#TherapeuticRole -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#TherapeuticRole">
+        <rdfs:label xml:lang="en">therapeutic role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#Role"/>
+        <skos:definition xml:lang="en">Role of anything applied in a clinical therapy.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Therapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Therapy">
+        <rdfs:label xml:lang="en">clinical therapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#Procedure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasInput"/>
+                <owl:someValuesFrom rdf:resource="http://org.semanticweb.owlapi/error#Error9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#after"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/clinicalEvaluation#Diagnosing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">An attempted remediation of a human health problem.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/therapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#Likely -->
+
+    <owl:NamedIndividual rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#Likely"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#MostLikely -->
+
+    <owl:NamedIndividual rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#MostLikely"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Ameliorative -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/therapy#Ameliorative">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/therapy#Intent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Curative -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/therapy#Curative">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/therapy#Intent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Residual -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/therapy#Residual">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/therapy#Response"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Stabilizing -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/therapy#Stabilizing">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/therapy#Intent"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

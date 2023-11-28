@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap</onto1>
+<onto2>http://www.csols.com/ontologies/2021/02/ontologyv3</onto2>
+<uri1>http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap</uri1>
+<uri2>http://www.csols.com/ontologies/2021/02/ontologyv3</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#completionTime"/>
+		<entity2 rdf:resource="http://www.csols.com/ontologies/2021/02/ontologyv3#analysis-completion-time"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrument#serialNumber"/>
+		<entity2 rdf:resource="http://www.csols.com/ontologies/2021/02/ontologyv3#analytical-instrument-serial-number"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/sample#reference"/>
+		<entity2 rdf:resource="http://www.csols.com/ontologies/2021/02/ontologyv3#sample-reference"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

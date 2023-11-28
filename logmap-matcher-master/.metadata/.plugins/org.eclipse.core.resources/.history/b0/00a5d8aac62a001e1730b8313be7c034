@@ -1,0 +1,31 @@
+The distribution of (J)RDFox consists of the following files and directories:
+
+- The 'examples' directory contains a demonstration program that shows how to call
+  JRDFox as a library from Java.
+
+- The 'javadoc' directory contains the Javadoc documentation for JDRFox.
+
+- The 'lib' directory contains the libraries.
+
+  * JRDFox.jar is the Java bridge to the C++ native RDFox engine.
+  * owlapi-*.jar is the OWL API that JRDFox uses to load ontologies. For more information
+    about the OWL API, please refer to http://owlapi.sourceforge.net.
+  * RDFox (on Mac OS X and Linux) and RDFox.exe (on Windows are stand-alone executables
+    that can be used to run RDFox on the command line. The system provides a shell that
+    can load an RDF file, materialize facts w.r.t. a set of rules, and answer SPARQL queries.
+  * libRDFox.dylib (on Mac OS X), libRDFox.so (on Linux), and RDFox.dll (on Windows) are
+    dynamic libraries that implement the native methods of JRDFox.
+
+The supplied Apache Ant script can be used to compile and run the demonstration program.
+
+To use JRDFox in your project, simply add JRDFox.jar and owlapi-*.jar to your classpath,
+and make sure that the path to the dynamic library is correctly specified  when starting
+your program using the following JVM option:
+
+    -Djava.library.path=<path> 
+
+The root of the distribution contains an Eclipse project called JRDFox so you can readily
+import the project into Eclipse and start the class uk.ac.ox.cs.JRDFox. If you want to set
+up a different Eclipse project yourself, you can specify the path to the dynamic libraries
+by specifying the "Native library location" for the JRDFox.jar library in the "Java Build
+Path -> Libraries" part of the project properties page.

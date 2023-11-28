@@ -1,0 +1,11 @@
+1|oumy.seye@gmail.com|oumy seye|4837|-1
+https://w3id.org/saref#Device|http://www.iec.ch/TC57/CIM#EndDevice|=|0.8|0.08|device|end_device|No superclasses|identified_object, asset_container, asset|actuator, generator, energy_related, micro_renewable, storage, lighting_device|meter|device|enddevice|||true|false|true
+https://w3id.org/saref#Measurement|http://www.iec.ch/TC57/CIM#MeasurementKind|=|0.908|0.01|measurement|measurement_kind|No superclasses|No superclasses|No subclasses|No subclasses|measure, measurement|measurementkind||3|false|true|true
+https://w3id.org/saref#Commodity|http://www.iec.ch/TC57/CIM#CommodityKind|=|0.891|0.01|commodity|commodity_kind|No superclasses|No superclasses|gas, coal, electricity, water|No subclasses|commodity|commoditykind|||true|false|true
+https://w3id.org/saref#Measurement|http://www.iec.ch/TC57/CIM#MeasurementValue|=|0.889|0.01|measurement|measurement_value|No superclasses|identified_object|No subclasses|discrete_value, base_reading, accumulator_value, analog_value, reading, string_measurement_value|measure, measurement|measurementvalue||1|true|false|true
+http://www.w3.org/2006/time#TimeZone|http://www.iec.ch/TC57/CIM#TimeZoneType|=|0.88|0.01|time_zone|time_zone_type|No superclasses|No superclasses|No subclasses|No subclasses|timezone|timezonetype|||true|false|true
+https://w3id.org/saref#Service|http://www.iec.ch/TC57/CIM#ServiceKind|=|0.867|0.01|service|service_kind|No superclasses|No superclasses|switch_on_service|No subclasses|service, serve|servicekind|||true|false|true
+https://w3id.org/saref#Time|http://www.iec.ch/TC57/CIM#TimeOfUse|=|0.769|0.01|time|time_of_use|property|No superclasses|No subclasses|No subclasses|time|timeofuse|||true|false|true
+https://w3id.org/saref#Task|http://www.iec.ch/TC57/CIM#WorkTask|=|0.667|0.01|task|work_task|No superclasses|base_work, document, identified_object|No subclasses|old_work_task, meter_work_task|task|worktask||8,9|false|true|true
+https://w3id.org/saref#Task|http://www.iec.ch/TC57/CIM#OldWorkTask|=|0.533|0.01|task|old_work_task|No superclasses|base_work, document, identified_object, work_task|No subclasses|No subclasses|task|oldworktask||7,9|false|true|true
+https://w3id.org/saref#Task|http://www.iec.ch/TC57/CIM#WorkTaskKind|=|0.5|0.01|task|work_task_kind|No superclasses|No superclasses|No subclasses|No subclasses|task|worktaskkind||7,8|false|true|true

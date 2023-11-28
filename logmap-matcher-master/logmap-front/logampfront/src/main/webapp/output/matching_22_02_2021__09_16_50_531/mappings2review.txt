@@ -1,0 +1,2 @@
+http://mouse.owl#UNDEFINED_part_of|http://human.owl#UNDEFINED_part_of|=|1.0|OPROP
+http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty|http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty|=|1.0|OPROP

@@ -1,0 +1,26 @@
+Time initializing lexical utilities (s): 0.279
+OVERLAPPING
+Time extracting overlapping (s): 14.65
+Time extracting lexicon and IF (s): 0.164
+Time intersecting IF and extracting IF weak (s): 0.033
+Time extracting structural information (s): 0.408
+Time creating all weak anchors (s): 0.007
+Time creating candidate subset of weak anchors (s): 0.096
+Global Time Parsing and Index Lexicon (s): 15.673
+
+ANCHOR DIAGNOSIS 
+Time creating anchors (s): 0.072
+Time cleaning anchors D&G (s): 0.062
+Time indexing hierarchy + anchors (ILS) (s): 0.022
+
+CANDIDATE DIAGNOSIS 1
+Time creating candidates (s): 0.168
+Time cleaning new candidates D&G (s): 0.062
+Time indexing hierarchy + anchors and candidates I (ILS) (s): 0.022
+Time creating property mappings (s): 0.0
+Time creating instance mappings (s): 0.0
+Time Saving reliable mappings (s): 0.003
+Time Saving mapping 2 review (s): 0.0
+Time Saving overlapping and integrated ontologies (s): 0.195
+Time creating information for mappings2ask (s): 0.178
+TOTAL TIME (without interactivity) (s): 16.468

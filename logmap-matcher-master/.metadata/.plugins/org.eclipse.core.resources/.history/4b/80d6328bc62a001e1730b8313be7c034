@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"
+     xmlns:mappings="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/agent#hasAgent -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/agent#hasAgent"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#hasOutput -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#hasOutput"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#outputOf -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#outputOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/agent#Role -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/agent#Role">
+        <owl:equivalentClass rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Role"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8440000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eulersharp.sourceforge.net/2003/03swap/agent#Role</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#Role</entity1>
+        <owl:annotatedSource rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#Role"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Role"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#Experimental -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#Experimental">
+        <owl:equivalentClass rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#ExperimentalSubstance"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5231818181818182</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eulersharp.sourceforge.net/2003/03swap/event#Experimental</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#ExperimentalSubstance</entity1>
+        <owl:annotatedSource rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#Experimental"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#ExperimentalSubstance"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error7 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error7">
+        <owl:equivalentClass rdf:resource="http://org.semanticweb.owlapi/error#Error9"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4357692307692308</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://org.semanticweb.owlapi/error#Error7</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://org.semanticweb.owlapi/error#Error9</entity2>
+        <owl:annotatedSource rdf:resource="http://org.semanticweb.owlapi/error#Error7"/>
+        <owl:annotatedTarget rdf:resource="http://org.semanticweb.owlapi/error#Error9"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error8 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error8">
+        <owl:equivalentClass rdf:resource="http://org.semanticweb.owlapi/error#Error9"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4357692307692308</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://org.semanticweb.owlapi/error#Error8</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://org.semanticweb.owlapi/error#Error9</entity2>
+        <owl:annotatedSource rdf:resource="http://org.semanticweb.owlapi/error#Error8"/>
+        <owl:annotatedTarget rdf:resource="http://org.semanticweb.owlapi/error#Error9"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error9 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error9"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4357692307692308</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://org.semanticweb.owlapi/error#Error8</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://org.semanticweb.owlapi/error#Error9</entity2>
+        <owl:annotatedSource rdf:resource="http://org.semanticweb.owlapi/error#Error8"/>
+        <owl:annotatedTarget rdf:resource="http://org.semanticweb.owlapi/error#Error9"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4357692307692308</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://org.semanticweb.owlapi/error#Error7</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://org.semanticweb.owlapi/error#Error9</entity2>
+        <owl:annotatedSource rdf:resource="http://org.semanticweb.owlapi/error#Error7"/>
+        <owl:annotatedTarget rdf:resource="http://org.semanticweb.owlapi/error#Error9"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalObservation#Finding -->
+
+    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/clinicalObservation#Finding"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#Procedure -->
+
+    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#Procedure"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#Substance -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#Substance">
+        <owl:equivalentClass rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+        <owl:equivalentClass rdf:resource="http://www.agfa.com/w3c/2009/therapy#Substance"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8500000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/clinicalProcedure#Substance</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#Substance</entity1>
+        <owl:annotatedSource rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#Substance"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/clinicalProcedure#Substance</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/therapy#Substance</entity2>
+        <owl:annotatedSource rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#Substance"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/therapy#Substance"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#ExperimentalSubstance -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#ExperimentalSubstance"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5231818181818182</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eulersharp.sourceforge.net/2003/03swap/event#Experimental</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#ExperimentalSubstance</entity1>
+        <owl:annotatedSource rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#Experimental"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#ExperimentalSubstance"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Monotherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Monotherapy">
+        <owl:equivalentClass rdf:resource="http://www.agfa.com/w3c/2009/therapy#Monotherapy"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#Monotherapy</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/therapy#Monotherapy</entity2>
+        <owl:annotatedSource rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Monotherapy"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/therapy#Monotherapy"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Polytherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Polytherapy">
+        <owl:equivalentClass rdf:resource="http://www.agfa.com/w3c/2009/therapy#Polytherapy"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#Polytherapy</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/therapy#Polytherapy</entity2>
+        <owl:annotatedSource rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Polytherapy"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/therapy#Polytherapy"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Role -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Role"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8440000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eulersharp.sourceforge.net/2003/03swap/agent#Role</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#Role</entity1>
+        <owl:annotatedSource rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#Role"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Role"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Substance -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Substance">
+        <owl:equivalentClass rdf:resource="http://www.agfa.com/w3c/2009/therapy#Substance"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#Substance</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/therapy#Substance</entity2>
+        <owl:annotatedSource rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/therapy#Substance"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8500000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/clinicalProcedure#Substance</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#Substance</entity1>
+        <owl:annotatedSource rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#Substance"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Therapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Therapy">
+        <owl:equivalentClass rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.76</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#Therapy</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/therapy#Therapy</entity2>
+        <owl:annotatedSource rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Therapy"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/healthCare#Patient -->
+
+    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/healthCare#Patient"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Monotherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Monotherapy"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#Monotherapy</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/therapy#Monotherapy</entity2>
+        <owl:annotatedSource rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Monotherapy"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/therapy#Monotherapy"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Polytherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Polytherapy"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#Polytherapy</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/therapy#Polytherapy</entity2>
+        <owl:annotatedSource rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Polytherapy"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/therapy#Polytherapy"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Substance -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Substance"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#Substance</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/therapy#Substance</entity2>
+        <owl:annotatedSource rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/therapy#Substance"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/clinicalProcedure#Substance</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/therapy#Substance</entity2>
+        <owl:annotatedSource rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#Substance"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/therapy#Substance"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#TherapeuticRole -->
+
+    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/therapy#TherapeuticRole"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Therapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.76</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/drugTherapy#Therapy</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.agfa.com/w3c/2009/therapy#Therapy</entity2>
+        <owl:annotatedSource rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Therapy"/>
+        <owl:annotatedTarget rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

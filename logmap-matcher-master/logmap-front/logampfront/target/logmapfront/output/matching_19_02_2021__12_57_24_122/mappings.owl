@@ -1,0 +1,1174 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"
+     xmlns:mappings="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/muo-vocab.owl#measuredIn -->
+
+    <owl:ObjectProperty rdf:about="http://elite.polito.it/ontologies/muo-vocab.owl#measuredIn">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9090909090909091</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/muo-vocab.owl#measuredIn</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#isMeasuredIn</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/muo-vocab.owl#measuredIn"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#isMeasuredIn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/saref#isMeasuredIn"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9090909090909091</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/muo-vocab.owl#measuredIn</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#isMeasuredIn</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/muo-vocab.owl#measuredIn"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#Actuator -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#Actuator">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#Actuator"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7090000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#Actuator</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Actuator</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#Actuator"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Actuator"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#Appliances -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#Appliances">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#Appliance"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.76</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#Appliances</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Appliance</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#Appliances"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Appliance"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#CloseCommand -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#CloseCommand">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#CloseCommand"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#CloseCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#CloseCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#CloseCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#CloseCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#CloseStateValue -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#CloseStateValue">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#CloseState"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.56</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#CloseStateValue</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#CloseState</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#CloseStateValue"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#CloseState"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#Command -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#Command">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#Command"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9849999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#Command</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Command</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#Command"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Command"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#EnergyMeter -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#EnergyMeter">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#EnergyMeter"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8200000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#EnergyMeter</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#EnergyMeter</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#EnergyMeter"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#EnergyMeter"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#GetCommand -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#GetCommand">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#GetCommand"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.925</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#GetCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#GetCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#GetCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#GetCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#Meter -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#Meter">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#Meter"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7869999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#Meter</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Meter</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#Meter"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Meter"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#OffCommand -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#OffCommand">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#OffCommand"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8500000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OffCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OffCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OffCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OffCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#OnCommand -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#OnCommand">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#OnCommand"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OnCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OnCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OnCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OnCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#OnOffLightSwitch -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#OnOffLightSwitch">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#LightSwitch"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6614074074074074</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OnOffLightSwitch</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#LightSwitch</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OnOffLightSwitch"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#LightSwitch"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#OnOffState -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#OnOffState">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#OnOffState"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7989999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OnOffState</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OnOffState</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OnOffState"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OnOffState"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#OpenCloseFunctionality -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#OpenCloseFunctionality">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#OpenCloseFunction"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6635384615384615</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OpenCloseFunctionality</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OpenCloseFunction</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OpenCloseFunctionality"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OpenCloseFunction"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#OpenCloseState -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#OpenCloseState">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#OpenCloseState"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9289999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OpenCloseState</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OpenCloseState</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OpenCloseState"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OpenCloseState"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#OpenCommand -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#OpenCommand">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#OpenCommand"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8500000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OpenCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OpenCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OpenCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OpenCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#OpenStateValue -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#OpenStateValue">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#OpenState"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5547826086956522</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OpenStateValue</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OpenState</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OpenStateValue"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OpenState"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#PauseCommand -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#PauseCommand">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#PauseCommand"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#PauseCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#PauseCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#PauseCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#PauseCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#Sensor -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#Sensor">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#Sensor"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.919</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#Sensor</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Sensor</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#Sensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Sensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#SingleTemperatureSensor -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#SingleTemperatureSensor">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#TemperatureSensor"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5650000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#SingleTemperatureSensor</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#TemperatureSensor</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#SingleTemperatureSensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#TemperatureSensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#SmokeSensor -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#SmokeSensor">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#SmokeSensor"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.92</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#SmokeSensor</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#SmokeSensor</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#SmokeSensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#SmokeSensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#StartCommand -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#StartCommand">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#StartCommand"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#StartCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#StartCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#StartCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#StartCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#State -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#State">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#State"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8859999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#State</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#State</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#State"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#State"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#StepDownCommand -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#StepDownCommand">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#StepDownCommand"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#StepDownCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#StepDownCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#StepDownCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#StepDownCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#StepUpCommand -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#StepUpCommand">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#StepUpCommand"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#StepUpCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#StepUpCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#StepUpCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#StepUpCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#StopCommand -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#StopCommand">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#StopCommand"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8500000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#StopCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#StopCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#StopCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#StopCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#StopStateValue -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#StopStateValue">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#StopState"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5547826086956522</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#StopStateValue</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#StopState</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#StopStateValue"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#StopState"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#Switch -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#Switch">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#Switch"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.847</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#Switch</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Switch</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#Switch"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Switch"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#TemperatureSensor -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#TemperatureSensor">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#TemperatureSensor"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.941</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#TemperatureSensor</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#TemperatureSensor</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#TemperatureSensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#TemperatureSensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#ToggleCommand -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#ToggleCommand">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#ToggleCommand"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#ToggleCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#ToggleCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#ToggleCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#ToggleCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#UnitOfMeasurement -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#UnitOfMeasurement">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.59</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#UnitOfMeasurement</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#UnitOfMeasure</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#UnitOfMeasurement"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#WashingMachine -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/dogont.owl#WashingMachine">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#WashingMachine"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8749999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#WashingMachine</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#WashingMachine</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#WashingMachine"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#WashingMachine"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/muo-vocab.owl#UnitOfMeasurement -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/muo-vocab.owl#UnitOfMeasurement">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5750000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/muo-vocab.owl#UnitOfMeasurement</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#UnitOfMeasure</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/muo-vocab.owl#UnitOfMeasurement"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#Device -->
+
+    <owl:Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#Device">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#Device"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.oclc.org/NET/ssnx/ssn#Device</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Device</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Device"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Device"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#Sensor -->
+
+    <owl:Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#Sensor">
+        <owl:equivalentClass rdf:resource="https://w3id.org/saref#Sensor"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.oclc.org/NET/ssnx/ssn#Sensor</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Sensor</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Sensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Sensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Actuator -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Actuator"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7090000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#Actuator</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Actuator</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#Actuator"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Actuator"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Appliance -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Appliance"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.76</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#Appliances</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Appliance</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#Appliances"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Appliance"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#CloseCommand -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#CloseCommand"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#CloseCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#CloseCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#CloseCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#CloseCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#CloseState -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#CloseState"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.56</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#CloseStateValue</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#CloseState</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#CloseStateValue"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#CloseState"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Command -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Command"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9849999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#Command</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Command</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#Command"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Command"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Device -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Device"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.oclc.org/NET/ssnx/ssn#Device</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Device</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Device"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Device"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#EnergyMeter -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#EnergyMeter"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8200000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#EnergyMeter</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#EnergyMeter</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#EnergyMeter"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#EnergyMeter"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#GetCommand -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#GetCommand"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.925</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#GetCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#GetCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#GetCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#GetCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#LightSwitch -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#LightSwitch"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6614074074074074</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OnOffLightSwitch</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#LightSwitch</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OnOffLightSwitch"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#LightSwitch"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Meter -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Meter"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7869999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#Meter</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Meter</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#Meter"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Meter"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#OffCommand -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#OffCommand"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8500000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OffCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OffCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OffCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OffCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#OnCommand -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#OnCommand"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OnCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OnCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OnCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OnCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#OnOffState -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#OnOffState"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7989999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OnOffState</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OnOffState</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OnOffState"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OnOffState"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#OpenCloseFunction -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#OpenCloseFunction"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6635384615384615</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OpenCloseFunctionality</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OpenCloseFunction</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OpenCloseFunctionality"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OpenCloseFunction"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#OpenCloseState -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#OpenCloseState"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9289999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OpenCloseState</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OpenCloseState</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OpenCloseState"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OpenCloseState"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#OpenCommand -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#OpenCommand"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8500000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OpenCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OpenCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OpenCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OpenCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#OpenState -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#OpenState"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5547826086956522</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#OpenStateValue</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#OpenState</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#OpenStateValue"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#OpenState"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#PauseCommand -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#PauseCommand"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#PauseCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#PauseCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#PauseCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#PauseCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Sensor -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Sensor"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.919</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#Sensor</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Sensor</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#Sensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Sensor"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.oclc.org/NET/ssnx/ssn#Sensor</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Sensor</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Sensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Sensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#SmokeSensor -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#SmokeSensor"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.92</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#SmokeSensor</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#SmokeSensor</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#SmokeSensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#SmokeSensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#StartCommand -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#StartCommand"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#StartCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#StartCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#StartCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#StartCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#State -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#State"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8859999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#State</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#State</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#State"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#State"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#StepDownCommand -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#StepDownCommand"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#StepDownCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#StepDownCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#StepDownCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#StepDownCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#StepUpCommand -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#StepUpCommand"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#StepUpCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#StepUpCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#StepUpCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#StepUpCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#StopCommand -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#StopCommand"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8500000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#StopCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#StopCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#StopCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#StopCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#StopState -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#StopState"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5547826086956522</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#StopStateValue</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#StopState</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#StopStateValue"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#StopState"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#Switch -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#Switch"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.847</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#Switch</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#Switch</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#Switch"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#Switch"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#TemperatureSensor -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#TemperatureSensor"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5650000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#SingleTemperatureSensor</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#TemperatureSensor</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#SingleTemperatureSensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#TemperatureSensor"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.941</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#TemperatureSensor</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#TemperatureSensor</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#TemperatureSensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#TemperatureSensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#ToggleCommand -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#ToggleCommand"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#ToggleCommand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#ToggleCommand</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#ToggleCommand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#ToggleCommand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#UnitOfMeasure -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#UnitOfMeasure"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5750000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/muo-vocab.owl#UnitOfMeasurement</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#UnitOfMeasure</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/muo-vocab.owl#UnitOfMeasurement"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.59</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#UnitOfMeasurement</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#UnitOfMeasure</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#UnitOfMeasurement"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/saref#WashingMachine -->
+
+    <owl:Class rdf:about="https://w3id.org/saref#WashingMachine"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8749999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://elite.polito.it/ontologies/dogont.owl#WashingMachine</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/saref#WashingMachine</entity2>
+        <owl:annotatedSource rdf:resource="http://elite.polito.it/ontologies/dogont.owl#WashingMachine"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/saref#WashingMachine"/>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

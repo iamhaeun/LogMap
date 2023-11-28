@@ -1,0 +1,8 @@
+http://www.w3.org/2006/time#TemporalEntity|http://www.w3.org/2006/time#TemporalEntity|=|0.8|CLS
+http://xmlns.com/foaf/0.1/Person|http://www.w3.org/2000/10/swap/pim/contact#Person|=|0.8|CLS
+http://xmlns.com/foaf/0.1/Person|http://schema.org/Person|=|0.51|CLS
+http://xmlns.com/foaf/0.1/Person|http://xmlns.com/foaf/0.1/Person|=|0.51|CLS
+http://www.semanticweb.org/user1/ontologies/2020/3/smartclassroom/1.0#Time|http://lod.nik.uni-obuda.hu/oloud/oloud#CourseTime|=|0.5|CLS
+http://xmlns.com/foaf/0.1/Agent|http://xmlns.com/foaf/0.1/Agent|=|0.51|CLS
+http://xmlns.com/foaf/0.1/Agent|http://purl.org/dc/terms/Agent|=|0.79|CLS
+http://www.semanticweb.org/user1/ontologies/2020/3/smartclassroom/1.0#Location|http://lod.nik.uni-obuda.hu/iloc/iloc#Location|=|0.7|CLS

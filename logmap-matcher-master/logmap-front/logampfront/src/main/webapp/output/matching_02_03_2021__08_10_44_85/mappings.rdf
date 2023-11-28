@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://krono.act.uji.es/ontology.owl</onto1>
+<onto2>http://krono.act.uji.es/ontology.owl</onto2>
+<uri1>http://krono.act.uji.es/ontology.owl</uri1>
+<uri2>http://krono.act.uji.es/ontology.owl</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Woman"/>
+		<entity2 rdf:resource="http://example.org/Woman"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Season"/>
+		<entity2 rdf:resource="http://example.org/Season"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/WorriedParent"/>
+		<entity2 rdf:resource="http://example.org/WorriedParent"/>
+		<measure rdf:datatype="xsd:float">0.98</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://org.semanticweb.owlapi/error#Error10"/>
+		<entity2 rdf:resource="http://org.semanticweb.owlapi/error#Error12"/>
+		<measure rdf:datatype="xsd:float">0.94</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/VeganFood"/>
+		<entity2 rdf:resource="http://example.org/VeganFood"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Father"/>
+		<entity2 rdf:resource="http://example.org/Father"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Sick"/>
+		<entity2 rdf:resource="http://example.org/Sick"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Person"/>
+		<entity2 rdf:resource="http://example.org/Person"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://org.semanticweb.owlapi/error#Error11"/>
+		<entity2 rdf:resource="http://org.semanticweb.owlapi/error#Error13"/>
+		<measure rdf:datatype="xsd:float">0.94</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Vegetarian"/>
+		<entity2 rdf:resource="http://example.org/Vegetarian"/>
+		<measure rdf:datatype="xsd:float">0.98</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Mother"/>
+		<entity2 rdf:resource="http://example.org/Mother"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Parent"/>
+		<entity2 rdf:resource="http://example.org/Parent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/gender"/>
+		<entity2 rdf:resource="http://example.org/gender"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/eats"/>
+		<entity2 rdf:resource="http://example.org/eats"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Autumn"/>
+		<entity2 rdf:resource="http://example.org/Autumn"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Bob"/>
+		<entity2 rdf:resource="http://example.org/Bob"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Winter"/>
+		<entity2 rdf:resource="http://example.org/Winter"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Spring"/>
+		<entity2 rdf:resource="http://example.org/Spring"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/John"/>
+		<entity2 rdf:resource="http://example.org/John"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Female"/>
+		<entity2 rdf:resource="http://example.org/Female"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/Summer"/>
+		<entity2 rdf:resource="http://example.org/Summer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

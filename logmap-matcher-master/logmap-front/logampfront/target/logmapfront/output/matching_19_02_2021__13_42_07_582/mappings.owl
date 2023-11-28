@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"
+     xmlns:mappings="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#hasDuration -->
+
+    <owl:ObjectProperty rdf:about="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#hasDuration">
+        <owl:equivalentProperty rdf:resource="http://www.w3.org/2006/time#hasDuration"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#hasDuration</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#hasDuration</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#hasDuration"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#hasDuration"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasDuration -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasDuration"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#hasDuration</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#hasDuration</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#hasDuration"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#hasDuration"/>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Boiler -->
+
+    <owl:Class rdf:about="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Boiler">
+        <owl:equivalentClass rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Boiler"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Boiler</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Boiler</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Boiler"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Boiler"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#CO2_Emissions -->
+
+    <owl:Class rdf:about="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#CO2_Emissions">
+        <owl:equivalentClass rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#CO2Emission"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#CO2_Emissions</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#CO2Emission</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#CO2_Emissions"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#CO2Emission"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Duration -->
+
+    <owl:Class rdf:about="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Duration">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2006/time#Duration"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Duration</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#Duration</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Duration"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#Duration"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Energy_Demand -->
+
+    <owl:Class rdf:about="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Energy_Demand">
+        <owl:equivalentClass rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyDemand"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Energy_Demand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyDemand</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Energy_Demand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyDemand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Energy_Source -->
+
+    <owl:Class rdf:about="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Energy_Source">
+        <owl:equivalentClass rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergySource"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8260000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Energy_Source</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergySource</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Energy_Source"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergySource"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Final_Energy -->
+
+    <owl:Class rdf:about="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Final_Energy">
+        <owl:equivalentClass rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#FinalEnergy"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8109999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Final_Energy</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#FinalEnergy</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Final_Energy"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#FinalEnergy"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Garage -->
+
+    <owl:Class rdf:about="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Garage">
+        <owl:equivalentClass rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Garage"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.766</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Garage</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Garage</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Garage"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Garage"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Heating_System -->
+
+    <owl:Class rdf:about="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Heating_System">
+        <owl:equivalentClass rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#HeatingSystem"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Heating_System</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#HeatingSystem</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Heating_System"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#HeatingSystem"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ontologyportal.org/SUMO.owl#Ceiling -->
+
+    <owl:Class rdf:about="http://www.ontologyportal.org/SUMO.owl#Ceiling">
+        <owl:equivalentClass rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Ceiling"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyportal.org/SUMO.owl#Ceiling</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Ceiling</entity2>
+        <owl:annotatedSource rdf:resource="http://www.ontologyportal.org/SUMO.owl#Ceiling"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Ceiling"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ontologyportal.org/SUMO.owl#Door -->
+
+    <owl:Class rdf:about="http://www.ontologyportal.org/SUMO.owl#Door">
+        <owl:equivalentClass rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Door"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyportal.org/SUMO.owl#Door</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Door</entity2>
+        <owl:annotatedSource rdf:resource="http://www.ontologyportal.org/SUMO.owl#Door"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Door"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ontologyportal.org/SUMO.owl#Wall -->
+
+    <owl:Class rdf:about="http://www.ontologyportal.org/SUMO.owl#Wall">
+        <owl:equivalentClass rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Wall"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyportal.org/SUMO.owl#Wall</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Wall</entity2>
+        <owl:annotatedSource rdf:resource="http://www.ontologyportal.org/SUMO.owl#Wall"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Wall"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ontologyportal.org/SUMO.owl#Window -->
+
+    <owl:Class rdf:about="http://www.ontologyportal.org/SUMO.owl#Window">
+        <owl:equivalentClass rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Window"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyportal.org/SUMO.owl#Window</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Window</entity2>
+        <owl:annotatedSource rdf:resource="http://www.ontologyportal.org/SUMO.owl#Window"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Window"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Duration -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Duration"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Duration</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#Duration</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Duration"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#Duration"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Boiler -->
+
+    <owl:Class rdf:about="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Boiler"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Boiler</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Boiler</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Boiler"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Boiler"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#CO2Emission -->
+
+    <owl:Class rdf:about="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#CO2Emission"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#CO2_Emissions</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#CO2Emission</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#CO2_Emissions"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#CO2Emission"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Ceiling -->
+
+    <owl:Class rdf:about="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Ceiling"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyportal.org/SUMO.owl#Ceiling</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Ceiling</entity2>
+        <owl:annotatedSource rdf:resource="http://www.ontologyportal.org/SUMO.owl#Ceiling"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Ceiling"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Door -->
+
+    <owl:Class rdf:about="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Door"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyportal.org/SUMO.owl#Door</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Door</entity2>
+        <owl:annotatedSource rdf:resource="http://www.ontologyportal.org/SUMO.owl#Door"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Door"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyDemand -->
+
+    <owl:Class rdf:about="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyDemand"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Energy_Demand</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyDemand</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Energy_Demand"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergyDemand"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergySource -->
+
+    <owl:Class rdf:about="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergySource"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8260000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Energy_Source</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergySource</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Energy_Source"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#EnergySource"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#FinalEnergy -->
+
+    <owl:Class rdf:about="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#FinalEnergy"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8109999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Final_Energy</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#FinalEnergy</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Final_Energy"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#FinalEnergy"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Garage -->
+
+    <owl:Class rdf:about="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Garage"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.766</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Garage</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Garage</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Garage"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Garage"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#HeatingSystem -->
+
+    <owl:Class rdf:about="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#HeatingSystem"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Heating_System</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#HeatingSystem</entity2>
+        <owl:annotatedSource rdf:resource="http://semanco02.hs-albsig.de/repository/ontology-releases/eu/semanco/ontology/SEMANCO/SEMANCO.owl#Heating_System"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#HeatingSystem"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Wall -->
+
+    <owl:Class rdf:about="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Wall"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyportal.org/SUMO.owl#Wall</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Wall</entity2>
+        <owl:annotatedSource rdf:resource="http://www.ontologyportal.org/SUMO.owl#Wall"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Wall"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Window -->
+
+    <owl:Class rdf:about="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Window"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyportal.org/SUMO.owl#Window</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Window</entity2>
+        <owl:annotatedSource rdf:resource="http://www.ontologyportal.org/SUMO.owl#Window"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl#Window"/>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>https://w3id.org/seas/FlexibilityOntology-1.0</onto1>
+<onto2>https://w3id.org/seas/FlexibilityOntology-1.0</onto2>
+<uri1>https://w3id.org/seas/FlexibilityOntology-1.0</uri1>
+<uri2>https://w3id.org/seas/FlexibilityOntology-1.0</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Device"/>
+		<entity2 rdf:resource="https://w3id.org/saref#Device"/>
+		<measure rdf:datatype="xsd:float">0.75</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Sensor"/>
+		<entity2 rdf:resource="https://w3id.org/def/saref4bldg#Sensor"/>
+		<measure rdf:datatype="xsd:float">0.96</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Sensor"/>
+		<entity2 rdf:resource="https://w3id.org/saref#Sensor"/>
+		<measure rdf:datatype="xsd:float">0.54</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/BuildingSpace"/>
+		<entity2 rdf:resource="https://w3id.org/def/saref4bldg#BuildingSpace"/>
+		<measure rdf:datatype="xsd:float">0.8</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Property"/>
+		<entity2 rdf:resource="https://w3id.org/saref#Property"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Actuator"/>
+		<entity2 rdf:resource="https://w3id.org/saref#Actuator"/>
+		<measure rdf:datatype="xsd:float">0.6</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Actuator"/>
+		<entity2 rdf:resource="https://w3id.org/def/saref4bldg#Actuator"/>
+		<measure rdf:datatype="xsd:float">0.98</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Building"/>
+		<entity2 rdf:resource="https://w3id.org/def/saref4bldg#Building"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#hasValue"/>
+		<entity2 rdf:resource="https://w3id.org/saref#hasValue"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/location"/>
+		<entity2 rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#location"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/volume"/>
+		<entity2 rdf:resource="https://w3id.org/def/saref4bldg#volumen"/>
+		<measure rdf:datatype="xsd:float">0.95</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/length"/>
+		<entity2 rdf:resource="https://w3id.org/def/saref4bldg#length"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/colorTemperature"/>
+		<entity2 rdf:resource="https://w3id.org/def/saref4bldg#colorTemperature"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#height"/>
+		<entity2 rdf:resource="https://w3id.org/def/saref4bldg#height"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/thermalTransmittance"/>
+		<entity2 rdf:resource="https://w3id.org/def/saref4bldg#thermalTransmittance"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#weight"/>
+		<entity2 rdf:resource="https://w3id.org/def/saref4bldg#weight"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/apparentPower"/>
+		<entity2 rdf:resource="https://w3id.org/def/saref4bldg#apparentPowerMax"/>
+		<measure rdf:datatype="xsd:float">0.94</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

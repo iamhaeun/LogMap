@@ -1,0 +1,62 @@
+fieldset.uris {
+	width:70%;
+	background-color:#FFF;
+	border:1px solid grey;
+}
+
+fieldset.synonyms {
+	width:70%;
+	background-color:#CFC;
+	border:1px solid grey;
+}
+
+fieldset.scope {
+	width:70%;
+	background-color:#CFF;
+	border:1px solid grey;
+}
+
+fieldset.conflict {
+	width:70%;
+	background-color:#FCF;
+	border:1px solid grey;
+}
+
+
+fieldset.ambiguity {
+	width:70%;
+	background-color:#FFC;
+	border:1px solid grey;
+}
+
+
+.uris legend {
+	font-weight:bold;
+}
+
+
+.synonyms legend {
+	font-weight:bold;
+}
+
+
+.scope legend {
+	font-weight:bold;
+}
+
+.conflict legend {
+	font-weight:bold;
+}
+
+.ambiguity legend {
+	font-weight:bold;
+}
+
+
+li.mapping {
+	width:95%;
+	border-bottom-width:1px;	
+	border-bottom-style:solid;
+	border-bottom-color:grey;	
+}
+

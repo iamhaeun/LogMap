@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://krono.act.uji.es/ontology.owl</onto1>
+<onto2>http://krono.act.uji.es/ontology.owl</onto2>
+<uri1>http://krono.act.uji.es/ontology.owl</uri1>
+<uri2>http://krono.act.uji.es/ontology.owl</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/物理对象"/>
+		<entity2 rdf:resource="http://example.org/物理对象"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/运营"/>
+		<entity2 rdf:resource="http://example.org/运营"/>
+		<measure rdf:datatype="xsd:float">0.01</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/基本车辆管理者"/>
+		<entity2 rdf:resource="http://example.org/基本车辆管理者"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/驾驶员输入"/>
+		<entity2 rdf:resource="http://example.org/驾驶员输入"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/驾驶员更新"/>
+		<entity2 rdf:resource="http://example.org/驾驶员更新"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/功能对象"/>
+		<entity2 rdf:resource="http://example.org/功能对象"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/车载设备安装者"/>
+		<entity2 rdf:resource="http://example.org/车载设备安装者"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/3.2.3.4.1提供伺服控制"/>
+		<entity2 rdf:resource="http://example.org/3.2.3.4.1提供伺服控制"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/目的地"/>
+		<entity2 rdf:resource="http://example.org/目的地"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/3.2.3.4.2提供车辆控制数据接口"/>
+		<entity2 rdf:resource="http://example.org/3.2.3.4.2提供车辆控制数据接口"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/不适用"/>
+		<entity2 rdf:resource="http://example.org/不适用"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/车载设备开发者"/>
+		<entity2 rdf:resource="http://example.org/车载设备开发者"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/企业"/>
+		<entity2 rdf:resource="http://example.org/企业"/>
+		<measure rdf:datatype="xsd:float">0.01</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/信息流安全"/>
+		<entity2 rdf:resource="http://example.org/信息流安全"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/车辆"/>
+		<entity2 rdf:resource="http://example.org/车辆"/>
+		<measure rdf:datatype="xsd:float">0.01</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/要求"/>
+		<entity2 rdf:resource="http://example.org/要求"/>
+		<measure rdf:datatype="xsd:float">0.01</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/车辆控制自动化"/>
+		<entity2 rdf:resource="http://example.org/车辆控制自动化"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/驾驶员"/>
+		<entity2 rdf:resource="http://example.org/驾驶员"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/保密性"/>
+		<entity2 rdf:resource="http://example.org/保密性"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/物理视图"/>
+		<entity2 rdf:resource="http://example.org/物理视图"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/可用性"/>
+		<entity2 rdf:resource="http://example.org/可用性"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/车载设备"/>
+		<entity2 rdf:resource="http://example.org/车载设备"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/功能视图"/>
+		<entity2 rdf:resource="http://example.org/功能视图"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/3.2.3.3车辆执行器的过程数据"/>
+		<entity2 rdf:resource="http://example.org/3.2.3.3车辆执行器的过程数据"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/车载设备供应商"/>
+		<entity2 rdf:resource="http://example.org/车载设备供应商"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/维护"/>
+		<entity2 rdf:resource="http://example.org/维护"/>
+		<measure rdf:datatype="xsd:float">0.01</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/发展"/>
+		<entity2 rdf:resource="http://example.org/发展"/>
+		<measure rdf:datatype="xsd:float">0.01</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/完整性"/>
+		<entity2 rdf:resource="http://example.org/完整性"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/车载设备所有者"/>
+		<entity2 rdf:resource="http://example.org/车载设备所有者"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/中"/>
+		<entity2 rdf:resource="http://example.org/中"/>
+		<measure rdf:datatype="xsd:float">0.01</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/车辆车载设备"/>
+		<entity2 rdf:resource="http://example.org/车辆车载设备"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/信息流"/>
+		<entity2 rdf:resource="http://example.org/信息流"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/企业视图"/>
+		<entity2 rdf:resource="http://example.org/企业视图"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/安装"/>
+		<entity2 rdf:resource="http://example.org/安装"/>
+		<measure rdf:datatype="xsd:float">0.01</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/需求"/>
+		<entity2 rdf:resource="http://example.org/需求"/>
+		<measure rdf:datatype="xsd:float">0.01</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/﻿物理视图"/>
+		<entity2 rdf:resource="http://example.org/﻿物理视图"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/源"/>
+		<entity2 rdf:resource="http://example.org/源"/>
+		<measure rdf:datatype="xsd:float">0.01</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/车辆特征"/>
+		<entity2 rdf:resource="http://example.org/车辆特征"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/驾驶员提示"/>
+		<entity2 rdf:resource="http://example.org/驾驶员提示"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://example.org/高"/>
+		<entity2 rdf:resource="http://example.org/高"/>
+		<measure rdf:datatype="xsd:float">0.01</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

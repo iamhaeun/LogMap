@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"
+     xmlns:mappings="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasLocation">
+        <owl:equivalentProperty rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastLocation"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8923076923076924</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasLocation</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastLocation</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasLocation"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastLocation"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastLocation -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastLocation"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8923076923076924</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasLocation</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastLocation</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasLocation"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastLocation"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Hardware -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Hardware">
+        <owl:equivalentClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Hardware</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Hardware"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Location -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Location">
+        <owl:equivalentClass rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Location</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://mssn.sigappfr.org/mssn/Location</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Location"/>
+        <owl:annotatedTarget rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Platform -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Platform">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Platform</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Platform</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Platform"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Service -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Service">
+        <owl:equivalentClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Service</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Service"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Software -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Software">
+        <owl:equivalentClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Software</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Software"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Actuator -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Actuator">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/ns/sosa/Actuator"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Actuator</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Actuator</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Actuator"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/ns/sosa/Actuator"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device">
+        <owl:equivalentClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware">
+        <owl:equivalentClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location">
+        <owl:equivalentClass rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://mssn.sigappfr.org/mssn/Location</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location"/>
+        <owl:annotatedTarget rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Sensor</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service">
+        <owl:equivalentClass rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://mssn.sigappfr.org/mssn/Location -->
+
+    <owl:Class rdf:about="http://mssn.sigappfr.org/mssn/Location"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://mssn.sigappfr.org/mssn/Location</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location"/>
+        <owl:annotatedTarget rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Location</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://mssn.sigappfr.org/mssn/Location</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Location"/>
+        <owl:annotatedTarget rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Hardware</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Hardware"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service">
+        <owl:equivalentClass rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.daml.org/services/owl-s/1.2/Service.owl#Service</entity1>
+        <owl:annotatedSource rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+        <owl:annotatedTarget rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Service</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Service"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Software</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Software"/>
+        <owl:annotatedTarget rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#Service -->
+
+    <owl:Class rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.daml.org/services/owl-s/1.2/Service.owl#Service</entity1>
+        <owl:annotatedSource rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+        <owl:annotatedTarget rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Actuator -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Actuator"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Actuator</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Actuator</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Actuator"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/ns/sosa/Actuator"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Platform -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Platform"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Platform</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Platform</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Platform"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sensor -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Sensor"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Sensor</entity2>
+        <owl:annotatedSource rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

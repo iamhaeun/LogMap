@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"
+     xmlns:mappings="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/actsOnProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/actsOnProperty">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/seas/actsOnProperty"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/actsOnProperty</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/actsOnProperty</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/actsOnProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/actsOnProperty"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/observedProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/observedProperty">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/seas/observesProperty"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9564759036144579</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/observedProperty</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/observesProperty</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/observedProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/observesProperty"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/observes -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/observes">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/seas/observes"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/observes</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/observes</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/observes"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/usedProcedure -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/usedProcedure">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/pep/usedProcedure"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/usedProcedure</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/pep/usedProcedure</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/usedProcedure"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/pep/usedProcedure"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/hasProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/ssn/hasProperty">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/seas/hasProperty"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/hasProperty</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/hasProperty</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/hasProperty"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/hasSubSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/ssn/hasSubSystem">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/seas/hasSubSystem"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/hasSubSystem</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/hasSubSystem</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/ssn/hasSubSystem"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/hasSubSystem"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/implements -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/ssn/implements">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/pep/implements"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/implements</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/pep/implements</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/ssn/implements"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/pep/implements"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/isPropertyOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/ssn/isPropertyOf">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/seas/isPropertyOf"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/isPropertyOf</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/isPropertyOf</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/ssn/isPropertyOf"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/isPropertyOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/pep/implements -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/pep/implements"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/implements</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/pep/implements</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/ssn/implements"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/pep/implements"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/pep/usedProcedure -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/pep/usedProcedure"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/usedProcedure</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/pep/usedProcedure</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/usedProcedure"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/pep/usedProcedure"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/actsOnProperty -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/seas/actsOnProperty"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/actsOnProperty</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/actsOnProperty</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/actsOnProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/actsOnProperty"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/hasProperty -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/seas/hasProperty"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/hasProperty</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/hasProperty</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/hasProperty"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/hasSubSystem -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/seas/hasSubSystem"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/hasSubSystem</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/hasSubSystem</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/ssn/hasSubSystem"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/hasSubSystem"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/isPropertyOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/seas/isPropertyOf"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/isPropertyOf</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/isPropertyOf</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/ssn/isPropertyOf"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/isPropertyOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/observes -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/seas/observes"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/observes</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/observes</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/observes"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/observesProperty -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/seas/observesProperty"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9564759036144579</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/observedProperty</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/observesProperty</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/observedProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/observesProperty"/>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/vocommons/voaf#Vocabulary -->
+
+    <rdf:Description rdf:about="http://purl.org/vocommons/voaf#Vocabulary"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalEntity -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#TemporalEntity"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Actuation -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Actuation">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Actuation"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Actuation</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Actuation</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Actuation"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Actuator -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Actuator">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Actuator"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7450000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Actuator</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Actuator</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/Actuator"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Actuator"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/FeatureOfInterest -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/FeatureOfInterest">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/FeatureOfInterest"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/FeatureOfInterest</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/FeatureOfInterest</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/FeatureOfInterest"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Observation -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Observation">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Observation"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Observation</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Observation</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Observation"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Procedure -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Procedure">
+        <owl:equivalentClass rdf:resource="https://w3id.org/pep/Procedure"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Procedure</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/pep/Procedure</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/Procedure"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/pep/Procedure"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sensor -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Sensor">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Sensor"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.76</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Sensor</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Sensor</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Sensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Property -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/ssn/Property">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Property"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.829</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/Property</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Property</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Property"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/System -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/ssn/System">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/System"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7270000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/System</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/System</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/ssn/System"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/System"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+    
+
+
+    <!-- https://w3id.org/pep/Procedure -->
+
+    <owl:Class rdf:about="https://w3id.org/pep/Procedure"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Procedure</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/pep/Procedure</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/Procedure"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/pep/Procedure"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Actuation -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Actuation"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Actuation</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Actuation</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Actuation"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Actuator -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Actuator"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7450000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Actuator</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Actuator</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/Actuator"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Actuator"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/FeatureOfInterest -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/FeatureOfInterest"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/FeatureOfInterest</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/FeatureOfInterest</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/FeatureOfInterest"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Observation -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Observation"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Observation</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Observation</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Observation"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Property -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Property"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.829</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/Property</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Property</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Property"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Sensor -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Sensor"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.76</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/sosa/Sensor</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Sensor</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Sensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/System -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/System"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7270000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/System</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/System</entity1>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/ns/ssn/System"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/System"/>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

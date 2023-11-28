@@ -1,0 +1,425 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap#"
+     xml:base="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyte#ref-represents -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyte#ref-represents"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrument#ref-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrument#ref-type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/method#ref-methodType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/method#ref-methodType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-analysedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-analysedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-analyte -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-analyte"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-approvedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-approvedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-instrument -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-instrument"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-measurementUnit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-measurementUnit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-method -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-method"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-sample -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-sample"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-transcriptionMethod -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#ref-transcriptionMethod"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unit#ref-represents -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unit#ref-represents"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyst#NINumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyst#NINumber"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyst#analystId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyst#analystId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyst#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyst#name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyte#analyteId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyte#analyteId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyte#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyte#label"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyte#represents -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyte#represents"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyteStandards#analyteId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyteStandards#analyteId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyteStandards#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyteStandards#label"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrument#instrumentId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrument#instrumentId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrument#serialNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrument#serialNumber"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrument#type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrument#type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrumentType#instrumentTypeId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrumentType#instrumentTypeId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrumentType#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrumentType#label"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/method#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/method#label"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/method#methodId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/method#methodId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/method#methodType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/method#methodType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/methodStandards#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/methodStandards#label"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/methodStandards#methodId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/methodStandards#methodId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#analysedBy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#analysedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#analyte -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#analyte"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#approvedBy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#approvedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#completionTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#completionTime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#instrument -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#instrument"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#measurementUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#measurementUnit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#measurmentValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#measurmentValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#method -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#method"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#resultId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#resultId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#sample -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#sample"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#transcriptionMethod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#transcriptionMethod"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/sample#reference -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/sample#reference"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/sample#sampleId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/sample#sampleId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/transcriptionMethod#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/transcriptionMethod#label"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/transcriptionMethod#transcriptionMethodId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/transcriptionMethod#transcriptionMethodId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unit#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unit#label"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unit#multiplier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unit#multiplier"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unit#represents -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unit#represents"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unit#unitId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unit#unitId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unitStandards#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unitStandards#label"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unitStandards#unitId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unitStandards#unitId"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyst -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyst"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyte"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyteStandards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/analyteStandards"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrument"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrumentType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrumentType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/method"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/methodStandards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/methodStandards"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/sample -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/sample"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/transcriptionMethod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/transcriptionMethod"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unitStandards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/unitStandards"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

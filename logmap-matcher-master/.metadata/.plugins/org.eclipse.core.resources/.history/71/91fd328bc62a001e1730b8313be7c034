@@ -1,0 +1,1737 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.agfa.com/w3c/2009/drugTherapy#"
+     xml:base="http://www.agfa.com/w3c/2009/drugTherapy"
+     xmlns:relaMath="http://sweet.jpl.nasa.gov/2.3/relaMath.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:quantities="http://eulersharp.sourceforge.net/2003/03swap/quantities#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:drugTherapy="http://www.agfa.com/w3c/2009/drugTherapy#"
+     xmlns:relaSci="http://sweet.jpl.nasa.gov/2.3/relaSci.owl#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.agfa.com/w3c/2009/drugTherapy">
+        <dc:publisher xml:lang="en">Agfa Healthcare/Belgium</dc:publisher>
+        <rdfs:comment xml:lang="en">Copyright (c) 2009 Agfa-Gevaert Group and Ghent University - IBBT/ELIS - Multimedia Lab. All Rights Reserved. THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE OF Agfa-Gevaert Group and Ghent University - IBBT/ELIS - Multimedia Lab The copyright notice above does not evidence any actual or intended publication of such source code.</rdfs:comment>
+        <dc:title xml:lang="en">Drug Therapy</dc:title>
+        <dc:description xml:lang="en">Formal general description of clinical drug therapy.</dc:description>
+        <dc:creator xml:lang="en">Hans Cools, MD; Agfa Healthcare/Belgium</dc:creator>
+        <dc:format xml:lang="en">OWL-Full</dc:format>
+        <dc:contributor xml:lang="en">Until 2010: Pieterjan De Potter; Ghent University - IBBT/ELIS - Multimedia Lab/Belgium</dc:contributor>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/quantities#unitOf -->
+
+    <owl:AnnotationProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/quantities#unitOf"/>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/relaMath.owl#hasOperand -->
+
+    <owl:AnnotationProperty rdf:about="http://sweet.jpl.nasa.gov/2.3/relaMath.owl#hasOperand"/>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/relaMath.owl#toThePower -->
+
+    <owl:AnnotationProperty rdf:about="http://sweet.jpl.nasa.gov/2.3/relaMath.owl#toThePower"/>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/relaSci.owl#hasBaseUnit -->
+
+    <owl:AnnotationProperty rdf:about="http://sweet.jpl.nasa.gov/2.3/relaSci.owl#hasBaseUnit"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasAdministrationInstructions -->
+
+    <owl:AnnotationProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasAdministrationInstructions">
+        <rdfs:comment xml:lang="en">E.g. &apos;30 min before breakfast&apos;.</rdfs:comment>
+        <skos:definition xml:lang="en">Specifying instructions for clinical drug administration.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Package"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasGenericName -->
+
+    <owl:AnnotationProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasGenericName">
+        <skos:definition xml:lang="en">Specifying a generic name of a clinical drug.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/agent#hasAgent -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/agent#hasAgent"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/agent#hasDonor -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/agent#hasDonor"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/agent#hasRecipient -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/agent#hasRecipient"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/agent#rolePlayedBy -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/agent#rolePlayedBy"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#hasObject -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#hasObject"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#hasOutput -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#hasOutput"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#hasSubProcedure -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#hasSubProcedure"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#outputOf -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#outputOf"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#whereinDelivered -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#whereinDelivered"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/quantities#frequencyOf -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/quantities#frequencyOf"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/quantities#hasFrequency -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/quantities#hasFrequency"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/quantities#hasMeasurement -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/quantities#hasMeasurement"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/quantities#hasPhysicalQuantity -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/quantities#hasPhysicalQuantity"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/quantities#hasUnit -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/quantities#hasUnit"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/space#containedBy -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/space#containedBy"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/space#contains -->
+
+    <owl:ObjectProperty rdf:about="http://eulersharp.sourceforge.net/2003/03swap/space#contains"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#administrationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#administrationOf"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#gotPrescribed -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#gotPrescribed"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#hasActivePart -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#hasActivePart"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#prescribedFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#prescribedFor"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#whereinAdministered -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#whereinAdministered"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#whereinPrescribed -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#whereinPrescribed"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#activePartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#activePartOf">
+        <skos:definition xml:lang="en">Specifying a drug product containing a clinical drug as active part.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Product"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+        <owl:inverseOf rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#hasActivePart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#administrationFormOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#administrationFormOf">
+        <skos:definition xml:lang="en">Specifying a clinical drug dosage having a clinical drug administration form.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#AdministrationForm"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Dosage"/>
+        <owl:inverseOf rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#hasAdministrationForm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#affects -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#affects">
+        <skos:definition xml:lang="en">Specifying a drug affecting another one in an interaction.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#dosageOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#dosageOf">
+        <skos:definition xml:lang="en">Specifying an administration of a clinical drug dosage.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Administration"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Dosage"/>
+        <owl:inverseOf rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#hasDosage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#excipientOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#excipientOf">
+        <skos:definition xml:lang="en">Specifying a drug product containing a non active part.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/space#containedBy"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Excipient"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Product"/>
+        <owl:inverseOf rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#hasExcipient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#gotPrescribed -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#gotPrescribed">
+        <skos:definition xml:lang="en">Specifying a clinical drug package a patient got prescribed.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#gotPrescribed"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Package"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/healthCare#Patient"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasActivePart -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasActivePart">
+        <skos:definition xml:lang="en">Specifying a clinical drug as active part of a drug product.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#hasActivePart"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Product"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasAdministrationForm -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasAdministrationForm">
+        <skos:definition xml:lang="en">Specifying an administration form of a clinical drug dosage.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#AdministrationForm"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Dosage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasAdministrationSite -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasAdministrationSite">
+        <skos:definition xml:lang="en">Specifying a administration body site of a drug administration form as used in a clinical drug administering.</skos:definition>
+        <rdfs:range rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/humanBody#Structure"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#AdministrationForm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasAffectedDrug -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasAffectedDrug">
+        <skos:definition xml:lang="en">Specifying a drug affected by another one with which it is interacting.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Interacting"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasAffectedDrugInteractionState -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasAffectedDrugInteractionState">
+        <skos:definition xml:lang="en">Specifying an affected drug&apos;s interaction state.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Interacting"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#InteractionState"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasAffectingDrug -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasAffectingDrug">
+        <skos:definition xml:lang="en">Specifying a drug affecting another one with which it is interacting.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Interacting"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasAffectingDrugInteractionState -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasAffectingDrugInteractionState">
+        <skos:definition xml:lang="en">Specifying an affecting drug&apos;s interaction state.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Interacting"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#InteractionState"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasConcentration -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasConcentration">
+        <skos:definition xml:lang="en">Specifying a concentration or &apos;strength&apos; of a drug substance.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/quantities#hasPhysicalQuantity"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Concentration"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasDeliveryCondition -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasDeliveryCondition">
+        <skos:definition xml:lang="en">Specifying the delivery condition of a clinical drug as commercially available.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#DeliveryCondition"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Package"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasDosage -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasDosage">
+        <skos:definition xml:lang="en">Specifying a clinical drug dosage of an administration.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Administration"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Dosage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasDosageQuantity -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasDosageQuantity">
+        <skos:definition xml:lang="en">Specifying an administration form quantity of a clinical drug dosage.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/quantities#hasPhysicalQuantity"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Dosage"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#DosageQuantity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasExcipient -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasExcipient">
+        <skos:definition xml:lang="en">Specifying a non active part of a drug product.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/space#contains"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Excipient"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasMarketState -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasMarketState">
+        <skos:definition xml:lang="en">Specifying the market state of a clinical drug as commercially available.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#MarketState"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Package"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#interactionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#interactionOf">
+        <skos:definition xml:lang="en">Specifying a drug of an interaction.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Interaction"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#prescribedFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#prescribedFor">
+        <skos:definition xml:lang="en">Specifying a human patient that got a clinical drug package prescribed.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#prescribedFor"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Package"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/healthCare#Patient"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#whereinAdministered -->
+
+    <owl:ObjectProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#whereinAdministered">
+        <skos:definition xml:lang="en">Specifying a drug administered in a clinical therapy.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:range rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Therapy"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#hasSubProcedure"/>
+            <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#whereinAdministered"/>
+            <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/space#contains"/>
+            <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasActivePart"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasAdministrationInstructions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasAdministrationInstructions">
+        <rdfs:comment xml:lang="en">E.g. &apos;30 min before breakfast&apos;.</rdfs:comment>
+        <skos:definition xml:lang="en">Specifying instructions for clinical drug administration.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasGenericName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasGenericName">
+        <skos:definition xml:lang="en">Specifying a generic name of a clinical drug.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasRefills -->
+
+    <owl:DatatypeProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasRefills">
+        <skos:definition xml:lang="en">Specifying a number of refills that can be done before a new prescription is needed.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Package"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#hasUnitsPerPackage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#hasUnitsPerPackage">
+        <skos:definition xml:lang="en">Specifying the number of drug administration form units in a package.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <rdfs:domain rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#AdministrationForm"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/agent#DrugSubstance -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/agent#DrugSubstance"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/agent#Role -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/agent#Role"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#Condition -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#Condition"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#Delivering -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#Delivering"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#Delivery -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#Delivery"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/event#Interaction -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/event#Interaction"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/humanBody#Structure -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/humanBody#Structure"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/physicalResource#Compound -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/physicalResource#Compound"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/physicalResource#Product -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/physicalResource#Product"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/quantities#Concentration -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/quantities#Concentration"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/quantities#Frequency -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/quantities#Frequency"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/quantities#PhysicalQuantity -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/quantities#PhysicalQuantity"/>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/units#Unit -->
+
+    <owl:Class rdf:about="http://eulersharp.sourceforge.net/2003/03swap/units#Unit"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error7 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error7"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error8 -->
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error8"/>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/reprSciUnits.owl#UnitDefinedByProduct -->
+
+    <owl:Class rdf:about="http://sweet.jpl.nasa.gov/2.3/reprSciUnits.owl#UnitDefinedByProduct"/>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/reprSciUnits.owl#UnitDerivedByRaisingToPower -->
+
+    <owl:Class rdf:about="http://sweet.jpl.nasa.gov/2.3/reprSciUnits.owl#UnitDerivedByRaisingToPower"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalEvaluation#DiagnosticRole -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalEvaluation#DiagnosticRole"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalObservation#Finding -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalObservation#Finding"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#AdministrableSubstance -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#AdministrableSubstance"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#Interacting -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#Interacting"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#Prescribing -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#Prescribing"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#Prescription -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#Prescription"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#PreventiveRole -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#PreventiveRole"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#PrimaryPreventing -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#PrimaryPreventing"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#Procedure -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#Procedure"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#Substance -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#Substance"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/clinicalProcedure#SubstanceAdministering -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#SubstanceAdministering"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#ActiveImmunisation -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#ActiveImmunisation">
+        <rdfs:label xml:lang="en">active immunisation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Immunisation"/>
+        <skos:definition xml:lang="en">Making a human body immune by letting it form antibodies to a pathogen.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Administering -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Administering">
+        <rdfs:label xml:lang="en">clinical drug administering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#SubstanceAdministering"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasOutput"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Administration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasObject"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#AdministrationForm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#whereinAdministered"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#AdministrationForm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/quantities#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#AdministeringFrequency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Administering a clinical drug to a patient.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#AdministeringFrequency -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#AdministeringFrequency">
+        <rdfs:label xml:lang="en">clinical drug administering frequency</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/quantities#Frequency"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/quantities#frequencyOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Administering"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Frequency of clinical drug administering.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Administration -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Administration">
+        <rdfs:label xml:lang="en">clinical drug administration</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#outputOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Administering"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#administrationOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#AdministrationForm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Output of clinical drug administering.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#AdministrationForm -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#AdministrationForm">
+        <rdfs:label xml:lang="en">clinical drug administration form</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/physicalResource#Product"/>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#AdministrableSubstance"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/space#contains"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Form in which a clinical drug product is administered.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#AdministrationFormQuantity -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#AdministrationFormQuantity">
+        <rdfs:label xml:lang="en">clinical drug administration form quantity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/quantities#PhysicalQuantity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/quantities#hasMeasurement"/>
+                <owl:allValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/quantities#hasUnit"/>
+                        <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#administrationFormUnit"/>
+                    </owl:Restriction>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">E.g. 3 tablets.</rdfs:comment>
+        <skos:definition xml:lang="en">Quantity of a drug administration form of which the unit is the drug administration form itself.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#AdverseReaction -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#AdverseReaction">
+        <rdfs:label xml:lang="en">adverse drug reaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/humanRiskFactors#RiskFactor"/>
+        <skos:definition xml:lang="en">An adverse reaction associated with the use of a clinical drug at a normal dose.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#icpc2"/>
+            </rdf:Description>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#icd10"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#CombiPackage -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#CombiPackage">
+        <rdfs:label xml:lang="en">clinical drug combination package</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/physicalResource#Product"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/space#contains"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Package"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/space#contains"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Clinical drug package containing more than 1 administration form, each in its own package.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Compound -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Compound">
+        <rdfs:label xml:lang="en">clinical drug compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Product"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#hasActivePart"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Clinical drug product containing more than 1 active substance.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Concentration -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Concentration">
+        <rdfs:label xml:lang="en">clinical drug strength</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/quantities#Concentration"/>
+        <skos:definition xml:lang="en">Concentration of a clinical drug as active substance in an administration form.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Delivering -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Delivering">
+        <rdfs:label xml:lang="en">clinical drug delivering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#Delivering"/>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#Procedure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#hasDonor"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/healthCare#Pharmacist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasOutput"/>
+                <owl:allValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Delivery"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#hasRecipient"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/healthCare#Patient"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Pharmacist handing over a clinical drug to a patient.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Delivery -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Delivery">
+        <rdfs:label xml:lang="en">clinical drug delivered</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#Delivery"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#outputOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Delivering"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#whereinDelivered"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Package"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Clinical drug handed over by a pharmacist to a patient.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#DeliveryCondition -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#DeliveryCondition">
+        <rdfs:label xml:lang="en">clinical drug delivery condition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#Condition"/>
+        <skos:definition xml:lang="en">Condition to be satisfied in order for a clinical drug to be delivered.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Dosage -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Dosage">
+        <rdfs:label xml:lang="en">clinical drug dosage</rdfs:label>
+        <skos:definition xml:lang="en">Clinical drug administration form dosed in a quantity, as output of clinical drug dosing, given at one time.</skos:definition>
+        <rdfs:comment xml:lang="en">E.g. 3 (x 1) tablets, 3 x 5 ml sirup (= 3 tsp sirup).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#DosageQuantity -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#DosageQuantity">
+        <rdfs:label xml:lang="en">clinical drug administration form dosage quantity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error7"/>
+        <rdfs:comment xml:lang="en">E.g. 3 (x 1) tablets, 3 x 5 ml (= 3 tsp) (sirup).</rdfs:comment>
+        <skos:definition xml:lang="en">Quantity in which a clinical drug administration form is dosed.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Excipient -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Excipient">
+        <rdfs:label xml:lang="en">clinical drug product excipient</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#Substance"/>
+        <skos:definition xml:lang="en">Substance added to a clinical drug product, having an effect other than a clinical drug substance; cf http://www.agfa.com/w3c/2009/drugExcipients#.</skos:definition>
+        <skos:note xml:lang="en">cf http://www.agfa.com/w3c/2009/drugExcipients#.</skos:note>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#ExcipientRole -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#ExcipientRole">
+        <rdfs:label xml:lang="en">clinical drug product excipient role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#Role"/>
+        <skos:definition xml:lang="en">Role of a clinical drug product excipient.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#ExperimentalSubstance -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#ExperimentalSubstance">
+        <rdfs:label xml:lang="en">experimental clinical drug</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+        <skos:definition xml:lang="en">Substance used as drug in an experimental clinical setting.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Immunisation -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Immunisation">
+        <rdfs:label xml:lang="en">immunisation</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/clinicalProcedure#PrimaryPreventing"/>
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Therapy"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition xml:lang="en">Making a human body immune to a pathogen.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Interacting -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Interacting">
+        <rdfs:label xml:lang="en">drug interacting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#Interacting"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasOutput"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Interaction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">An interacting involving 2 or more agents of which at least 1 is a clinical drug.</skos:definition>
+        <skos:note xml:lang="en">Not limited to direct interaction between agents.</skos:note>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Interaction -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Interaction">
+        <rdfs:label xml:lang="en">drug interaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#Interaction"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#outputOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Interacting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasObject"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/clinicalObservation#Finding"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Output of drug interacting.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#InteractionState -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#InteractionState">
+        <rdfs:label xml:lang="en">interaction state</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#interactionUnknown"/>
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#interactionUnlikely"/>
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#interactionDocumented"/>
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#interactionExpected"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition xml:lang="en">State of a clinical drug interaction.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#MarketState -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#MarketState">
+        <rdfs:label xml:lang="en">clinical drug market state</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#onMarket"/>
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#approvalSuspended"/>
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#pulledOffMarket"/>
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#pulledOffMarketByCompany"/>
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#outOfMarket"/>
+                    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#marketStateUnknown"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition xml:lang="en">State of a clinical drug on the pharmaceutical market.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Monotherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Monotherapy">
+        <rdfs:label xml:lang="en">monodrug therapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Therapy"/>
+        <skos:definition xml:lang="en">Clinical therapy implying administration of 1 drug at a time.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Package -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Package">
+        <rdfs:label xml:lang="en">clinical drug package</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/physicalResource#Product"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/space#contains"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#PackageUnit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Clinical drug as available for purchase.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#PackageUnit -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#PackageUnit">
+        <rdfs:label xml:lang="en">clinical drug package unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/physicalResource#Product"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/space#contains"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#AdministrationForm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">E.g. tablet, ampoule, infusion bag, bottle.</rdfs:comment>
+        <skos:definition xml:lang="en">Individually packaged clinical drug administration form unit.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#PackageUnitQuantity -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#PackageUnitQuantity">
+        <rdfs:label xml:lang="en">clinical drug package unit quantity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error8"/>
+        <rdfs:comment xml:lang="en">E.g. an injection solution available in 3 milliliter.</rdfs:comment>
+        <skos:definition xml:lang="en">Quantity in which a clinical drug administration form is available.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Polytherapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Polytherapy">
+        <rdfs:label xml:lang="en">polydrug therapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Therapy"/>
+        <skos:definition xml:lang="en">Clinical therapy implying administration of 2 or more drugs simultaneously.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Prescribing -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Prescribing">
+        <rdfs:label xml:lang="en">clinical drug prescribing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#Prescribing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasOutput"/>
+                <owl:allValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Prescription"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Clinical prescribing, describing one or more drugs and how to administer them.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Prescription -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Prescription">
+        <rdfs:label xml:lang="en">clinical drug prescription</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#Prescription"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#whereinPrescribed"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Dosage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#whereinPrescribed"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Package"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#outputOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Prescribing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#whereinPrescribed"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#AdministeringFrequency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Clinical prescription as outcome of clinical drug prescribing.</skos:definition>
+        <rdfs:comment xml:lang="en">E.g. R/ Glucophage 500 mg; DT/ 1 package 60 tablets; S/ 3 x 1 tablet/day.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Product -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Product">
+        <rdfs:label xml:lang="en">clinical drug product</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/physicalResource#Compound"/>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/physicalResource#Product"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/space#containedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#AdministrationForm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:note xml:lang="en">A placebo does not contain a known active part.</skos:note>
+        <skos:definition xml:lang="en">Clinical drug as suitable for administration.</skos:definition>
+        <rdfs:comment xml:lang="en">Clinical drug usually produced by a pharmaceutical company.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Role -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Role">
+        <rdfs:label xml:lang="en">clinical drug role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalEvaluation#DiagnosticRole"/>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#PreventiveRole"/>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#TherapeuticRole"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#rolePlayedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Substance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Role of a clinical drug substance.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Substance -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Substance">
+        <rdfs:label xml:lang="en">clinical drug substance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#DrugSubstance"/>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/clinicalProcedure#Substance"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/agent#playsRole"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Role"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Substance, when absorbed into a patient&apos;s body, aims at restoring a function or preventing a deterioration.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#Therapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#Therapy">
+        <rdfs:label xml:lang="en">clinical drug therapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/event#hasSubProcedure"/>
+                <owl:someValuesFrom rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#Administering"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">Clinical therapy implying administration of a drug.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#administrationFormUnit -->
+
+    <rdf:Description rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#administrationFormUnit">
+        <rdfs:label xml:lang="en">clinical drug administration form unit</rdfs:label>
+        <skos:definition xml:lang="en">Clinical drug administration form as unit.</skos:definition>
+        <rdfs:comment xml:lang="en">E.g. a tablet, a capsule.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/healthCare#Patient -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/healthCare#Patient"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/healthCare#Pharmacist -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/healthCare#Pharmacist"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/humanRiskFactors#RiskFactor -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/humanRiskFactors#RiskFactor"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#TherapeuticRole -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#TherapeuticRole"/>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/therapy#Therapy -->
+
+    <owl:Class rdf:about="http://www.agfa.com/w3c/2009/therapy#Therapy"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#administrationFormUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#administrationFormUnit">
+        <rdf:type rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/units#Unit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#approvalSuspended -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#approvalSuspended">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#MarketState"/>
+        <rdfs:label xml:lang="en">clinical drug approval suspended</rdfs:label>
+        <skos:definition xml:lang="en">Clinical drug of which the approval for marketing has been suspended.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#freeOfPrescription -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#freeOfPrescription">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#DeliveryCondition"/>
+        <rdfs:label xml:lang="en">free of prescription</rdfs:label>
+        <skos:definition xml:lang="en">Clinical drug that can be delivered without the need of a prescription of a medical professional.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#interactionDocumented -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#interactionDocumented">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#InteractionState"/>
+        <rdfs:label xml:lang="en">interaction documented</rdfs:label>
+        <skos:definition xml:lang="en"> .</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#interactionExpected -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#interactionExpected">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#InteractionState"/>
+        <rdfs:label xml:lang="en">interaction expected</rdfs:label>
+        <skos:definition xml:lang="en"> .</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#interactionUnknown -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#interactionUnknown">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#InteractionState"/>
+        <rdfs:label xml:lang="en">interaction unknown</rdfs:label>
+        <skos:definition xml:lang="en"> .</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#interactionUnlikely -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#interactionUnlikely">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#InteractionState"/>
+        <rdfs:label xml:lang="en">interaction unlikely</rdfs:label>
+        <skos:definition xml:lang="en"> .</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#marketStateUnknown -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#marketStateUnknown">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#MarketState"/>
+        <rdfs:label xml:lang="en">clinical drug market state unknown</rdfs:label>
+        <skos:definition xml:lang="en">Clinical drug of which the market state is unknown.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#milligramPerCapsule -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#milligramPerCapsule">
+        <rdf:type rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/units#Unit"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/reprSciUnits.owl#UnitDefinedByProduct"/>
+        <rdfs:label xml:lang="en">milligram per capsule</rdfs:label>
+        <skos:definition xml:lang="en">Unit of a concentration of a clinical drug in mg in a capsule.</skos:definition>
+        <relaMath:hasOperand rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/units#milligram"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <relaMath:hasOperand rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#perCapsule"/>
+        <quantities:unitOf>
+            <rdf:Description/>
+        </quantities:unitOf>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#milligramPerTablet -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#milligramPerTablet">
+        <rdf:type rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/units#Unit"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/reprSciUnits.owl#UnitDefinedByProduct"/>
+        <rdfs:label xml:lang="en">milligram per tablet</rdfs:label>
+        <skos:definition xml:lang="en">Unit of a concentration of a clinical drug in mg in a tablet.</skos:definition>
+        <relaMath:hasOperand rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/units#milligram"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <relaMath:hasOperand rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#perTablet"/>
+        <quantities:unitOf>
+            <rdf:Description/>
+        </quantities:unitOf>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#narcoticDeliveryCondition -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#narcoticDeliveryCondition">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#DeliveryCondition"/>
+        <rdfs:label xml:lang="en">narcotic delivery condition</rdfs:label>
+        <skos:definition xml:lang="en">Narcotic clinical drug that can be delivered only on special prescription of a medical professional.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#onMarket -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#onMarket">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#MarketState"/>
+        <rdfs:label xml:lang="en">clinical drug on market</rdfs:label>
+        <skos:definition xml:lang="en">Clinical drug present on the pharmaceutical market.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#outOfMarket -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#outOfMarket">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#MarketState"/>
+        <rdfs:label xml:lang="en">clinical drug out of market</rdfs:label>
+        <skos:definition xml:lang="en">Clinical drug absent from the pharmaceutical market.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#perCapsule -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#perCapsule">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/reprSciUnits.owl#UnitDerivedByRaisingToPower"/>
+        <rdfs:label xml:lang="en">per capsule</rdfs:label>
+        <relaMath:toThePower rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.0</relaMath:toThePower>
+        <skos:definition xml:lang="en">Per capsule as unit of concentration.</skos:definition>
+        <relaSci:hasBaseUnit rdf:resource="http://www.agfa.com/w3c/2009/drugAdministrationForms#Capsule"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <skos:exactMatch>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <skos:inScheme rdf:resource="http://www.agfa.com/w3c/2009/clinicalSKOSSchemes#sct20080731"/>
+            </rdf:Description>
+        </skos:exactMatch>
+        <quantities:unitOf>
+            <rdf:Description/>
+        </quantities:unitOf>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#perTablet -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#perTablet">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/reprSciUnits.owl#UnitDerivedByRaisingToPower"/>
+        <rdfs:label xml:lang="en">per tablet</rdfs:label>
+        <relaMath:toThePower rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.0</relaMath:toThePower>
+        <skos:definition xml:lang="en">Per tablet as unit of mass concentration.</skos:definition>
+        <relaSci:hasBaseUnit rdf:resource="http://www.agfa.com/w3c/2009/drugAdministrationForms#Tablet"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+        <quantities:unitOf>
+            <rdf:Description/>
+        </quantities:unitOf>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#pulledOffMarket -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#pulledOffMarket">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#MarketState"/>
+        <rdfs:label xml:lang="en">clinical drug pulled off market</rdfs:label>
+        <skos:definition xml:lang="en">Clinical drug pulled off the pharmaceutical market.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#pulledOffMarketByCompany -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#pulledOffMarketByCompany">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#MarketState"/>
+        <rdfs:label xml:lang="en">clinical drug pulled off market by company</rdfs:label>
+        <skos:definition xml:lang="en">Clinical drug pulled off the pharmaceutical market by the producing pharmaceutical company.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#subjectToPrescription -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#subjectToPrescription">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#DeliveryCondition"/>
+        <rdfs:label xml:lang="en">subject to prescription</rdfs:label>
+        <skos:definition xml:lang="en">Clinical drug that can be delivered only on prescription of a medical professional.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.agfa.com/w3c/2009/drugTherapy#subjectToPrescriptionWithExceptions -->
+
+    <owl:NamedIndividual rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#subjectToPrescriptionWithExceptions">
+        <rdf:type rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#DeliveryCondition"/>
+        <rdfs:label xml:lang="en">subject to prescription with exceptions</rdfs:label>
+        <skos:definition xml:lang="en">Clinical drug that can be delivered, with some exceptions, only on prescription of a medical professional.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="http://www.agfa.com/w3c/2009/drugTherapy#"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

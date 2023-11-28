@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>https://w3id.org/seas/FlexibilityOntology-1.0</onto1>
+<onto2>https://w3id.org/seas/FlexibilityOntology-1.0</onto2>
+<uri1>https://w3id.org/seas/FlexibilityOntology-1.0</uri1>
+<uri2>https://w3id.org/seas/FlexibilityOntology-1.0</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/HumiditySensor"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Humidity_Sensor"/>
+		<measure rdf:datatype="xsd:float">0.74</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Bypass"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Bypass_Air"/>
+		<measure rdf:datatype="xsd:float">0.61</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/WaterMeter"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Water_Meter"/>
+		<measure rdf:datatype="xsd:float">0.85</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Zone"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Zone"/>
+		<measure rdf:datatype="xsd:float">0.71</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Floor"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Floor"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+		<entity2 rdf:resource="http://schema.org#Person"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Battery"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Battery"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/ElectricityMeter"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Electrical_Meter"/>
+		<measure rdf:datatype="xsd:float">0.57</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/System"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#System"/>
+		<measure rdf:datatype="xsd:float">0.75</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Building"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Building"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Room"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Room"/>
+		<measure rdf:datatype="xsd:float">0.72</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/SolarPanel"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Solar_Panel"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Sensor"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Usage_Sensor"/>
+		<measure rdf:datatype="xsd:float">0.52</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Sensor"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Sensor"/>
+		<measure rdf:datatype="xsd:float">0.73</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Lighting"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Lighting"/>
+		<measure rdf:datatype="xsd:float">0.83</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/FeatureOfInterest"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa#FeatureOfInterest"/>
+		<measure rdf:datatype="xsd:float">0.73</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/ElectricPowerSystem"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Electrical_System"/>
+		<measure rdf:datatype="xsd:float">0.54</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/GasMeter"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Gas_Meter"/>
+		<measure rdf:datatype="xsd:float">0.8</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#Location"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Location"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Meter"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Meter"/>
+		<measure rdf:datatype="xsd:float">0.87</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Elevator"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Elevator"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://schema.org/Person"/>
+		<entity2 rdf:resource="http://schema.org#Person"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/controlledBy"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#isControlledBy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/party"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#hasPart"/>
+		<measure rdf:datatype="xsd:float">0.93</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/ElectricEnergy"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Electric_Energy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/ThermalEnergy"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Thermal_Energy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/ThermalEnergy"/>
+		<entity2 rdf:resource="http://qudt.org/vocab/quantitykind/ThermalEnergy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/PhotovoltaicOntology"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/BrickTag#Photovoltaic"/>
+		<measure rdf:datatype="xsd:float">0.85</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/ZoneLightingOntology"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Lighting_Zone"/>
+		<measure rdf:datatype="xsd:float">0.85</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/HeatEnergy"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/Brick#Energy"/>
+		<measure rdf:datatype="xsd:float">0.85</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/HeatEnergy"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/BrickTag#Energy"/>
+		<measure rdf:datatype="xsd:float">0.85</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#COD"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/BrickTag#Code"/>
+		<measure rdf:datatype="xsd:float">0.9</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#unitYear"/>
+		<entity2 rdf:resource="https://brickschema.org/schema/1.1/BrickTag#Unit"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>LogMap Web Access</title>
+  <script src="ajax_http.js" type="text/javascript"></script>
+  <script src="ajax_logmap2.3.js" type="text/javascript"></script>    
+  <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<a href="http://www.cs.ox.ac.uk/isg/tools/LogMap/" target="_blank"><img src="./LM_logo.jpg" height="50" border="0"></a>
+<div class="fb-like-box" data-href="http://www.facebook.com/pages/LogMap-Project/154761667954096" data-width="292" data-show-faces="false" data-stream="false" data-header="true"></div>
+
+<!--
+<p>
+LogMap is highly scalable ontology matching system with 'built-in' reasoning and diagnosis capabilities.
+LogMap can deal with semantically rich ontologies containing tens (and even hundreds) of thousands of classes
+such as NCI, FMA and SNOMED CT.
+
+In contrast to most existing tools, LogMap also implements algorithms for 'on the fly' unsatisfiability detection and
+repair. Hence, LogMap is able to produce a 'clean' set of output mappings in many cases, in the sense that the
+ontology obtained by integrating LogMap's output mappings with the input ontologies is consistent and does not contain 
+unsatisfiable classes. 
+</p>
+-->
+
+<br>
+
+<!--OUTPUT DIV: we will delete the form when showing the output -->
+<div id="results">
+
+<a href="http://www.cs.ox.ac.uk/isg/tools/LogMap/" target="_blank">LogMap tool webpage</a><br />
+<a href="http://code.google.com/p/logmap-matcher/" target="_blank">LogMap at Google code</a>
+
+
+<br /> <br />
+
+LogMap's web facility has been sucessfuly tested with <a href="http://www.mozilla.org/firefox/" target="_blank">Firefox</a>, <a href="https://www.google.com/chrome" target="_blank">Chrome</a> and <a href="http://www.konqueror.org/" target="_blank">Konqueror</a>. <FONT COLOR="red">It may fail with iExplorer.</FONT>
+
+
+<br /> <br /> <br />
+
+
+<!--FORM INPUT DATA-->
+<div id="form">
+
+<fieldset>
+<legend><b>Requester Information</b></legend>
+
+	<br />
+	<div id="information" style="margin-left: 10px;">
+                <table>
+                <tr> <td>Name:</td> <td><input type="text" name="name" id="name" size="50"/ > (*) </td> </tr>
+                <tr> <td>&nbsp;</td> <td>&nbsp;</td></tr>
+                <tr> <td>Institution:</td> <td><input type="text" name="org" id="org" size="50"/> (*) </td> </tr>
+                <tr> <td>&nbsp;</td> <td>&nbsp;</td></tr>
+                <tr> <td>Project:</td> <td><input type="text" name="prj" id="prj" size="50"/> </td> </tr>
+                <tr> <td>&nbsp;</td> <td>&nbsp;</td></tr>
+                <tr> <td>E-mail:</td> <td><input type="text" name="email" id="email" size="50"/> (*) </td> </tr>
+                </table>
+                <p>(*) Mandatory fields. Note that we will ONLY send you 2 or 3 e-mails concerning the progress of the matching task. <FONT COLOR="red">Please insert real data so that we can contact you in case of error.</FONT></p>
+        </div>
+	
+</fieldset>
+
+<br /> <br />
+
+
+
+
+<fieldset>
+<legend><b>Input Ontologies</b></legend>
+	
+	<br />
+	
+	<p>We accept the same ontology formats as the <a href="http://owlapi.sourceforge.net/" target="blank">OWL API</a>: e.g., RDF/XML, OWL/XML, OWL Functional, OBO, KRSS, and Turtle.</p>
+	<p>Additionally, compressed ontologies using 'ZIP' file format are also accepted (recommended for large files or slow internet connections).</p>
+	<br />
+
+
+	<input type="checkbox" name="store" id="store" value="store ontologies" checked/> 
+	<label for="store">Store ontologies in LogMap's library (the URI of the input ontologies will be public)</label><br />
+
+
+	<br />
+	<br />
+
+	
+
+	<fieldset>
+	<legend><b>Ontology 1</b></legend>
+	<br />
+	<input type="radio" name="ontoinput1" id="webiri1" value="Web1" checked/>
+	<label for="webiri1"><b>Web ontology URI</b></label>  <i>(must be accessible URIs starting with 'http://', or 'ftp://') </i><br /> <br />
+	
+	<div id="web_iris1" style="margin-left: 40px;">
+		<table>
+			<tr> <td>URI Ontology 1:</td> <td><input type="text" name="uri_onto1_name" id="uri_onto1" size="75"/>  </td> </tr>
+			<tr> <td>&nbsp;</td>  <td> <div id="library1"> <select name="ontos_lib1" id="ontos_lib1" onChange="updateURI1(this.value);" onClick="updateURI1(this.value);"></select> </div> </td> </tr>
+		</table>
+		<!--URI Ontology 2: <input type="text" name="uri_onto2_name" id="uri_onto2" size="75"/> <br />-->
+		<br />
+	</div>
+
+	<input type="radio" name="ontoinput1" id="localiri1" value="Local1"/>
+	<label for="localiri1"><b>Local ontology file</b></label><br /> <br />
+
+	<div id="local_files1" style="margin-left: 40px;">
+		
+		<table>
+			<tr> <td>Local File Ontology 1:</td> <td><input type="file" name="local_onto1_name" id="local_onto1" disabled=true size="75"/> </td>  <td><button id="upload_onto1_button" disabled=true>Upload Ontology 1</button> 				</td> </tr>
+			<tr> <td>&nbsp;</td> <td><i>Uploaded Ontology URI 1:</i> <input type="text" name="upload_onto1_name" id="uploaded_ontology1" disabled=true size="59"/> </td>  <td id="out_upload1"> </td> </tr>			
+		</table>
+
+	</div>
+	</fieldset>
+
+<br /> <br />
+	
+	<fieldset>
+	<legend><b>Ontology 2</b></legend>
+	<br />
+
+	<input type="radio" name="ontoinput2" id="webiri2" value="Web2" checked/>
+	<label for="webiri2"><b>Web ontology URI</b></label>  <i>(must be accessible URIs starting with 'http://', or 'ftp://') </i><br /> <br />
+	
+	<div id="web_iris2" style="margin-left: 40px;">
+		<table>
+			<tr> <td> URI Ontology 2: </td> <td> <input type="text" name="uri_onto2_name" id="uri_onto2" size="75"/> </td> </tr>
+			<tr> <td>&nbsp;</td>  <td> <div id="library2"> <select name="ontos_lib2" id="ontos_lib2"  onChange="updateURI2(this.value);"  onClick="updateURI2(this.value);"> </select> </div> </td> </tr>
+		</table>
+		<br />
+	</div>
+
+		
+	
+	<input type="radio" name="ontoinput2" id="localiri2" value="Local2"/>
+	<label for="localiri2"><b>Local ontology file</b></label><br /> <br />
+
+	<div id="local_files2" style="margin-left: 40px;">
+		<table>			
+			<tr> <td>Local File Ontology 2:</td> <td><input type="file" name="local_onto2_name" id="local_onto2" disabled=true size="75"/> </td>  <td><button id="upload_onto2_button" disabled=true>Upload Ontology 2</button> </td> </tr>
+			<tr> <td>&nbsp;</td> <td><i>Uploaded Ontology URI 2:</i> <input type="text" name="upload_onto2_name" id="uploaded_ontology2" disabled=true size="59"/> </td> <td  id="out_upload2"> </td> </tr>
+		</table>
+
+	</div>
+	</fieldset>
+
+	<br />
+
+</fieldset>
+
+
+
+
+<br /> <br />
+
+<fieldset>
+
+<legend><b>LogMap Version</b></legend>
+
+	<br />
+
+	<div id="logmap_params">
+
+	<input type="radio" name="logmap" id="logmap2" value="LogMap with reasoning" checked /> 
+        <label for="logmap2">With <b>mapping repair</b></label><br /> <br />
+	
+	<input type="radio" name="logmap" id="logmapinteract" value="LogMap with interactivity" />
+        <label for="logmapinteract">With <b>user interactivity</b> and repair</label>
+	<img src="./new.png" height="14" border="0" alt="Under test"></a>
+	<br /> <br />
+	
+	<input type="radio" name="logmap" id="logmapmendum" value="LogMap without reasoning" />
+	<label for="logmapmendum">Without repair and interactivity</label><br /> <br />
+	
+	<input type="radio" name="logmap" id="logmaplite" value="LogMap Lite" />
+	<label for="logmaplite"><b>Lite</b> (basic string similarities and no repair)</label><br />
+
+	</div>
+
+	<br />
+
+</fieldset>
+
+<br /> <br />
+
+
+<fieldset>
+
+<legend><b>Check satisfiability of each class of the integrated ontology</b></legend>
+
+	<br />
+
+	<div id="reasoning">
+	
+	<input type="checkbox" name="reasoner" id="hermit" value="hermit reasoner" /> 
+	<label for="hermit">HermiT Reasoner v.1.3.6</label> (for <a href="http://www.w3.org/TR/owl2-syntax/" target="_blank">OWL 2 DL</a> ontologies)<br /><br />
+	<input type="checkbox" name="elk" id="elk" value="elk reasoner" /> 	
+	<label for="elk">ELK Reasoner v.0.3.1</label> (for <a href="http://www.w3.org/TR/owl2-profiles/#OWL_2_EL" target="_blank">OWL 2 EL</a> ontologies)<br />
+	
+	<br />	<br />	
+
+	Check the OWL 2 profile of your ontologies with the <a href="http://owl.cs.manchester.ac.uk/validator/" target="_blank">Manchester OWL 2 validator</a>.
+
+	<br />
+
+	<!--
+	<input type="radio" name="reasoner" id="none" value="LogMap with reasoning" checked /> 
+	<label for="none">No satisfiability check</label><br /> <br />
+	<input type="radio" name="reasoner" id="hermit" value="LogMap without reasoning" />
+	<label for="hermit">HermiT Reasoner (for OWL 2 DL ontologies)</label><br /> <br />
+	<input type="radio" name="reasoner" id="elk" value="LogMap Lite" />
+	<label for="elk">ELK Reasoner (for OWL 2 EL ontologies)</label><br />
+	-->
+
+	</div>
+
+	<br />
+
+</fieldset>
+
+
+
+
+<br /> <br />
+
+<button id="button_action">
+<table>
+<tr>
+<td><img src="./LM_logo.jpg" height="35" border="2"/></button></td>
+</tr>
+<tr>
+<td><b><font size="3">Send Matching Request</font></b></td>
+</tr>
+</table>
+</button>
+
+
+
+
+
+<!--Send Matching Request -->
+
+</div> <!--END FORM INPUT DATA-->
+</div> <!--END OUTPUT DIV -->
+
+</body>
+</html>
+

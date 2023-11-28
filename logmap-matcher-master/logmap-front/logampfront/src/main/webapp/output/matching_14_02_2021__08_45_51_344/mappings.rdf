@@ -1,0 +1,2127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://www.bbc.co.uk/ontologies/coreconcepts/</onto1>
+<onto2>http://www.bbc.co.uk/ontologies/coreconcepts/</onto2>
+<uri1>http://www.bbc.co.uk/ontologies/coreconcepts/</uri1>
+<uri2>http://www.bbc.co.uk/ontologies/coreconcepts/</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+		<entity2 rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/ontology/Event"/>
+		<entity2 rdf:resource="http://dbpedia.org/ontology/Event"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/ontology/Place"/>
+		<entity2 rdf:resource="http://dbpedia.org/ontology/Place"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+		<entity2 rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ldbc.eu/Person_Organisation"/>
+		<entity2 rdf:resource="http://www.ldbc.eu/Person_Organisation"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/ontology/Sport"/>
+		<entity2 rdf:resource="http://dbpedia.org/ontology/Sport"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+		<entity2 rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+		<entity2 rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+		<entity2 rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+		<entity2 rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Mountain_bike_orienteering"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Mountain_bike_orienteering"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/United_States_House_of_Representatives_elections_in_Missouri,_1832_and_1833"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/United_States_House_of_Representatives_elections_in_Missouri,_1832_and_1833"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Cypriot_presidential_election,_2003"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Cypriot_presidential_election,_2003"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Sport_diving_(sport)"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Sport_diving_(sport)"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/American_football"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/American_football"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Archduke_Charles,_Duke_of_Teschen"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Archduke_Charles,_Duke_of_Teschen"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Bowls"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Bowls"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/1._FC_KC3B6ln"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/1._FC_KC3B6ln"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/United_States_presidential_election_in_Nevada,_1992"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/United_States_presidential_election_in_Nevada,_1992"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Edward_de_Vere,_17th_Earl_of_Oxford"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Edward_de_Vere,_17th_Earl_of_Oxford"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Snowboarding"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Snowboarding"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Gilbert_N._Lewis"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Gilbert_N._Lewis"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Geocaching"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Geocaching"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Underwater_target_shooting"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Underwater_target_shooting"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Brown_Township,_Washington_County,_Indiana"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Brown_Township,_Washington_County,_Indiana"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/S.L._Benfica"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/S.L._Benfica"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Combat_sport"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Combat_sport"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Darts"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Darts"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Camogie"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Camogie"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Al-Wakrah_Sport_Club"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Al-Wakrah_Sport_Club"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Basque_parliamentary_election,_2012"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Basque_parliamentary_election,_2012"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Russell_Mark_Tanner"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Russell_Mark_Tanner"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/FC_Twente"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/FC_Twente"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Tournafulla"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Tournafulla"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Korfball"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Korfball"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/AEK_Athens_Futsal"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/AEK_Athens_Futsal"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Cutting_(sport)"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Cutting_(sport)"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Figure_skating"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Figure_skating"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Croydon_F.C."/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Croydon_F.C."/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Paintball"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Paintball"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/David_Beatty,_1st_Earl_Beatty"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/David_Beatty,_1st_Earl_Beatty"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Curling"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Curling"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/1960_Silver_City_Trophy"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/1960_Silver_City_Trophy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/1950_French_Grand_Prix"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/1950_French_Grand_Prix"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Afonso_IV_of_Portugal"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Afonso_IV_of_Portugal"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Iowa_Republican_caucuses,_2000"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Iowa_Republican_caucuses,_2000"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/New_Zealand_general_election,_1919"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/New_Zealand_general_election,_1919"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Ismail_Khan"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Ismail_Khan"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Plunge_for_distance"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Plunge_for_distance"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Plessala"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Plessala"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Indoor_cricket"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Indoor_cricket"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Andre_Agassi"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Andre_Agassi"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Garth_Brooks"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Garth_Brooks"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Val_Marie,_Saskatchewan"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Val_Marie,_Saskatchewan"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Llanidloes_Ladies_F.C."/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Llanidloes_Ladies_F.C."/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Motorcycle_speedway"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Motorcycle_speedway"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/ND_Mura_05"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/ND_Mura_05"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Alexander_Graham_Bell"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Alexander_Graham_Bell"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Hurling"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Hurling"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Alessandro_Algardi"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Alessandro_Algardi"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Aimoin"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Aimoin"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Albert_the_Bear"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Albert_the_Bear"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Getafe_CF"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Getafe_CF"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Empress_Kken"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Empress_Kken"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/United_States_Senate_election_in_North_Carolina,_1998"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/United_States_Senate_election_in_North_Carolina,_1998"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Highest_paid_NBA_players_by_season"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Highest_paid_NBA_players_by_season"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Floorball"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Floorball"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Illinois_House_of_Representatives_elections,_2008"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Illinois_House_of_Representatives_elections,_2008"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Tennis_polo"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Tennis_polo"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Track_and_field"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Track_and_field"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/United_States_presidential_election,_1928"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/United_States_presidential_election,_1928"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Oin%C4%83"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Oin%C4%83"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/United_States_House_of_Representatives_election_in_Delaware,_2012"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/United_States_House_of_Representatives_election_in_Delaware,_2012"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Moldovan_presidential_election,_NovemberE28093December_2009"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Moldovan_presidential_election,_NovemberE28093December_2009"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Underwater_hockey"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Underwater_hockey"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/2008_Bahrain_Grand_Prix"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/2008_Bahrain_Grand_Prix"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Youmacon"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Youmacon"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Para-alpine_skiing"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Para-alpine_skiing"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Joseph_Severn"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Joseph_Severn"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Diving"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Diving"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Harbour_View_F.C."/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Harbour_View_F.C."/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Oldervik,_Troms"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Oldervik,_Troms"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Heraclius"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Heraclius"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Umayartuvarankulam"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Umayartuvarankulam"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Womens_basketball"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Womens_basketball"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Tassadane_Haddada"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Tassadane_Haddada"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Motorcycle_racing"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Motorcycle_racing"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Baltimore_Comic-Con"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Baltimore_Comic-Con"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Riding_Mountain_House"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Riding_Mountain_House"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Baghdad_FC"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Baghdad_FC"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Speed_skating"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Speed_skating"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Canoe_orienteering"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Canoe_orienteering"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Rugby_union"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Rugby_union"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Ahmad_Shah_Massoud"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Ahmad_Shah_Massoud"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/1991_DFB-Supercup"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/1991_DFB-Supercup"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Club_Sport_Emelec"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Club_Sport_Emelec"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Graphic_Arts_Building_(Dayton,_Ohio)"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Graphic_Arts_Building_(Dayton,_Ohio)"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Failford,_New_South_Wales"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Failford,_New_South_Wales"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Australian_rules_football"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Australian_rules_football"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Dino_Zoff"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Dino_Zoff"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Carom_billiards"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Carom_billiards"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Gu_County"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Gu_County"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/2005_Italian_Grand_Prix"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/2005_Italian_Grand_Prix"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Bocce"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Bocce"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Gabonese_presidential_election,_2009"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Gabonese_presidential_election,_2009"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/1998_British_Grand_Prix"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/1998_British_Grand_Prix"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Luge"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Luge"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Russian_four_square"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Russian_four_square"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Pato"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Pato"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Cricket"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Cricket"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Tennessee_State_Route_23"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Tennessee_State_Route_23"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Formula_racing"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Formula_racing"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Association_football"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Association_football"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Gilyanov"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Gilyanov"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Al_Capp"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Al_Capp"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Sunrise_Mall_(Corpus_Christi)"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Sunrise_Mall_(Corpus_Christi)"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Tirapata_District"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Tirapata_District"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Bradford_City_A.F.C."/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Bradford_City_A.F.C."/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Gold_mining_in_Alaska"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Gold_mining_in_Alaska"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Nine-pin_bowling"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Nine-pin_bowling"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Eubulides"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Eubulides"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Water_polo"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Water_polo"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Canadian_football"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Canadian_football"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/NK_Maribor"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/NK_Maribor"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Fire_Stations_of_Oahu"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Fire_Stations_of_Oahu"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Henry_Fielding"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Henry_Fielding"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Cotati,_California"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Cotati,_California"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Mount_Seymour_Provincial_Park"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Mount_Seymour_Provincial_Park"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Portal_of_the_Folded_Wings_Shrine_to_Aviation"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Portal_of_the_Folded_Wings_Shrine_to_Aviation"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Major_League_Ultimate"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Major_League_Ultimate"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Herman_Hollerith"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Herman_Hollerith"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Basketball"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Basketball"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/August_Horch"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/August_Horch"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Shinty"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Shinty"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Hannover_96"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Hannover_96"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/1984_Canadian_Grand_Prix"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/1984_Canadian_Grand_Prix"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/John_Cleese"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/John_Cleese"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Stock_car_racing"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Stock_car_racing"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Tennis"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Tennis"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Baseball"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Baseball"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Netball"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Netball"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Dancesport"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Dancesport"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Joseph_Schumpeter"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Joseph_Schumpeter"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/United_States_Senate_election_in_Maine,_2012"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/United_States_Senate_election_in_Maine,_2012"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Coronel_Bolognesi"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Coronel_Bolognesi"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/W._Heath_Robinson"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/W._Heath_Robinson"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Swedish_general_election,_1985"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Swedish_general_election,_1985"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Club_Tijuana"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Club_Tijuana"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/1950_Italian_Grand_Prix"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/1950_Italian_Grand_Prix"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Blackburn_Rovers_L.F.C."/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Blackburn_Rovers_L.F.C."/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Slamball"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Slamball"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Edgar_Rice_Burroughs"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Edgar_Rice_Burroughs"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Trail_orienteering"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Trail_orienteering"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Parkour"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Parkour"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/1908_American_Grand_Prize"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/1908_American_Grand_Prize"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Alessandro_Scarlatti"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Alessandro_Scarlatti"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Jam_County"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Jam_County"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Team_handball"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Team_handball"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Biathlon"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Biathlon"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/ConFusion_(convention)"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/ConFusion_(convention)"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Indian_general_election_in_Andhra_Pradesh,_1989"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Indian_general_election_in_Andhra_Pradesh,_1989"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Union_for_a_Popular_Movement_leadership_election,_2012"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Union_for_a_Popular_Movement_leadership_election,_2012"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Zorbing"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Zorbing"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Mountain_biking"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Mountain_biking"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Shoal_Lake"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Shoal_Lake"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Hezekiah"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Hezekiah"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Auto_racing"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Auto_racing"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Field_lacrosse"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Field_lacrosse"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Erasmus_Reinhold"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Erasmus_Reinhold"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Afsharid_dynasty"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Afsharid_dynasty"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Los_Angeles_mayoral_election,_1906"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Los_Angeles_mayoral_election,_1906"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/London_Array"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/London_Array"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/United_States_Senate_election_in_Kansas,_2002"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/United_States_Senate_election_in_Kansas,_2002"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/KNSB_Dutch_Marathon_Championships"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/KNSB_Dutch_Marathon_Championships"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Timsley,_Kentucky"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Timsley,_Kentucky"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Ansonia_Apartments"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Ansonia_Apartments"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Basque_pelota"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Basque_pelota"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/BeC59FiktaC59F_J.K."/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/BeC59FiktaC59F_J.K."/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/United_States_House_of_Representatives_elections_in_California,_1992"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/United_States_House_of_Representatives_elections_in_California,_1992"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Foot_orienteering"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Foot_orienteering"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Arthur_St._Clair"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Arthur_St._Clair"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Muggle_Quidditch"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Muggle_Quidditch"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Swimming_(sport)"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Swimming_(sport)"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/2002_Brazilian_Grand_Prix"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/2002_Brazilian_Grand_Prix"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Alan_Garner"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Alan_Garner"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Pair_skating"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Pair_skating"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/United_States_Senate_election_in_Florida,_1986"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/United_States_Senate_election_in_Florida,_1986"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Street_hockey"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Street_hockey"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/United_States_presidential_election_in_South_Dakota,_1992"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/United_States_presidential_election_in_South_Dakota,_1992"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Czesław_Miłosz"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Czesław_Miłosz"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/FC_Girondins_de_Bordeaux"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/FC_Girondins_de_Bordeaux"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Juventus_F.C."/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Juventus_F.C."/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Synchronized_swimming"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Synchronized_swimming"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Alfred_the_Great"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Alfred_the_Great"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/George_Pólya"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/George_Pólya"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Gyula_Andrssy"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Gyula_Andrssy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Ski_cross"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Ski_cross"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Alessandro_Volta"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Alessandro_Volta"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Ball_hockey"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Ball_hockey"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Flag_football"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Flag_football"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Fleet_racing"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Fleet_racing"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Bucheon_FC_1995"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Bucheon_FC_1995"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Jacques_Mayol"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Jacques_Mayol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Hugo_Gernsback"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Hugo_Gernsback"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Emily_Brontë"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Emily_Brontë"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Cycle_polo"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Cycle_polo"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Keirin"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Keirin"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Caravaggio"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Caravaggio"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Underwater_rugby"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Underwater_rugby"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Beaudesert,_Warwickshire"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Beaudesert,_Warwickshire"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Witteveen"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Witteveen"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Wheelchair_Football_(American)"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Wheelchair_Football_(American)"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/International_rules_football"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/International_rules_football"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/VfB_Stuttgart"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/VfB_Stuttgart"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/FC_Kremin_Kremenchuk"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/FC_Kremin_Kremenchuk"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Arthur_Laurents"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Arthur_Laurents"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/South_Central_Avenue_Historic_District"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/South_Central_Avenue_Historic_District"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Rugby_tens"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Rugby_tens"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Futsal"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Futsal"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/California_gubernatorial_election,_2002"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/California_gubernatorial_election,_2002"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Rounders"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Rounders"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Tug_of_war"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Tug_of_war"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Iowa_gubernatorial_election,_1998"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Iowa_gubernatorial_election,_1998"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Half-pipe_skiing"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Half-pipe_skiing"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Scottish_Parliament_general_election,_2003"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Scottish_Parliament_general_election,_2003"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Skrzebowa"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Skrzebowa"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/George_Bernard_Shaw"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/George_Bernard_Shaw"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Johannes_Agricola"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Johannes_Agricola"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/George_Lucas"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/George_Lucas"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/FC_St._Pauli"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/FC_St._Pauli"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Little_Dunmow"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Little_Dunmow"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Horace_Walpole"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Horace_Walpole"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Amateur_radio_direction_finding"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Amateur_radio_direction_finding"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Trellech"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Trellech"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Badminton"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Badminton"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Katzenbach_(Werre)"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Katzenbach_(Werre)"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Freestyle_skiing"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Freestyle_skiing"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Portuguese_presidential_election,_2001"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Portuguese_presidential_election,_2001"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Skeleton_(sport)"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Skeleton_(sport)"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Emperor_Go-Kgon"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Emperor_Go-Kgon"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Inline_hockey"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Inline_hockey"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Hong_Kong_legislative_election,_1998"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Hong_Kong_legislative_election,_1998"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Snooker"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Snooker"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Finnish_presidential_election,_1994"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Finnish_presidential_election,_1994"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Cue_sports"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Cue_sports"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/1995_British_Grand_Prix"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/1995_British_Grand_Prix"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Arena_football"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Arena_football"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Ice_hockey"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Ice_hockey"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Hungarian_parliamentary_election,_2006"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Hungarian_parliamentary_election,_2006"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Horseshoes"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Horseshoes"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Skalbmierz"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Skalbmierz"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Craig_Venter"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Craig_Venter"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Don_Rosa"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Don_Rosa"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Powerlifting"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Powerlifting"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Thirlmere"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Thirlmere"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/USM_Alger"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/USM_Alger"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Rugby_union_in_the_United_States"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Rugby_union_in_the_United_States"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Rogaining"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Rogaining"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/United_States_Senate_election_in_Ohio,_1980"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/United_States_Senate_election_in_Ohio,_1980"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/United_States_Senate_election_in_Pennsylvania,_1928"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/United_States_Senate_election_in_Pennsylvania,_1928"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Alexios_V_Doukas"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Alexios_V_Doukas"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Circle_rules_football"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Circle_rules_football"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/United_States_presidential_election_in_California,_1980"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/United_States_presidential_election_in_California,_1980"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dbpedia.org/resource/Roque"/>
+		<entity2 rdf:resource="http://dbpedia.org/resource/Roque"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

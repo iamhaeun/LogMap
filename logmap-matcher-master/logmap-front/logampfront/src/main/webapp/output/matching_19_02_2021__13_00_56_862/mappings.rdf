@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>https://w3id.org/seas/FlexibilityOntology-1.0</onto1>
+<onto2>https://w3id.org/seas/FlexibilityOntology-1.0</onto2>
+<uri1>https://w3id.org/seas/FlexibilityOntology-1.0</uri1>
+<uri2>https://w3id.org/seas/FlexibilityOntology-1.0</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#TemporalPosition"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#TemporalPosition"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#Interval"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Interval"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#TemporalUnit"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#TemporalUnit"/>
+		<measure rdf:datatype="xsd:float">0.9</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#Duration"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Duration"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Service"/>
+		<entity2 rdf:resource="https://w3id.org/saref#Service"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#TimePosition"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#TimePosition"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Device"/>
+		<entity2 rdf:resource="https://w3id.org/saref#Device"/>
+		<measure rdf:datatype="xsd:float">0.79</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Lighting"/>
+		<entity2 rdf:resource="https://w3id.org/saref#Light"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#DateTimeInterval"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#DateTimeInterval"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#DateTimeDescription"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#DateTimeDescription"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Commodity"/>
+		<entity2 rdf:resource="https://w3id.org/saref#Commodity"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#TRS"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#TRS"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Meter"/>
+		<entity2 rdf:resource="https://w3id.org/saref#Meter"/>
+		<measure rdf:datatype="xsd:float">0.94</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Actuator"/>
+		<entity2 rdf:resource="https://w3id.org/saref#Actuator"/>
+		<measure rdf:datatype="xsd:float">0.82</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/HumidityProperty"/>
+		<entity2 rdf:resource="https://w3id.org/saref#Humidity"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#DayOfWeek"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#DayOfWeek"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#TemporalDuration"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#TemporalDuration"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#GeneralDurationDescription"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#GeneralDurationDescription"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#DayOfWeek"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#DayOfWeek"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#DurationDescription"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#DurationDescription"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#Instant"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Instant"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Property"/>
+		<entity2 rdf:resource="https://w3id.org/saref#Property"/>
+		<measure rdf:datatype="xsd:float">0.87</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#TimeZone"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#TimeZone"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Sensor"/>
+		<entity2 rdf:resource="https://w3id.org/saref#Sensor"/>
+		<measure rdf:datatype="xsd:float">0.85</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#MonthOfYear"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#MonthOfYear"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+		<measure rdf:datatype="xsd:float">1.1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#January"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#January"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#second"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#second"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#dayOfYear"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#dayOfYear"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#days"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#days"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#nominalPosition"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#nominalPosition"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#years"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#years"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#months"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#months"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#xsdDateTime"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#xsdDateTime"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#inXSDDateTimeStamp"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#inXSDDateTimeStamp"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#day"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#day"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#month"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#month"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#hours"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#hours"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#weeks"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#weeks"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#numericDuration"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#numericDuration"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#hasXSDDuration"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#hasXSDDuration"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#inXSDDate"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#inXSDDate"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#hasValue"/>
+		<entity2 rdf:resource="https://w3id.org/saref#hasValue"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#week"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#week"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#seconds"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#seconds"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#year"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#year"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#minute"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#minute"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#hour"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#hour"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#inXSDDateTime"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#inXSDDateTime"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#inXSDgYearMonth"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#inXSDgYearMonth"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#minutes"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#minutes"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#inXSDgYear"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#inXSDgYear"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#numericPosition"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#numericPosition"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#dayOfWeek"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#dayOfWeek"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#hasDuration"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#hasDuration"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#hasTRS"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#hasTRS"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalMeets"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalMeets"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#inside"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#inside"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#unitType"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#unitType"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#hasTime"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#hasTime"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalFinishes"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalFinishes"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#timeZone"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#timeZone"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalBefore"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalBefore"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#hasTemporalDuration"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#hasTemporalDuration"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalDisjoint"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalDisjoint"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#hasEnd"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#hasEnd"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalContains"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalContains"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#inDateTime"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#inDateTime"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#before"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#before"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#hasDateTimeDescription"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#hasDateTimeDescription"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalAfter"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalAfter"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#hasBeginning"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#hasBeginning"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/price"/>
+		<entity2 rdf:resource="https://w3id.org/saref#hasPrice"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalDuring"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalDuring"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalStarts"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalStarts"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalFinishedBy"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalFinishedBy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalEquals"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalEquals"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#offers"/>
+		<entity2 rdf:resource="https://w3id.org/saref#offers"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalStartedBy"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalStartedBy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#inTimePosition"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#inTimePosition"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalMetBy"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalMetBy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalOverlappedBy"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalOverlappedBy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#hasDurationDescription"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#hasDurationDescription"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/pep/hasCommand"/>
+		<entity2 rdf:resource="https://w3id.org/saref#hasCommand"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalIn"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalIn"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#after"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#after"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/measuresProperty"/>
+		<entity2 rdf:resource="https://w3id.org/saref#measuresProperty"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#monthOfYear"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#monthOfYear"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#intervalOverlaps"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#intervalOverlaps"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#inTemporalPosition"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#inTemporalPosition"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Saturday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#Friday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Friday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Tuesday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#unitDay"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#unitDay"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#unitYear"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#unitYear"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Thursday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#Monday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Monday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#unitWeek"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#unitWeek"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#Tuesday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Tuesday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#Wednesday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Wednesday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Monday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#Saturday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Saturday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+		<entity2 rdf:resource="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Wednesday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#unitSecond"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#unitSecond"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Friday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#unitMonth"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#unitMonth"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#unitMinute"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#unitMinute"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#unitHour"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#unitHour"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Sunday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#Sunday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Sunday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#Thursday"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#Thursday"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

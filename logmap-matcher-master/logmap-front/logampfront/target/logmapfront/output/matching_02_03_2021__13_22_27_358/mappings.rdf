@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>https://w3id.org/seas/FlexibilityOntology-1.0</onto1>
+<onto2>https://w3id.org/seas/FlexibilityOntology-1.0</onto2>
+<uri1>https://w3id.org/seas/FlexibilityOntology-1.0</uri1>
+<uri2>https://w3id.org/seas/FlexibilityOntology-1.0</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Sensor"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+		<measure rdf:datatype="xsd:float">0.76</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+		<entity2 rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+		<measure rdf:datatype="xsd:float">0.8</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/FeatureOfInterest"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/pep/Procedure"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Procedure"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+		<entity2 rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Property"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+		<measure rdf:datatype="xsd:float">0.83</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Actuation"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Actuator"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Actuator"/>
+		<measure rdf:datatype="xsd:float">0.75</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/System"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/System"/>
+		<measure rdf:datatype="xsd:float">0.73</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/Observation"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/isPropertyOf"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/isPropertyOf"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/hasProperty"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/pep/usedProcedure"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/usedProcedure"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/observesProperty"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/observedProperty"/>
+		<measure rdf:datatype="xsd:float">0.96</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/actsOnProperty"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/actsOnProperty"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/pep/implements"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/implements"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/observes"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/seas/hasSubSystem"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/hasSubSystem"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

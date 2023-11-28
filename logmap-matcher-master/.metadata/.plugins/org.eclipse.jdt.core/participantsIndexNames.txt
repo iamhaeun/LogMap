@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\Users\seomi\Downloads\logmap-matcher-master\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1341884984.index
+\logmap-matcher-master\src\main\java

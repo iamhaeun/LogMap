@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl</onto1>
+<onto2>http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl</onto2>
+<uri1>http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl</uri1>
+<uri2>http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware"/>
+		<entity2 rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Service"/>
+		<entity2 rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Hardware"/>
+		<entity2 rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location"/>
+		<entity2 rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Platform"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device"/>
+		<entity2 rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+		<entity2 rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Actuator"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Actuator"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service"/>
+		<entity2 rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Software"/>
+		<entity2 rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Location"/>
+		<entity2 rdf:resource="http://mssn.sigappfr.org/mssn/Location"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasLocation"/>
+		<entity2 rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastLocation"/>
+		<measure rdf:datatype="xsd:float">0.89</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

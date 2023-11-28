@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"
+     xmlns:mappings="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/3.2.3.3车辆执行器的过程数据 -->
+
+    <rdf:Description rdf:about="http://example.org/3.2.3.3车辆执行器的过程数据"/>
+    
+
+
+    <!-- http://example.org/3.2.3.4.1提供伺服控制 -->
+
+    <rdf:Description rdf:about="http://example.org/3.2.3.4.1提供伺服控制"/>
+    
+
+
+    <!-- http://example.org/3.2.3.4.2提供车辆控制数据接口 -->
+
+    <rdf:Description rdf:about="http://example.org/3.2.3.4.2提供车辆控制数据接口"/>
+    
+
+
+    <!-- http://example.org/不适用 -->
+
+    <rdf:Description rdf:about="http://example.org/不适用"/>
+    
+
+
+    <!-- http://example.org/中 -->
+
+    <rdf:Description rdf:about="http://example.org/中"/>
+    
+
+
+    <!-- http://example.org/企业 -->
+
+    <rdf:Description rdf:about="http://example.org/企业"/>
+    
+
+
+    <!-- http://example.org/企业视图 -->
+
+    <rdf:Description rdf:about="http://example.org/企业视图"/>
+    
+
+
+    <!-- http://example.org/保密性 -->
+
+    <rdf:Description rdf:about="http://example.org/保密性"/>
+    
+
+
+    <!-- http://example.org/信息流 -->
+
+    <rdf:Description rdf:about="http://example.org/信息流"/>
+    
+
+
+    <!-- http://example.org/信息流安全 -->
+
+    <rdf:Description rdf:about="http://example.org/信息流安全"/>
+    
+
+
+    <!-- http://example.org/功能对象 -->
+
+    <rdf:Description rdf:about="http://example.org/功能对象"/>
+    
+
+
+    <!-- http://example.org/功能视图 -->
+
+    <rdf:Description rdf:about="http://example.org/功能视图"/>
+    
+
+
+    <!-- http://example.org/发展 -->
+
+    <rdf:Description rdf:about="http://example.org/发展"/>
+    
+
+
+    <!-- http://example.org/可用性 -->
+
+    <rdf:Description rdf:about="http://example.org/可用性"/>
+    
+
+
+    <!-- http://example.org/基本车辆管理者 -->
+
+    <rdf:Description rdf:about="http://example.org/基本车辆管理者"/>
+    
+
+
+    <!-- http://example.org/安装 -->
+
+    <rdf:Description rdf:about="http://example.org/安装"/>
+    
+
+
+    <!-- http://example.org/完整性 -->
+
+    <rdf:Description rdf:about="http://example.org/完整性"/>
+    
+
+
+    <!-- http://example.org/源 -->
+
+    <rdf:Description rdf:about="http://example.org/源"/>
+    
+
+
+    <!-- http://example.org/物理对象 -->
+
+    <rdf:Description rdf:about="http://example.org/物理对象"/>
+    
+
+
+    <!-- http://example.org/物理视图 -->
+
+    <rdf:Description rdf:about="http://example.org/物理视图"/>
+    
+
+
+    <!-- http://example.org/目的地 -->
+
+    <rdf:Description rdf:about="http://example.org/目的地"/>
+    
+
+
+    <!-- http://example.org/维护 -->
+
+    <rdf:Description rdf:about="http://example.org/维护"/>
+    
+
+
+    <!-- http://example.org/要求 -->
+
+    <rdf:Description rdf:about="http://example.org/要求"/>
+    
+
+
+    <!-- http://example.org/车载设备 -->
+
+    <rdf:Description rdf:about="http://example.org/车载设备"/>
+    
+
+
+    <!-- http://example.org/车载设备供应商 -->
+
+    <rdf:Description rdf:about="http://example.org/车载设备供应商"/>
+    
+
+
+    <!-- http://example.org/车载设备安装者 -->
+
+    <rdf:Description rdf:about="http://example.org/车载设备安装者"/>
+    
+
+
+    <!-- http://example.org/车载设备开发者 -->
+
+    <rdf:Description rdf:about="http://example.org/车载设备开发者"/>
+    
+
+
+    <!-- http://example.org/车载设备所有者 -->
+
+    <rdf:Description rdf:about="http://example.org/车载设备所有者"/>
+    
+
+
+    <!-- http://example.org/车辆 -->
+
+    <rdf:Description rdf:about="http://example.org/车辆"/>
+    
+
+
+    <!-- http://example.org/车辆控制自动化 -->
+
+    <rdf:Description rdf:about="http://example.org/车辆控制自动化"/>
+    
+
+
+    <!-- http://example.org/车辆特征 -->
+
+    <rdf:Description rdf:about="http://example.org/车辆特征"/>
+    
+
+
+    <!-- http://example.org/车辆车载设备 -->
+
+    <rdf:Description rdf:about="http://example.org/车辆车载设备"/>
+    
+
+
+    <!-- http://example.org/运营 -->
+
+    <rdf:Description rdf:about="http://example.org/运营"/>
+    
+
+
+    <!-- http://example.org/需求 -->
+
+    <rdf:Description rdf:about="http://example.org/需求"/>
+    
+
+
+    <!-- http://example.org/驾驶员 -->
+
+    <rdf:Description rdf:about="http://example.org/驾驶员"/>
+    
+
+
+    <!-- http://example.org/驾驶员提示 -->
+
+    <rdf:Description rdf:about="http://example.org/驾驶员提示"/>
+    
+
+
+    <!-- http://example.org/驾驶员更新 -->
+
+    <rdf:Description rdf:about="http://example.org/驾驶员更新"/>
+    
+
+
+    <!-- http://example.org/驾驶员输入 -->
+
+    <rdf:Description rdf:about="http://example.org/驾驶员输入"/>
+    
+
+
+    <!-- http://example.org/高 -->
+
+    <rdf:Description rdf:about="http://example.org/高"/>
+    
+
+
+    <!-- http://example.org/﻿物理视图 -->
+
+    <rdf:Description rdf:about="http://example.org/﻿物理视图"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

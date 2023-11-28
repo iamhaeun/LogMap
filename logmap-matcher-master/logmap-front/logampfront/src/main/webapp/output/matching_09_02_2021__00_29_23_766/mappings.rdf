@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://watsonhealth.ibm.com/project/mdx</onto1>
+<onto2>http://watsonhealth.ibm.com/project/mdx</onto2>
+<uri1>http://watsonhealth.ibm.com/project/mdx</uri1>
+<uri2>http://watsonhealth.ibm.com/project/mdx</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/REMS"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#rem"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Toxicology"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Toxicology"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/AdverseEffect"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Adverse_effects_NOS"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Dosage"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Dosage"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Dosage"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Dosages"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Recommendation"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Recommendation_to"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Pharmacokinetics"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Pharmacokinetic_study"/>
+		<measure rdf:datatype="xsd:float">0.57</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Finding"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Findings_values"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Finding"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Thought_finding"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Indication"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Indication_for"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Condition"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Condition"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx#DrugDrugInteraction"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction_with_drug"/>
+		<measure rdf:datatype="xsd:float">0.8</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx#DrugDrugInteraction"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction"/>
+		<measure rdf:datatype="xsd:float">0.56</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Administration"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Administration"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/OrphanDrugStatus"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Orphan_drug"/>
+		<measure rdf:datatype="xsd:float">0.54</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Monitoring"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Monitoring_status"/>
+		<measure rdf:datatype="xsd:float">0.54</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Form"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Form"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/PatientEducation"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Patient_education"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Drug"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Drug_indicated"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Drug"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Drug_values"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Drug"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Drug_used"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx#DrugInteraction"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction_with_drug"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx#DrugInteraction"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction"/>
+		<measure rdf:datatype="xsd:float">0.75</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://watsonhealth.ibm.com/project/mdx/Approval"/>
+		<entity2 rdf:resource="http://www.ihtsdo.org/snomed#Approved"/>
+		<measure rdf:datatype="xsd:float">0.49</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,3 @@
+1|oumy.seye@gmail.com|oumy seye|4849|-1
+https://w3id.org/seas/HumidityProperty|https://w3id.org/saref#Humidity|=|0.8|1.0|humidity_property|humidity|property|property|No subclasses|No subclasses|humidityproperty|humidity, humid|||true|false|true
+http://www.w3.org/2006/time#DayOfWeek|http://www.w3.org/2006/time#DayOfWeek|=|1.0|0.01|day_of_week|day_of_week|No superclasses|No superclasses|No subclasses|No subclasses|dayofweek|dayofweek|||true|false|true

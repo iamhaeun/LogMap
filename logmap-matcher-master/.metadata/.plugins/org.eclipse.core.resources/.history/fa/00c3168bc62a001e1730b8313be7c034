@@ -1,0 +1,775 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"
+     xmlns:mappings="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx#DrugDrugInteraction -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx#DrugDrugInteraction">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction"/>
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction_with_drug"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5577058823529412</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx#DrugDrugInteraction</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_interaction</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx#DrugDrugInteraction"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7989999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx#DrugDrugInteraction</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_interaction_with_drug</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx#DrugDrugInteraction"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction_with_drug"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx#DrugInteraction -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx#DrugInteraction">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction"/>
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction_with_drug"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7450000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx#DrugInteraction</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_interaction</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx#DrugInteraction"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5067058823529412</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx#DrugInteraction</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_interaction_with_drug</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx#DrugInteraction"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction_with_drug"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/Administration -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/Administration">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Administration"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Administration</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Administration</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Administration"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Administration"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/AdverseEffect -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/AdverseEffect">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Adverse_effects_NOS"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/AdverseEffect</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Adverse_effects_NOS</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/AdverseEffect"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Adverse_effects_NOS"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/Approval -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/Approval">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Approved"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.485</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Approval</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Approved</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Approval"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Approved"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/Condition -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/Condition">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Condition"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Condition</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Condition</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Condition"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Condition"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/Dosage -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/Dosage">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Dosage"/>
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Dosages"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Dosage</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Dosage</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Dosage"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Dosage"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Dosage</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Dosages</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Dosage"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Dosages"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/Drug -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/Drug">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Drug_indicated"/>
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Drug_used"/>
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Drug_values"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Drug</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_values</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Drug"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_values"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Drug</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_used</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Drug"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_used"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Drug</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_indicated</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Drug"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_indicated"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/Finding -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/Finding">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Findings_values"/>
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Thought_finding"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Finding</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Findings_values</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Finding"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Findings_values"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Finding</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Thought_finding</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Finding"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Thought_finding"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/Form -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/Form">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Form"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Form</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Form</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Form"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Form"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/Indication -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/Indication">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Indication_for"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Indication</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Indication_for</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Indication"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Indication_for"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/Monitoring -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/Monitoring">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Monitoring_status"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5357692307692308</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Monitoring</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Monitoring_status</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Monitoring"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Monitoring_status"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/OrphanDrugStatus -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/OrphanDrugStatus">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Orphan_drug"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5357692307692308</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/OrphanDrugStatus</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Orphan_drug</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/OrphanDrugStatus"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Orphan_drug"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/PatientEducation -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/PatientEducation">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Patient_education"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/PatientEducation</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Patient_education</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/PatientEducation"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Patient_education"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/Pharmacokinetics -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/Pharmacokinetics">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Pharmacokinetic_study"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5716666666666667</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Pharmacokinetics</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Pharmacokinetic_study</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Pharmacokinetics"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Pharmacokinetic_study"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/REMS -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/REMS">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#rem"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/REMS</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#rem</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/REMS"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#rem"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/Recommendation -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/Recommendation">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Recommendation_to"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Recommendation</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Recommendation_to</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Recommendation"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Recommendation_to"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/mdx/Toxicology -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/mdx/Toxicology">
+        <owl:equivalentClass rdf:resource="http://www.ihtsdo.org/snomed#Toxicology"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Toxicology</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Toxicology</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Toxicology"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Toxicology"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Administration -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Administration"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Administration</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Administration</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Administration"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Administration"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Adverse_effects_NOS -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Adverse_effects_NOS"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/AdverseEffect</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Adverse_effects_NOS</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/AdverseEffect"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Adverse_effects_NOS"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Approved -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Approved"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.485</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Approval</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Approved</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Approval"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Approved"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Condition -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Condition"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Condition</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Condition</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Condition"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Condition"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Dosage -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Dosage"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Dosage</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Dosage</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Dosage"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Dosage"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Dosages -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Dosages"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Dosage</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Dosages</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Dosage"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Dosages"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Drug_indicated -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Drug_indicated"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Drug</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_indicated</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Drug"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_indicated"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Drug_interaction -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Drug_interaction"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7450000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx#DrugInteraction</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_interaction</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx#DrugInteraction"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5577058823529412</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx#DrugDrugInteraction</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_interaction</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx#DrugDrugInteraction"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Drug_interaction_with_drug -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Drug_interaction_with_drug"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5067058823529412</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx#DrugInteraction</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_interaction_with_drug</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx#DrugInteraction"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction_with_drug"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7989999999999999</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx#DrugDrugInteraction</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_interaction_with_drug</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx#DrugDrugInteraction"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_interaction_with_drug"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Drug_used -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Drug_used"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Drug</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_used</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Drug"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_used"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Drug_values -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Drug_values"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Drug</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Drug_values</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Drug"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Drug_values"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Findings_values -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Findings_values"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Finding</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Findings_values</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Finding"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Findings_values"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Form -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Form"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Form</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Form</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Form"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Form"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Indication_for -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Indication_for"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Indication</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Indication_for</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Indication"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Indication_for"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Monitoring_status -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Monitoring_status"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5357692307692308</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Monitoring</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Monitoring_status</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Monitoring"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Monitoring_status"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Orphan_drug -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Orphan_drug"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5357692307692308</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/OrphanDrugStatus</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Orphan_drug</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/OrphanDrugStatus"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Orphan_drug"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Patient_education -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Patient_education"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/PatientEducation</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Patient_education</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/PatientEducation"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Patient_education"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Pharmacokinetic_study -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Pharmacokinetic_study"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5716666666666667</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Pharmacokinetics</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Pharmacokinetic_study</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Pharmacokinetics"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Pharmacokinetic_study"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Recommendation_to -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Recommendation_to"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Recommendation</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Recommendation_to</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Recommendation"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Recommendation_to"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Thought_finding -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Thought_finding"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Finding</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Thought_finding</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Finding"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Thought_finding"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#Toxicology -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#Toxicology"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/Toxicology</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#Toxicology</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/Toxicology"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#Toxicology"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ihtsdo.org/snomed#rem -->
+
+    <owl:Class rdf:about="http://www.ihtsdo.org/snomed#rem"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://watsonhealth.ibm.com/project/mdx/REMS</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ihtsdo.org/snomed#rem</entity2>
+        <owl:annotatedSource rdf:resource="http://watsonhealth.ibm.com/project/mdx/REMS"/>
+        <owl:annotatedTarget rdf:resource="http://www.ihtsdo.org/snomed#rem"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

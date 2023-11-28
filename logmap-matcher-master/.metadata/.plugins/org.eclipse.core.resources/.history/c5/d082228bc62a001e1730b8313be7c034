@@ -1,0 +1,8 @@
+https://w3id.org/saref#Start|http://www.iec.ch/TC57/CIM#startAndEnd|=|1.0|INST
+https://w3id.org/saref#Start|http://www.iec.ch/TC57/CIM#start|=|1.0|INST
+https://w3id.org/saref#Start|http://www.iec.ch/TC57/CIM#START|=|1.0|INST
+https://w3id.org/saref#Start|http://www.iec.ch/TC57/CIM#START_UP|=|1.0|INST
+https://w3id.org/saref#Close|http://www.iec.ch/TC57/CIM#close|=|1.0|INST
+https://w3id.org/saref#Open|http://www.iec.ch/TC57/CIM#Open|=|1.0|INST
+https://w3id.org/saref#Open|http://www.iec.ch/TC57/CIM#open|=|1.0|INST
+http://www.wurvoc.org/vocabularies/om-1.8/bar|http://www.iec.ch/TC57/CIM#bar|=|1.0|INST

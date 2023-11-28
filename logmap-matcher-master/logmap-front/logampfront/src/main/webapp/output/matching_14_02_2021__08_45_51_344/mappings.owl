@@ -1,0 +1,1656 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"
+     xmlns:mappings="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/Event -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/ontology/Event"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Organisation -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/ontology/Organisation"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Place -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/ontology/Place"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Sport -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/ontology/Sport"/>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Theme -->
+
+    <rdf:Description rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/creativework/BlogPost -->
+
+    <rdf:Description rdf:about="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/creativework/NewsItem -->
+
+    <rdf:Description rdf:about="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/creativework/Programme -->
+
+    <rdf:Description rdf:about="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    
+
+
+    <!-- http://www.ldbc.eu/Person_Organisation -->
+
+    <rdf:Description rdf:about="http://www.ldbc.eu/Person_Organisation"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/resource/1._FC_KC3B6ln -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/1._FC_KC3B6ln"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/1908_American_Grand_Prize -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/1908_American_Grand_Prize"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/1950_French_Grand_Prix -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/1950_French_Grand_Prix"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/1950_Italian_Grand_Prix -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/1950_Italian_Grand_Prix"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/1960_Silver_City_Trophy -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/1960_Silver_City_Trophy"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/1984_Canadian_Grand_Prix -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/1984_Canadian_Grand_Prix"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/1991_DFB-Supercup -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/1991_DFB-Supercup"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/1995_British_Grand_Prix -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/1995_British_Grand_Prix"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/1998_British_Grand_Prix -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/1998_British_Grand_Prix"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/2002_Brazilian_Grand_Prix -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/2002_Brazilian_Grand_Prix"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/2005_Italian_Grand_Prix -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/2005_Italian_Grand_Prix"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/2008_Bahrain_Grand_Prix -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/2008_Bahrain_Grand_Prix"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/AEK_Athens_Futsal -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/AEK_Athens_Futsal"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Afonso_IV_of_Portugal -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Afonso_IV_of_Portugal"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Afsharid_dynasty -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Afsharid_dynasty"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ahmad_Shah_Massoud -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Ahmad_Shah_Massoud"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aimoin -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Aimoin"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Al-Wakrah_Sport_Club -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Al-Wakrah_Sport_Club"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Al_Capp -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Al_Capp"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alan_Garner -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Alan_Garner"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Albert_the_Bear -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Albert_the_Bear"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alessandro_Algardi -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Alessandro_Algardi"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alessandro_Scarlatti -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Alessandro_Scarlatti"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alessandro_Volta -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Alessandro_Volta"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alexander_Graham_Bell -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Alexander_Graham_Bell"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alexios_V_Doukas -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Alexios_V_Doukas"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alfred_the_Great -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Alfred_the_Great"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Amateur_radio_direction_finding -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Amateur_radio_direction_finding"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/American_football -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/American_football"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Andre_Agassi -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Andre_Agassi"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ansonia_Apartments -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Ansonia_Apartments"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Archduke_Charles,_Duke_of_Teschen -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Archduke_Charles,_Duke_of_Teschen"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Arena_football -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Arena_football"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Arthur_Laurents -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Arthur_Laurents"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Arthur_St._Clair -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Arthur_St._Clair"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Association_football -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Association_football"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/August_Horch -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/August_Horch"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Australian_rules_football -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Australian_rules_football"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Auto_racing -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Auto_racing"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Badminton -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Badminton"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Baghdad_FC -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Baghdad_FC"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ball_hockey -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Ball_hockey"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Baltimore_Comic-Con -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Baltimore_Comic-Con"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Baseball -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Baseball"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Basketball -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Basketball"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Basque_parliamentary_election,_2012 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Basque_parliamentary_election,_2012"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Basque_pelota -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Basque_pelota"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/BeC59FiktaC59F_J.K. -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/BeC59FiktaC59F_J.K."/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Beaudesert,_Warwickshire -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Beaudesert,_Warwickshire"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Biathlon -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Biathlon"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Blackburn_Rovers_L.F.C. -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Blackburn_Rovers_L.F.C."/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bocce -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Bocce"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bowls -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Bowls"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bradford_City_A.F.C. -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Bradford_City_A.F.C."/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Brown_Township,_Washington_County,_Indiana -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Brown_Township,_Washington_County,_Indiana"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bucheon_FC_1995 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Bucheon_FC_1995"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/California_gubernatorial_election,_2002 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/California_gubernatorial_election,_2002"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Camogie -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Camogie"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Canadian_football -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Canadian_football"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Canoe_orienteering -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Canoe_orienteering"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Caravaggio -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Caravaggio"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Carom_billiards -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Carom_billiards"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Circle_rules_football -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Circle_rules_football"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Club_Sport_Emelec -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Club_Sport_Emelec"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Club_Tijuana -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Club_Tijuana"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Combat_sport -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Combat_sport"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/ConFusion_(convention) -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/ConFusion_(convention)"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Coronel_Bolognesi -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Coronel_Bolognesi"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cotati,_California -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Cotati,_California"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Craig_Venter -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Craig_Venter"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cricket -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Cricket"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Croydon_F.C. -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Croydon_F.C."/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cue_sports -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Cue_sports"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Curling -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Curling"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cutting_(sport) -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Cutting_(sport)"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cycle_polo -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Cycle_polo"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cypriot_presidential_election,_2003 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Cypriot_presidential_election,_2003"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Czesław_Miłosz -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Czesław_Miłosz"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dancesport -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Dancesport"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Darts -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Darts"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/David_Beatty,_1st_Earl_Beatty -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/David_Beatty,_1st_Earl_Beatty"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dino_Zoff -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Dino_Zoff"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Diving -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Diving"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Don_Rosa -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Don_Rosa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Edgar_Rice_Burroughs -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Edgar_Rice_Burroughs"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Edward_de_Vere,_17th_Earl_of_Oxford -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Edward_de_Vere,_17th_Earl_of_Oxford"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Emily_Brontë -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Emily_Brontë"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Emperor_Go-Kgon -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Emperor_Go-Kgon"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Empress_Kken -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Empress_Kken"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Erasmus_Reinhold -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Erasmus_Reinhold"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Eubulides -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Eubulides"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/FC_Girondins_de_Bordeaux -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/FC_Girondins_de_Bordeaux"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/FC_Kremin_Kremenchuk -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/FC_Kremin_Kremenchuk"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/FC_St._Pauli -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/FC_St._Pauli"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/FC_Twente -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/FC_Twente"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Failford,_New_South_Wales -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Failford,_New_South_Wales"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Field_lacrosse -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Field_lacrosse"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Figure_skating -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Figure_skating"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Finnish_presidential_election,_1994 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Finnish_presidential_election,_1994"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Fire_Stations_of_Oahu -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Fire_Stations_of_Oahu"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Flag_football -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Flag_football"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Fleet_racing -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Fleet_racing"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Floorball -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Floorball"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Foot_orienteering -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Foot_orienteering"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Formula_racing -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Formula_racing"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Freestyle_skiing -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Freestyle_skiing"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Futsal -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Futsal"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gabonese_presidential_election,_2009 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Gabonese_presidential_election,_2009"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Garth_Brooks -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Garth_Brooks"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Geocaching -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Geocaching"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/George_Bernard_Shaw -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/George_Bernard_Shaw"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/George_Lucas -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/George_Lucas"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/George_Pólya -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/George_Pólya"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Getafe_CF -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Getafe_CF"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gilbert_N._Lewis -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Gilbert_N._Lewis"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gilyanov -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Gilyanov"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gold_mining_in_Alaska -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Gold_mining_in_Alaska"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Graphic_Arts_Building_(Dayton,_Ohio) -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Graphic_Arts_Building_(Dayton,_Ohio)"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gu_County -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Gu_County"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gyula_Andrssy -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Gyula_Andrssy"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Half-pipe_skiing -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Half-pipe_skiing"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hannover_96 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Hannover_96"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Harbour_View_F.C. -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Harbour_View_F.C."/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Henry_Fielding -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Henry_Fielding"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Heraclius -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Heraclius"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Herman_Hollerith -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Herman_Hollerith"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hezekiah -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Hezekiah"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Highest_paid_NBA_players_by_season -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Highest_paid_NBA_players_by_season"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hong_Kong_legislative_election,_1998 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Hong_Kong_legislative_election,_1998"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Horace_Walpole -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Horace_Walpole"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Horseshoes -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Horseshoes"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hugo_Gernsback -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Hugo_Gernsback"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hungarian_parliamentary_election,_2006 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Hungarian_parliamentary_election,_2006"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hurling -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Hurling"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ice_hockey -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Ice_hockey"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Illinois_House_of_Representatives_elections,_2008 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Illinois_House_of_Representatives_elections,_2008"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Indian_general_election_in_Andhra_Pradesh,_1989 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Indian_general_election_in_Andhra_Pradesh,_1989"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Indoor_cricket -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Indoor_cricket"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Inline_hockey -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Inline_hockey"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/International_rules_football -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/International_rules_football"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Iowa_Republican_caucuses,_2000 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Iowa_Republican_caucuses,_2000"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Iowa_gubernatorial_election,_1998 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Iowa_gubernatorial_election,_1998"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ismail_Khan -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Ismail_Khan"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jacques_Mayol -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Jacques_Mayol"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jam_County -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Jam_County"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Johannes_Agricola -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Johannes_Agricola"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/John_Cleese -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/John_Cleese"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Joseph_Schumpeter -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Joseph_Schumpeter"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Joseph_Severn -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Joseph_Severn"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Juventus_F.C. -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Juventus_F.C."/>
+    
+
+
+    <!-- http://dbpedia.org/resource/KNSB_Dutch_Marathon_Championships -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/KNSB_Dutch_Marathon_Championships"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Katzenbach_(Werre) -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Katzenbach_(Werre)"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Keirin -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Keirin"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Korfball -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Korfball"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Little_Dunmow -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Little_Dunmow"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Llanidloes_Ladies_F.C. -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Llanidloes_Ladies_F.C."/>
+    
+
+
+    <!-- http://dbpedia.org/resource/London_Array -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/London_Array"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Los_Angeles_mayoral_election,_1906 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Los_Angeles_mayoral_election,_1906"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Luge -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Luge"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Major_League_Ultimate -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Major_League_Ultimate"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Moldovan_presidential_election,_NovemberE28093December_2009 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Moldovan_presidential_election,_NovemberE28093December_2009"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Motorcycle_racing -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Motorcycle_racing"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Motorcycle_speedway -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Motorcycle_speedway"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mount_Seymour_Provincial_Park -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Mount_Seymour_Provincial_Park"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mountain_bike_orienteering -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Mountain_bike_orienteering"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mountain_biking -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Mountain_biking"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Muggle_Quidditch -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Muggle_Quidditch"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/ND_Mura_05 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/ND_Mura_05"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/NK_Maribor -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/NK_Maribor"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Netball -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Netball"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/New_Zealand_general_election,_1919 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/New_Zealand_general_election,_1919"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Nine-pin_bowling -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Nine-pin_bowling"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Oin%C4%83 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Oin%C4%83"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Oldervik,_Troms -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Oldervik,_Troms"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Paintball -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Paintball"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pair_skating -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Pair_skating"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Para-alpine_skiing -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Para-alpine_skiing"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Parkour -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Parkour"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pato -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Pato"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Plessala -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Plessala"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Plunge_for_distance -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Plunge_for_distance"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Portal_of_the_Folded_Wings_Shrine_to_Aviation -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Portal_of_the_Folded_Wings_Shrine_to_Aviation"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Portuguese_presidential_election,_2001 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Portuguese_presidential_election,_2001"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Powerlifting -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Powerlifting"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Riding_Mountain_House -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Riding_Mountain_House"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rogaining -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Rogaining"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Roque -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Roque"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rounders -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Rounders"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rugby_tens -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Rugby_tens"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rugby_union -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Rugby_union"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rugby_union_in_the_United_States -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Rugby_union_in_the_United_States"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Russell_Mark_Tanner -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Russell_Mark_Tanner"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Russian_four_square -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Russian_four_square"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/S.L._Benfica -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/S.L._Benfica"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Scottish_Parliament_general_election,_2003 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Scottish_Parliament_general_election,_2003"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Shinty -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Shinty"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Shoal_Lake -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Shoal_Lake"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Skalbmierz -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Skalbmierz"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Skeleton_(sport) -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Skeleton_(sport)"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ski_cross -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Ski_cross"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Skrzebowa -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Skrzebowa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Slamball -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Slamball"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Snooker -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Snooker"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Snowboarding -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Snowboarding"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/South_Central_Avenue_Historic_District -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/South_Central_Avenue_Historic_District"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Speed_skating -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Speed_skating"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sport_diving_(sport) -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Sport_diving_(sport)"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Stock_car_racing -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Stock_car_racing"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Street_hockey -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Street_hockey"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sunrise_Mall_(Corpus_Christi) -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Sunrise_Mall_(Corpus_Christi)"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Swedish_general_election,_1985 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Swedish_general_election,_1985"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Swimming_(sport) -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Swimming_(sport)"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Synchronized_swimming -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Synchronized_swimming"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tassadane_Haddada -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Tassadane_Haddada"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Team_handball -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Team_handball"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tennessee_State_Route_23 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Tennessee_State_Route_23"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tennis -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Tennis"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tennis_polo -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Tennis_polo"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Thirlmere -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Thirlmere"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Timsley,_Kentucky -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Timsley,_Kentucky"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tirapata_District -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Tirapata_District"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tournafulla -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Tournafulla"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Track_and_field -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Track_and_field"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Trail_orienteering -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Trail_orienteering"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Trellech -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Trellech"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tug_of_war -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Tug_of_war"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/USM_Alger -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/USM_Alger"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Umayartuvarankulam -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Umayartuvarankulam"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Underwater_hockey -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Underwater_hockey"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Underwater_rugby -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Underwater_rugby"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Underwater_target_shooting -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Underwater_target_shooting"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Union_for_a_Popular_Movement_leadership_election,_2012 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Union_for_a_Popular_Movement_leadership_election,_2012"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_House_of_Representatives_election_in_Delaware,_2012 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/United_States_House_of_Representatives_election_in_Delaware,_2012"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_House_of_Representatives_elections_in_California,_1992 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/United_States_House_of_Representatives_elections_in_California,_1992"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_House_of_Representatives_elections_in_Missouri,_1832_and_1833 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/United_States_House_of_Representatives_elections_in_Missouri,_1832_and_1833"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_Senate_election_in_Florida,_1986 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/United_States_Senate_election_in_Florida,_1986"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_Senate_election_in_Kansas,_2002 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/United_States_Senate_election_in_Kansas,_2002"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_Senate_election_in_Maine,_2012 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/United_States_Senate_election_in_Maine,_2012"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_Senate_election_in_North_Carolina,_1998 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/United_States_Senate_election_in_North_Carolina,_1998"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_Senate_election_in_Ohio,_1980 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/United_States_Senate_election_in_Ohio,_1980"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_Senate_election_in_Pennsylvania,_1928 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/United_States_Senate_election_in_Pennsylvania,_1928"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_presidential_election,_1928 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/United_States_presidential_election,_1928"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_presidential_election_in_California,_1980 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/United_States_presidential_election_in_California,_1980"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_presidential_election_in_Nevada,_1992 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/United_States_presidential_election_in_Nevada,_1992"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_presidential_election_in_South_Dakota,_1992 -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/United_States_presidential_election_in_South_Dakota,_1992"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Val_Marie,_Saskatchewan -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Val_Marie,_Saskatchewan"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/VfB_Stuttgart -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/VfB_Stuttgart"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/W._Heath_Robinson -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/W._Heath_Robinson"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Water_polo -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Water_polo"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Wheelchair_Football_(American) -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Wheelchair_Football_(American)"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Witteveen -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Witteveen"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Womens_basketball -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Womens_basketball"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Youmacon -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Youmacon"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Zorbing -->
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Zorbing"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

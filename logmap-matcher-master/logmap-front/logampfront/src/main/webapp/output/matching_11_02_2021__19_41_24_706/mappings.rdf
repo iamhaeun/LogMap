@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://spider.sigappfr.org/HSSNdoc/hssn.ttl</onto1>
+<onto2>http://spider.sigappfr.org/HSSNdoc/hssn.ttl</onto2>
+<uri1>http://spider.sigappfr.org/HSSNdoc/hssn.ttl</uri1>
+<uri2>http://spider.sigappfr.org/HSSNdoc/hssn.ttl</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/Deployment"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/Deployment"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/System"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/System"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/Sample"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Sample"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+		<measure rdf:datatype="xsd:float">0.85</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/Sampler"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Sampler"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+		<entity2 rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+		<entity2 rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+		<measure rdf:datatype="xsd:float">0.8</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/Input"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/Input"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/Result"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Result"/>
+		<measure rdf:datatype="xsd:float">0.82</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/ActuatableProperty"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/ActuatableProperty"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/Procedure"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Procedure"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+		<measure rdf:datatype="xsd:float">0.82</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Output"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/Output"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/Output"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/Output"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/Actuator"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Actuator"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/Stimulus"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/Stimulus"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+		<measure rdf:datatype="xsd:float">0.85</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+		<entity2 rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Input"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/Input"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/Sampling"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/Sampling"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/resultTime"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/resultTime"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/hasSimpleResult"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/hasSimpleResult"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/isPropertyOf"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/isPropertyOf"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/isSampleOf"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/isSampleOf"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/hasResult"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/hasResult"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/inDeployment"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/inDeployment"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/isActedOnBy"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/isActedOnBy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/deployedSystem"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/deployedSystem"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/madeBySampler"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/madeBySampler"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/hasOutput"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/hasOutput"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/hasDeployment"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/hasDeployment"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/actsOnProperty"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/actsOnProperty"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/hasSubSystem"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/hasSubSystem"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/implements"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/implements"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/madeActuation"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/madeActuation"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/madeBySensor"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/madeBySensor"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/hasInput"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/hasInput"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/isResultOf"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/isResultOf"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/phenomenonTime"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/phenomenonTime"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/usedProcedure"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/usedProcedure"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/isProxyFor"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/isProxyFor"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/isHostedBy"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/isHostedBy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/wasOriginatedBy"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/wasOriginatedBy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/observedProperty"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/observedProperty"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/forProperty"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/forProperty"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/isObservedBy"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/isObservedBy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/deployedOnPlatform"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/deployedOnPlatform"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/madeSampling"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/madeSampling"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/madeObservation"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/madeObservation"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/hosts"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/hosts"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/implementedBy"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/implementedBy"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/madeByActuator"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/madeByActuator"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/sosa/hasSample"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/sosa/hasSample"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/ssn/detects"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/ssn/detects"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

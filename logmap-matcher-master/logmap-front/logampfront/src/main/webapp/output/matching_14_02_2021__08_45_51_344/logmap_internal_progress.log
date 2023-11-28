@@ -1,0 +1,11 @@
+Time processing ontogy 1 (s): 0.053
+Time processing ontogy 2 (s): 0.019
+Time computing class mappings (s): 0.0
+Time computing data property mappings (s): 0.0
+Time computing object property mappings (s): 0.0
+Time computing instance mappings (s): 0.001
+Time Saving output mapping files (s): 0.008
+Time saving overlapping (s): 0.043
+Time Saving overlapping and integrated ontologies (s): 0.016
+Time loading ontos (s): 0.316
+LogMap Lite Matching Time (s): 0.193

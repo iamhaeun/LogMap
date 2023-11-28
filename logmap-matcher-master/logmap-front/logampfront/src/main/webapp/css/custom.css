@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+
+ body {
+  font-family: 'Noto Sans', sans-serif; background-image: linear-gradient(180deg, var(--bs-secondary-bg), var(--bs-body-bg) 100px, var(--bs-body-bg));
+}
+
+ a { text-decoration: none !important;}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.w70 {width:70% !important}
+.w58 {width:58.33333333% !important}
+.w28 {width:28% !important}
+
+.fb {font-weight: bold !important}
+
+.table-center {margin-left:auto;margin-right:auto;}
+
+.mb0 {margin-bottom: 0px !important};

@@ -1,0 +1,1174 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"
+     xmlns:mappings="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#address -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#address"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#articles -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#articles"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#author -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#author"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#book -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#book"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#chapters -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#chapters"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#contract -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#contract"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#date -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#date"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#directors -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#directors"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#editor -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#editor"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#event -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#event"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#humanCreator -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#humanCreator"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#institution -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#institution"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#isPartOf -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#isPartOf"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#journal -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#journal"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#location -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#location"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#organization -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#organization"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#organizer -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#organizer"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#pages -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#pages"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#parts -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#parts"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#publisher -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#publisher"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#school -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#school"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#first -->
+
+    <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#rest -->
+
+    <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#abstract -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#abstract"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#affiliation -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#affiliation"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#annote -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#annote"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#chapter -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#chapter"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#city -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#city"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#contents -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#contents"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#copyright -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#copyright"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#country -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#country"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#day -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#day"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#edition -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#edition"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#endPage -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#endPage"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#firstPublished -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#firstPublished"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#howPublished -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#howPublished"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#isbn -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#isbn"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#issn -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#issn"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#issue -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#issue"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#key -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#key"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#keywords -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#keywords"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#language -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#language"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#lastName -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#lastName"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#lccn -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#lccn"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#month -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#month"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#mrNumber -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#mrNumber"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#name -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#name"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#note -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#note"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#number -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#number"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#periodicity -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#periodicity"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#price -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#price"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#reviewed -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#reviewed"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#series -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#series"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#shortName -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#shortName"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#size -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#size"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#startPage -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#startPage"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#state -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#state"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#title -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#title"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#type -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#type"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#url -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#url"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#volume -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#volume"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#year -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#year"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/firstName -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/firstName"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Academic -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Academic"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Address -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Address"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Article -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Article"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book">
+        <owl:equivalentClass rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.565</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook</entity2>
+        <owl:annotatedSource rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book"/>
+        <owl:annotatedTarget rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.565</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook</entity1>
+        <owl:annotatedSource rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book"/>
+        <owl:annotatedTarget rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Booklet -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Booklet"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Chapter -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Chapter"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Collection -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Collection">
+        <owl:equivalentClass rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7045454545454545</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Collection</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection</entity1>
+        <owl:annotatedSource rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Collection"/>
+        <owl:annotatedTarget rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7045454545454545</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Collection</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection</entity2>
+        <owl:annotatedSource rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Collection"/>
+        <owl:annotatedTarget rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Deliverable -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Deliverable"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.565</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook</entity2>
+        <owl:annotatedSource rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book"/>
+        <owl:annotatedTarget rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.565</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook</entity1>
+        <owl:annotatedSource rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book"/>
+        <owl:annotatedTarget rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7045454545454545</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Collection</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection</entity1>
+        <owl:annotatedSource rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Collection"/>
+        <owl:annotatedTarget rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7045454545454545</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Collection</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection</entity2>
+        <owl:annotatedSource rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Collection"/>
+        <owl:annotatedTarget rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings">
+        <owl:equivalentClass rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7083333333333333</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings</entity1>
+        <owl:annotatedSource rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings"/>
+        <owl:annotatedTarget rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7083333333333333</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings</entity2>
+        <owl:annotatedSource rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings"/>
+        <owl:annotatedTarget rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Informal -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Informal"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Institution -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Institution"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Journal -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Journal"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#LectureNotes -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#LectureNotes"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Manual -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Manual"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#MastersThesis -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#MastersThesis"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Misc -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Misc"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Monograph -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Monograph"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#MotionPicture -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#MotionPicture"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PageRange -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PageRange"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Part -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Part"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PhdThesis -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PhdThesis"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7083333333333333</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings</entity1>
+        <owl:annotatedSource rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings"/>
+        <owl:annotatedTarget rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7083333333333333</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings</entity2>
+        <owl:annotatedSource rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings"/>
+        <owl:annotatedTarget rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Publisher -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Publisher"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Report -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Report"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#School -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#School"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#TechReport -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#TechReport"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Unpublished -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Unpublished"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#List -->
+
+    <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a04570373 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a04570373"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a060097576 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a060097576"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a066600210 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a066600210"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a086379337 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a086379337"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a093016135 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a093016135"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a108048723 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a108048723"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a11065952 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a11065952"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a11090777 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a11090777"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a131020767 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a131020767"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a139477786 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a139477786"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a140583454 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a140583454"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a246119474 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a246119474"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a250331360 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a250331360"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a29105611 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a29105611"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a3105947 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a3105947"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a32071928 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a32071928"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a32071928c -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a32071928c"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a337716610 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a337716610"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a362042121 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a362042121"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a39510672 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a39510672"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a431956276 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a431956276"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a431956276b -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a431956276b"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a431956276c -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a431956276c"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a43836633 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a43836633"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a439508789 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a439508789"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a456080390 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a456080390"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a467748807 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a467748807"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a475526642 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a475526642"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a48552212 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a48552212"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a492378321 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a492378321"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a572406328 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a572406328"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a64263824 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a64263824"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a674639524 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a674639524"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a70955601 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a70955601"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a70981683 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a70981683"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a71003986 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a71003986"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a712561038 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a712561038"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a71568377 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a71568377"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a72192307 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a72192307"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a72192307c -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a72192307c"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a74993404 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a74993404"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a79573306 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a79573306"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a80299267 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a80299267"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a846015923 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a846015923"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a85228505 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a85228505"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a85849488 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a85849488"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a885257047 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a885257047"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a900366022 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a900366022"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a906774044 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a906774044"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a944339054 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a944339054"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a94533498 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a94533498"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a958684218 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a958684218"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a971541439 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a971541439"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a98078619 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a98078619"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#spg04 -->
+
+    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#spg04"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#nil -->
+
+    <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

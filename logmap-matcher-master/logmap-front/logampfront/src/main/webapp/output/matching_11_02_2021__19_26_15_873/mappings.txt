@@ -1,0 +1,13 @@
+http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware|http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware|=|0.7|CLS
+http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor|http://www.w3.org/ns/sosa/Sensor|=|0.5|CLS
+http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Service|http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service|=|0.7|CLS
+http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Hardware|http://spider.sigappfr.org/Research_Projects/Mob-SSN#Hardware|=|0.51|CLS
+http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location|http://mssn.sigappfr.org/mssn/Location|=|0.7|CLS
+http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Platform|http://www.w3.org/ns/sosa/Platform|=|0.7|CLS
+http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device|http://spider.sigappfr.org/Research_Projects/Mob-SSN#Device|=|0.5|CLS
+http://www.daml.org/services/owl-s/1.2/Service.owl#Service|http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service|=|0.51|CLS
+http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Actuator|http://www.w3.org/ns/sosa/Actuator|=|0.5|CLS
+http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service|http://spider.sigappfr.org/Research_Projects/Mob-SSN#Service|=|0.51|CLS
+http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Software|http://spider.sigappfr.org/Research_Projects/Mob-SSN#Software|=|0.7|CLS
+http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Location|http://mssn.sigappfr.org/mssn/Location|=|0.51|CLS
+http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasLocation|http://spider.sigappfr.org/Research_Projects/Mob-SSN#hasPastLocation|=|0.89|OPROP

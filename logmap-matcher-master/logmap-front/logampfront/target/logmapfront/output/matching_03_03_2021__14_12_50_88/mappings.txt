@@ -1,0 +1,3 @@
+http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/result#completionTime|http://www.csols.com/ontologies/2021/02/ontologyv3#analysis-completion-time|=|1.0|DPROP
+http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/instrument#serialNumber|http://www.csols.com/ontologies/2021/02/ontologyv3#analytical-instrument-serial-number|=|1.0|DPROP
+http://www.semanticweb.org/martin/ontologies/2021/2/bootstrap/sample#reference|http://www.csols.com/ontologies/2021/02/ontologyv3#sample-reference|=|1.0|DPROP

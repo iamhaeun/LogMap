@@ -1,0 +1,13 @@
+https://w3id.org/saref#Switch|http://www.iec.ch/TC57/CIM#Switch|=|0.75|CLS
+http://www.w3.org/2006/time#DateTimeInterval|http://www.iec.ch/TC57/CIM#DateTimeInterval|=|0.7|CLS
+https://w3id.org/saref#Sensor|http://www.iec.ch/TC57/CIM#Sensor|=|0.5|CLS
+https://w3id.org/saref#Command|http://www.iec.ch/TC57/CIM#Command|=|0.82|CLS
+https://w3id.org/saref#Time|http://www.iec.ch/TC57/CIM#Time|=|0.7|CLS
+http://www.w3.org/2006/time#Duration|http://www.iec.ch/TC57/CIM#Duration|=|0.7|CLS
+https://w3id.org/saref#Measurement|http://www.iec.ch/TC57/CIM#Measure|=|0.7|CLS
+https://w3id.org/saref#Temperature|http://www.iec.ch/TC57/CIM#Temperature|=|0.7|CLS
+https://w3id.org/saref#Price|http://www.iec.ch/TC57/CIM#Price|=|0.7|CLS
+https://w3id.org/saref#Pressure|http://www.iec.ch/TC57/CIM#Pressure|=|0.7|CLS
+https://w3id.org/saref#Meter|http://www.iec.ch/TC57/CIM#Meter|=|0.77|CLS
+https://w3id.org/saref#Currency|http://www.iec.ch/TC57/CIM#Currency|=|0.7|CLS
+https://w3id.org/saref#Profile|http://www.iec.ch/TC57/CIM#Profile|=|0.7|CLS

@@ -1,0 +1,17 @@
+https://w3id.org/seas/Device|https://w3id.org/saref#Device|=|0.75|CLS
+https://w3id.org/seas/Sensor|https://w3id.org/def/saref4bldg#Sensor|=|0.96|CLS
+https://w3id.org/seas/Sensor|https://w3id.org/saref#Sensor|=|0.54|CLS
+https://w3id.org/seas/BuildingSpace|https://w3id.org/def/saref4bldg#BuildingSpace|=|0.8|CLS
+https://w3id.org/seas/Property|https://w3id.org/saref#Property|=|0.7|CLS
+https://w3id.org/seas/Actuator|https://w3id.org/saref#Actuator|=|0.6|CLS
+https://w3id.org/seas/Actuator|https://w3id.org/def/saref4bldg#Actuator|=|0.98|CLS
+https://w3id.org/seas/Building|https://w3id.org/def/saref4bldg#Building|=|0.7|CLS
+http://purl.org/goodrelations/v1#hasValue|https://w3id.org/saref#hasValue|=|1.0|DPROP
+https://w3id.org/seas/location|http://www.w3.org/2003/01/geo/wgs84_pos#location|=|1.0|OPROP
+https://w3id.org/seas/volume|https://w3id.org/def/saref4bldg#volumen|=|0.95|OPROP
+https://w3id.org/seas/length|https://w3id.org/def/saref4bldg#length|=|1.0|OPROP
+https://w3id.org/seas/colorTemperature|https://w3id.org/def/saref4bldg#colorTemperature|=|1.0|OPROP
+http://purl.org/goodrelations/v1#height|https://w3id.org/def/saref4bldg#height|=|1.0|OPROP
+https://w3id.org/seas/thermalTransmittance|https://w3id.org/def/saref4bldg#thermalTransmittance|=|1.0|OPROP
+http://purl.org/goodrelations/v1#weight|https://w3id.org/def/saref4bldg#weight|=|1.0|OPROP
+https://w3id.org/seas/apparentPower|https://w3id.org/def/saref4bldg#apparentPowerMax|=|0.94|OPROP

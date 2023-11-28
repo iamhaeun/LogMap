@@ -1,0 +1,5789 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.bbc.co.uk/ontologies/coreconcepts/"
+     xml:base="http://www.bbc.co.uk/ontologies/coreconcepts/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/Event -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Event"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Organisation -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Organisation"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Place -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Place"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Sport -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Sport"/>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Event -->
+
+    <owl:Class rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Event"/>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Organisation -->
+
+    <owl:Class rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Organisation"/>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Person -->
+
+    <owl:Class rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Person"/>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Place -->
+
+    <owl:Class rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Place"/>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Theme -->
+
+    <owl:Class rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/creativework/BlogPost -->
+
+    <owl:Class rdf:about="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/creativework/CreativeWork -->
+
+    <owl:Class rdf:about="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/creativework/NewsItem -->
+
+    <owl:Class rdf:about="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/creativework/Programme -->
+
+    <owl:Class rdf:about="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    
+
+
+    <!-- http://www.ldbc.eu/Individual_Corporation -->
+
+    <owl:Class rdf:about="http://www.ldbc.eu/Individual_Corporation"/>
+    
+
+
+    <!-- http://www.ldbc.eu/Person_Organisation -->
+
+    <owl:Class rdf:about="http://www.ldbc.eu/Person_Organisation"/>
+    
+
+
+    <!-- http://www.ldbc.eu/Thing -->
+
+    <owl:Class rdf:about="http://www.ldbc.eu/Thing"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/resource/1._FC_KC3B6ln -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/1._FC_KC3B6ln">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/1908_American_Grand_Prize -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/1908_American_Grand_Prize">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/1950_French_Grand_Prix -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/1950_French_Grand_Prix">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/1950_Italian_Grand_Prix -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/1950_Italian_Grand_Prix">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/1960_Silver_City_Trophy -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/1960_Silver_City_Trophy">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/1984_Canadian_Grand_Prix -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/1984_Canadian_Grand_Prix">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/1991_DFB-Supercup -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/1991_DFB-Supercup">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/1995_British_Grand_Prix -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/1995_British_Grand_Prix">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/1998_British_Grand_Prix -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/1998_British_Grand_Prix">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/2002_Brazilian_Grand_Prix -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/2002_Brazilian_Grand_Prix">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/2005_Italian_Grand_Prix -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/2005_Italian_Grand_Prix">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/2008_Bahrain_Grand_Prix -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/2008_Bahrain_Grand_Prix">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/AEK_Athens_Futsal -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/AEK_Athens_Futsal">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Afonso_IV_of_Portugal -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Afonso_IV_of_Portugal">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Afsharid_dynasty -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Afsharid_dynasty">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ahmad_Shah_Massoud -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ahmad_Shah_Massoud">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aimoin -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Aimoin">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Al-Wakrah_Sport_Club -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Al-Wakrah_Sport_Club">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Al_Capp -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Al_Capp">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alan_Garner -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Alan_Garner">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Albert_the_Bear -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Albert_the_Bear">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alessandro_Algardi -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Alessandro_Algardi">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alessandro_Scarlatti -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Alessandro_Scarlatti">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alessandro_Volta -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Alessandro_Volta">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alexander_Graham_Bell -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Alexander_Graham_Bell">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alexios_V_Doukas -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Alexios_V_Doukas">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Alfred_the_Great -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Alfred_the_Great">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Amateur_radio_direction_finding -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Amateur_radio_direction_finding">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/American_football -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/American_football">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Andre_Agassi -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Andre_Agassi">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ansonia_Apartments -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ansonia_Apartments">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Archduke_Charles,_Duke_of_Teschen -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Archduke_Charles,_Duke_of_Teschen">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Person_Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Arena_football -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Arena_football">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Arthur_Laurents -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Arthur_Laurents">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Arthur_St._Clair -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Arthur_St._Clair">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Association_football -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Association_football">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/August_Horch -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/August_Horch">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Australian_rules_football -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Australian_rules_football">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Auto_racing -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Auto_racing">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Badminton -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Badminton">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Baghdad_FC -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Baghdad_FC">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ball_hockey -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ball_hockey">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Baltimore_Comic-Con -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Baltimore_Comic-Con">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Baseball -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Baseball">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Basketball -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Basketball">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Basque_parliamentary_election,_2012 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Basque_parliamentary_election,_2012">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Basque_pelota -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Basque_pelota">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/BeC59FiktaC59F_J.K. -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/BeC59FiktaC59F_J.K.">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Beaudesert,_Warwickshire -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Beaudesert,_Warwickshire">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Biathlon -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Biathlon">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Blackburn_Rovers_L.F.C. -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Blackburn_Rovers_L.F.C.">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bocce -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bocce">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bowls -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bowls">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bradford_City_A.F.C. -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bradford_City_A.F.C.">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Brown_Township,_Washington_County,_Indiana -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Brown_Township,_Washington_County,_Indiana">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bucheon_FC_1995 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Bucheon_FC_1995">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/California_gubernatorial_election,_2002 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/California_gubernatorial_election,_2002">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Camogie -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Camogie">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Canadian_football -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Canadian_football">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Canoe_orienteering -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Canoe_orienteering">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Caravaggio -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Caravaggio">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Carom_billiards -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Carom_billiards">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Circle_rules_football -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Circle_rules_football">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Club_Sport_Emelec -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Club_Sport_Emelec">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Club_Tijuana -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Club_Tijuana">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Combat_sport -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Combat_sport">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/ConFusion_(convention) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/ConFusion_(convention)">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Coronel_Bolognesi -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Coronel_Bolognesi">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cotati,_California -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cotati,_California">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Craig_Venter -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Craig_Venter">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cricket -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cricket">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Croydon_F.C. -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Croydon_F.C.">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cue_sports -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cue_sports">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Curling -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Curling">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cutting_(sport) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cutting_(sport)">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cycle_polo -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cycle_polo">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cypriot_presidential_election,_2003 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cypriot_presidential_election,_2003">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Czesław_Miłosz -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Czesław_Miłosz">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Person_Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dancesport -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Dancesport">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Darts -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Darts">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/David_Beatty,_1st_Earl_Beatty -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/David_Beatty,_1st_Earl_Beatty">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dino_Zoff -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Dino_Zoff">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Diving -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Diving">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Don_Rosa -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Don_Rosa">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Edgar_Rice_Burroughs -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Edgar_Rice_Burroughs">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Edward_de_Vere,_17th_Earl_of_Oxford -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Edward_de_Vere,_17th_Earl_of_Oxford">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Emily_Brontë -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Emily_Brontë">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Emperor_Go-Kgon -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Emperor_Go-Kgon">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Empress_Kken -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Empress_Kken">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Erasmus_Reinhold -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Erasmus_Reinhold">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Person_Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Eubulides -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Eubulides">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/FC_Girondins_de_Bordeaux -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/FC_Girondins_de_Bordeaux">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/FC_Kremin_Kremenchuk -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/FC_Kremin_Kremenchuk">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/FC_St._Pauli -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/FC_St._Pauli">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Person_Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/FC_Twente -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/FC_Twente">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Failford,_New_South_Wales -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Failford,_New_South_Wales">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Field_lacrosse -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Field_lacrosse">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Figure_skating -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Figure_skating">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Finnish_presidential_election,_1994 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Finnish_presidential_election,_1994">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Fire_Stations_of_Oahu -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Fire_Stations_of_Oahu">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Flag_football -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Flag_football">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Fleet_racing -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Fleet_racing">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Floorball -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Floorball">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Foot_orienteering -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Foot_orienteering">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Formula_racing -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Formula_racing">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Freestyle_skiing -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Freestyle_skiing">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Futsal -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Futsal">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gabonese_presidential_election,_2009 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Gabonese_presidential_election,_2009">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Garth_Brooks -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Garth_Brooks">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Geocaching -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Geocaching">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/George_Bernard_Shaw -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/George_Bernard_Shaw">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/George_Lucas -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/George_Lucas">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/George_Pólya -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/George_Pólya">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Getafe_CF -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Getafe_CF">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gilbert_N._Lewis -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Gilbert_N._Lewis">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gilyanov -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Gilyanov">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gold_mining_in_Alaska -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Gold_mining_in_Alaska">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Graphic_Arts_Building_(Dayton,_Ohio) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Graphic_Arts_Building_(Dayton,_Ohio)">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gu_County -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Gu_County">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gyula_Andrssy -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Gyula_Andrssy">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Half-pipe_skiing -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Half-pipe_skiing">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hannover_96 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Hannover_96">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Harbour_View_F.C. -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Harbour_View_F.C.">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Henry_Fielding -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Henry_Fielding">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Heraclius -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Heraclius">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Herman_Hollerith -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Herman_Hollerith">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hezekiah -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Hezekiah">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Highest_paid_NBA_players_by_season -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Highest_paid_NBA_players_by_season">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hong_Kong_legislative_election,_1998 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Hong_Kong_legislative_election,_1998">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Horace_Walpole -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Horace_Walpole">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Horseshoes -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Horseshoes">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hugo_Gernsback -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Hugo_Gernsback">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hungarian_parliamentary_election,_2006 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Hungarian_parliamentary_election,_2006">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hurling -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Hurling">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ice_hockey -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ice_hockey">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Illinois_House_of_Representatives_elections,_2008 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Illinois_House_of_Representatives_elections,_2008">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Indian_general_election_in_Andhra_Pradesh,_1989 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Indian_general_election_in_Andhra_Pradesh,_1989">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Indoor_cricket -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Indoor_cricket">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Inline_hockey -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Inline_hockey">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/International_rules_football -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/International_rules_football">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Iowa_Republican_caucuses,_2000 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Iowa_Republican_caucuses,_2000">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Iowa_gubernatorial_election,_1998 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Iowa_gubernatorial_election,_1998">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ismail_Khan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ismail_Khan">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jacques_Mayol -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Jacques_Mayol">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jam_County -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Jam_County">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Johannes_Agricola -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Johannes_Agricola">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/John_Cleese -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/John_Cleese">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Joseph_Schumpeter -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Joseph_Schumpeter">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Joseph_Severn -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Joseph_Severn">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Juventus_F.C. -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Juventus_F.C.">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/KNSB_Dutch_Marathon_Championships -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/KNSB_Dutch_Marathon_Championships">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Katzenbach_(Werre) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Katzenbach_(Werre)">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Keirin -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Keirin">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Korfball -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Korfball">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Little_Dunmow -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Little_Dunmow">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Llanidloes_Ladies_F.C. -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Llanidloes_Ladies_F.C.">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+        <rdf:type rdf:resource="http://www.ldbc.eu/Person_Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/London_Array -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/London_Array">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Los_Angeles_mayoral_election,_1906 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Los_Angeles_mayoral_election,_1906">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Luge -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Luge">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Major_League_Ultimate -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Major_League_Ultimate">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Moldovan_presidential_election,_NovemberE28093December_2009 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Moldovan_presidential_election,_NovemberE28093December_2009">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Motorcycle_racing -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Motorcycle_racing">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Motorcycle_speedway -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Motorcycle_speedway">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mount_Seymour_Provincial_Park -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Mount_Seymour_Provincial_Park">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mountain_bike_orienteering -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Mountain_bike_orienteering">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mountain_biking -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Mountain_biking">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Muggle_Quidditch -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Muggle_Quidditch">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/ND_Mura_05 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/ND_Mura_05">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/NK_Maribor -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/NK_Maribor">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Netball -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Netball">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/New_Zealand_general_election,_1919 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/New_Zealand_general_election,_1919">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Nine-pin_bowling -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Nine-pin_bowling">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Oin%C4%83 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Oin%C4%83">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Oldervik,_Troms -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Oldervik,_Troms">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Paintball -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Paintball">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pair_skating -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Pair_skating">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Para-alpine_skiing -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Para-alpine_skiing">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Parkour -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Parkour">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pato -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Pato">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Plessala -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Plessala">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Plunge_for_distance -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Plunge_for_distance">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Portal_of_the_Folded_Wings_Shrine_to_Aviation -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Portal_of_the_Folded_Wings_Shrine_to_Aviation">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Portuguese_presidential_election,_2001 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Portuguese_presidential_election,_2001">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Powerlifting -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Powerlifting">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Riding_Mountain_House -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Riding_Mountain_House">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rogaining -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Rogaining">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Roque -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Roque">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rounders -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Rounders">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rugby_tens -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Rugby_tens">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rugby_union -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Rugby_union">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rugby_union_in_the_United_States -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Rugby_union_in_the_United_States">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Russell_Mark_Tanner -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Russell_Mark_Tanner">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Russian_four_square -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Russian_four_square">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/S.L._Benfica -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/S.L._Benfica">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Scottish_Parliament_general_election,_2003 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Scottish_Parliament_general_election,_2003">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Shinty -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Shinty">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Shoal_Lake -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Shoal_Lake">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Skalbmierz -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Skalbmierz">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Skeleton_(sport) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Skeleton_(sport)">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ski_cross -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ski_cross">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Skrzebowa -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Skrzebowa">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Slamball -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Slamball">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Snooker -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Snooker">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Snowboarding -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Snowboarding">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/South_Central_Avenue_Historic_District -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/South_Central_Avenue_Historic_District">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Speed_skating -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Speed_skating">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sport_diving_(sport) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Sport_diving_(sport)">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Stock_car_racing -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Stock_car_racing">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Street_hockey -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Street_hockey">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sunrise_Mall_(Corpus_Christi) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Sunrise_Mall_(Corpus_Christi)">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Swedish_general_election,_1985 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Swedish_general_election,_1985">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Swimming_(sport) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Swimming_(sport)">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Synchronized_swimming -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Synchronized_swimming">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tassadane_Haddada -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tassadane_Haddada">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Team_handball -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Team_handball">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tennessee_State_Route_23 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tennessee_State_Route_23">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tennis -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tennis">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tennis_polo -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tennis_polo">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Thirlmere -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Thirlmere">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Timsley,_Kentucky -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Timsley,_Kentucky">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tirapata_District -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tirapata_District">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tournafulla -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tournafulla">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Track_and_field -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Track_and_field">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Trail_orienteering -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Trail_orienteering">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Trellech -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Trellech">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tug_of_war -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tug_of_war">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/USM_Alger -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/USM_Alger">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Umayartuvarankulam -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Umayartuvarankulam">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Underwater_hockey -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Underwater_hockey">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Underwater_rugby -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Underwater_rugby">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Underwater_target_shooting -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Underwater_target_shooting">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Union_for_a_Popular_Movement_leadership_election,_2012 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Union_for_a_Popular_Movement_leadership_election,_2012">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_House_of_Representatives_election_in_Delaware,_2012 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States_House_of_Representatives_election_in_Delaware,_2012">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_House_of_Representatives_elections_in_California,_1992 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States_House_of_Representatives_elections_in_California,_1992">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_House_of_Representatives_elections_in_Missouri,_1832_and_1833 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States_House_of_Representatives_elections_in_Missouri,_1832_and_1833">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_Senate_election_in_Florida,_1986 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States_Senate_election_in_Florida,_1986">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_Senate_election_in_Kansas,_2002 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States_Senate_election_in_Kansas,_2002">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_Senate_election_in_Maine,_2012 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States_Senate_election_in_Maine,_2012">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_Senate_election_in_North_Carolina,_1998 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States_Senate_election_in_North_Carolina,_1998">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_Senate_election_in_Ohio,_1980 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States_Senate_election_in_Ohio,_1980">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_Senate_election_in_Pennsylvania,_1928 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States_Senate_election_in_Pennsylvania,_1928">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_presidential_election,_1928 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States_presidential_election,_1928">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_presidential_election_in_California,_1980 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States_presidential_election_in_California,_1980">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_presidential_election_in_Nevada,_1992 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States_presidential_election_in_Nevada,_1992">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_presidential_election_in_South_Dakota,_1992 -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/United_States_presidential_election_in_South_Dakota,_1992">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Val_Marie,_Saskatchewan -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Val_Marie,_Saskatchewan">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/VfB_Stuttgart -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/VfB_Stuttgart">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/W._Heath_Robinson -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/W._Heath_Robinson">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Water_polo -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Water_polo">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Wheelchair_Football_(American) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Wheelchair_Football_(American)">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Witteveen -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Witteveen">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Womens_basketball -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Womens_basketball">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Youmacon -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Youmacon">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Zorbing -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Zorbing">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Al_Ahly_SC -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Al_Ahly_SC">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Bing_Crosby -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Bing_Crosby">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Courtney_Love -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Courtney_Love">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/FK_Ventspils -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/FK_Ventspils">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Felix_Guattari -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Felix_Guattari">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Frank_Sinatra -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Frank_Sinatra">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Jean-Jacques_Ampere -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Jean-Jacques_Ampere">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Manisaspor -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Manisaspor">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Maryland_gubernatorial_election,_1998 -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Maryland_gubernatorial_election,_1998">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Popular_Democratic_Party_of_Puerto_Rico_primaries,_2012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Popular_Democratic_Party_of_Puerto_Rico_primaries,_2012">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/United_States_Senate_election_in_Delaware,_1972 -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/United_States_Senate_election_in_Delaware,_1972">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Walthamstow_by-election,_1910 -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Walthamstow_by-election,_1910">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Wimblington -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Wimblington">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/138458858#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/138458858#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/846965246#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/846965246#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1016447935#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1016447935#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1101670361#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1101670361#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1264941513#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1264941513#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1306595012#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1306595012#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1307779230#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1307779230#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1601853749#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1601853749#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/17366383#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/17366383#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1848425502#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/1848425502#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/187828586#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/187828586#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/349127977#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/349127977#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/476586209#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/476586209#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/597033596#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/597033596#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/668416877#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/668416877#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/777056191#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/777056191#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/819279959#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/819279959#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/855401343#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/855401343#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/898753156#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/898753156#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/ontologies/coreconcepts/Thing/954832136#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/ontologies/coreconcepts/Thing/954832136#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1007958189#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1007958189#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/101#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/101#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1011382123#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1011382123#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1023741141#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1023741141#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1026223026#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1026223026#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/103#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/103#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1043137997#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1043137997#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1057418317#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1057418317#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/106#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/106#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/107192253#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/107192253#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/108167293#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/108167293#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1085771912#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1085771912#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/108751451#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/108751451#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1089896651#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1089896651#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/10992588#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/10992588#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1101966384#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1101966384#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1111584745#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1111584745#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/112#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/112#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1123854177#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1123854177#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/113#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/113#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1134914375#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1134914375#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/114#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/114#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1144072816#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1144072816#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1151399101#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1151399101#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1151977934#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1151977934#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1155358477#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1155358477#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/116#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/116#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1168108155#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1168108155#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1179134997#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1179134997#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/118#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/118#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1186488525#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1186488525#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/12#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/12#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/120#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/120#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1207102589#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1207102589#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1214072996#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1214072996#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/123#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/123#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1235696886#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1235696886#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1244860762#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1244860762#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1245866090#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1245866090#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/125#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/125#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1261410333#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1261410333#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1262491647#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1262491647#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1262982989#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1262982989#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1266136560#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1266136560#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/129#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/129#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1293190344#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1293190344#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/13#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/13#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1300105838#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1300105838#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/130143938#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/130143938#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1301893163#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1301893163#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1309226716#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1309226716#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1314952292#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1314952292#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1325579500#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1325579500#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1327392891#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1327392891#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1335557724#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1335557724#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1343851075#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1343851075#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1354330036#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1354330036#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1357897600#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1357897600#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1363318670#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1363318670#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1366124437#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1366124437#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/137#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/137#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1381209169#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1381209169#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/139#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/139#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1394898892#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1394898892#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1408003904#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1408003904#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/141#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/141#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1413307313#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1413307313#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/142#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/142#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1442230440#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1442230440#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1449987567#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1449987567#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1452937163#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1452937163#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1455027853#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1455027853#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1461796761#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1461796761#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1470507678#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1470507678#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1483967616#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1483967616#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/148505594#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/148505594#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/149026613#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/149026613#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1496558551#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1496558551#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/15#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/15#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1500524950#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1500524950#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1504511279#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1504511279#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1509699193#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1509699193#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1509979544#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1509979544#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1517830286#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1517830286#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1529312082#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1529312082#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1542928677#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1542928677#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1546173039#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1546173039#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/155#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/155#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1554178288#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1554178288#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1559505123#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1559505123#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/156#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/156#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/157#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/157#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1572924973#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1572924973#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1576606472#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1576606472#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1589694093#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1589694093#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1590911306#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1590911306#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1591008207#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1591008207#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1593726924#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1593726924#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1594866341#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1594866341#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/159685863#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/159685863#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/160#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/160#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1604859797#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1604859797#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/160544607#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/160544607#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1605592898#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1605592898#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1608256653#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1608256653#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1608434309#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1608434309#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1609910302#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1609910302#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/161379622#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/161379622#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1626958589#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1626958589#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1629721753#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1629721753#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1632444534#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1632444534#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1636544670#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1636544670#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1636791094#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1636791094#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/164#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/164#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1651572940#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1651572940#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1660263447#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1660263447#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1662333317#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1662333317#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1664700192#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1664700192#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1685506356#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1685506356#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1691315922#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1691315922#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1704491719#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1704491719#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1718250304#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1718250304#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1721641900#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1721641900#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1722421471#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1722421471#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/173#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/173#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1739764405#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1739764405#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1745888146#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1745888146#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1759096068#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1759096068#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1762228019#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1762228019#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1762493462#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1762493462#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/177#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/177#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1777331463#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1777331463#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/178453655#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/178453655#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/179#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/179#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1801426047#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1801426047#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1819853617#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1819853617#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1834436766#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1834436766#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1847437294#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1847437294#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1856471601#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1856471601#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1857957555#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1857957555#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/186#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/186#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1864041977#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1864041977#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/18721083#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/18721083#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1882778486#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1882778486#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1884538851#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1884538851#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1893200369#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1893200369#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1893740125#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1893740125#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1898102971#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1898102971#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1905675472#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1905675472#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1911692728#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1911692728#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1917713732#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1917713732#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/193#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/193#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1930728198#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1930728198#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1934226035#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1934226035#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/193455393#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/193455393#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1940043068#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1940043068#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1949877939#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1949877939#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1951660880#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1951660880#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1956934461#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1956934461#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1958795834#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1958795834#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/196#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/196#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1961421310#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1961421310#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1964844233#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1964844233#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1965313505#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1965313505#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/198#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/198#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/1981914292#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/1981914292#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/199#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/199#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/2020188663#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/2020188663#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/2039336072#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/2039336072#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/203983618#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/203983618#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/2044088495#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/2044088495#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/2050926674#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/2050926674#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/206#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/206#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/207#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/207#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/2081303218#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/2081303218#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/2087427351#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/2087427351#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/209718442#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/209718442#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/2109779712#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/2109779712#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/2118580045#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/2118580045#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/2119782319#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/2119782319#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/212#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/212#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/213291953#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/213291953#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/2136943003#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/2136943003#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/214#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/214#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/215584195#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/215584195#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/217#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/217#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/218065201#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/218065201#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/219#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/219#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/22#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/22#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/220#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/220#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/223#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/223#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/225#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/225#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/227#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/227#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/229#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/229#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/23#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/23#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/236#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/236#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/236785723#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/236785723#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/23723839#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/23723839#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/24#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/24#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/240515688#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/240515688#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/245125157#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/245125157#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/25#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/25#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/253#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/253#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/254#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/254#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/256#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/256#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/257417947#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/257417947#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/257784274#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/257784274#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/258#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/258#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/262780813#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/262780813#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/263#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/263#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/265#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/265#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/266#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/266#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/269#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/269#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/274#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/274#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/278#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/278#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/282#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/282#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/294#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/294#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/297#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/297#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/300#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/300#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/301#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/301#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/301175889#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/301175889#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/302866642#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/302866642#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/303#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/303#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/307#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/307#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/311895116#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/311895116#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/313#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/313#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/314#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/314#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/315#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/315#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/317#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/317#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/321#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/321#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/324#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/324#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/327714140#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/327714140#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/328#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/328#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/331#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/331#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/331264149#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/331264149#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/33446195#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/33446195#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/338#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/338#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/339#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/339#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/34#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/34#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/340509033#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/340509033#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/342926944#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/342926944#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/347#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/347#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/347849047#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/347849047#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/348467808#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/348467808#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/349#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/349#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/358137536#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/358137536#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/37#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/37#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/374385972#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/374385972#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/381644895#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/381644895#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/393389129#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/393389129#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/395651899#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/395651899#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/396532929#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/396532929#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/398268827#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/398268827#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/399601774#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/399601774#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/4#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/4#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/403135733#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/403135733#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/410580151#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/410580151#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/411978244#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/411978244#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/41534290#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/41534290#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/42#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/42#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/422155393#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/422155393#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/427399490#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/427399490#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/43#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/43#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/44#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/44#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/452319940#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/452319940#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/46#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/46#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/465809625#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/465809625#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/467406548#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/467406548#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/48#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/48#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/485246029#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/485246029#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/48800027#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/48800027#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/489430069#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/489430069#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/493952660#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/493952660#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/49658569#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/49658569#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/502838507#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/502838507#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/504570662#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/504570662#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/51#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/51#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/511084601#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/511084601#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/515796956#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/515796956#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/52#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/52#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/52643320#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/52643320#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/53#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/53#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/549609649#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/549609649#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/553524636#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/553524636#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/572511031#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/572511031#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/576804256#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/576804256#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/58#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/58#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/580585172#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/580585172#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/588275169#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/588275169#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/59#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/59#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/596163279#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/596163279#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/612624250#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/612624250#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/624796459#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/624796459#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/63#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/63#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/630697708#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/630697708#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/635220396#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/635220396#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/636667599#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/636667599#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/639500573#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/639500573#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/646629526#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/646629526#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/647760539#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/647760539#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/65#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/65#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/67155173#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/67155173#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/70#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/70#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/708136432#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/708136432#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/71#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/71#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/710351092#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/710351092#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/711429267#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/711429267#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/71215276#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/71215276#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/723685516#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/723685516#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/723766411#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/723766411#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/73#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/73#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/730074202#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/730074202#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/732252191#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/732252191#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/733959356#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/733959356#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/735640389#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/735640389#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/744148113#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/744148113#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/752528222#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/752528222#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/752942056#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/752942056#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/77#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/77#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/775316185#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/775316185#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/815017456#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/815017456#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/822880662#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/822880662#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/829602128#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/829602128#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/836137639#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/836137639#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/839839599#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/839839599#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/84#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/84#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/840352995#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/840352995#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/845140439#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/845140439#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/849899310#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/849899310#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/8595673#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/8595673#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/868681930#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/868681930#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/87#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/87#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/876634319#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/876634319#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/878520762#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/878520762#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/883640481#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/883640481#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/889999785#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/889999785#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/9#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/9#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/90#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/90#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/912502241#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/912502241#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/93#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/93#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/931381116#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/931381116#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/935241457#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/935241457#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/94#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/94#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/961289525#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/961289525#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/965054833#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/965054833#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/970796982#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/970796982#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/972557153#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/972557153#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/974784520#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/974784520#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/NewsItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/978791842#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/978791842#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/CreativeWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/983547811#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/983547811#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/991685745#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/991685745#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/BlogPost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bbc.co.uk/things/999390224#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.bbc.co.uk/things/999390224#id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/creativework/Programme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/1949_BRDC_International_Trophy -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/1949_BRDC_International_Trophy">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/1995_Australian_Grand_Prix -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/1995_Australian_Grand_Prix">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Abraham_Joshua_Heschel -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Abraham_Joshua_Heschel">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Individual_Corporation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Al-Wehdat_SC -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Al-Wehdat_SC">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Anakkayam -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Anakkayam">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Anatoly_Karpov -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Anatoly_Karpov">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Arakkal_kingdom -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Arakkal_kingdom">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Arthur_Aikin -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Arthur_Aikin">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Individual_Corporation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Arthur_Miller -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Arthur_Miller">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Benin_Empire -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Benin_Empire">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Bucheon_FC_1995 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Bucheon_FC_1995">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/California_State_Controller_election,_1994 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/California_State_Controller_election,_1994">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/California_State_Route_241 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/California_State_Route_241">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Cem_Karaca -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Cem_Karaca">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Individual_Corporation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Cimabue -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Cimabue">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Individual_Corporation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Craig_Venter -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Craig_Venter">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Individual_Corporation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Dionysius_Thrax -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Dionysius_Thrax">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Donje_Komarice -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Donje_Komarice">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Douglas_Engelbart -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Douglas_Engelbart">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Einhard -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Einhard">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Individual_Corporation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Erin_Brockovich -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Erin_Brockovich">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/F.C._Porto -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/F.C._Porto">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/FK_Vojvodina -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/FK_Vojvodina">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Fred_Reed -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Fred_Reed">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Gallienus -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Gallienus">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Individual_Corporation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Gilyanov -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Gilyanov">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Hansie_Cronje -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Hansie_Cronje">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Individual_Corporation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Hapoel_Tel_Aviv_F.C. -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Hapoel_Tel_Aviv_F.C.">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Harold_Alexander,_1st_Earl_Alexander_of_Tunis -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Harold_Alexander,_1st_Earl_Alexander_of_Tunis">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Helene_Kröller-Müller -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Helene_Kröller-Müller">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Individual_Corporation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Hermann_Göring -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Hermann_Göring">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Hornnes_og_Iveland -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Hornnes_og_Iveland">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Hugh_Binning -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Hugh_Binning">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Jane_Austen -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Jane_Austen">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Individual_Corporation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Juventus_F.C. -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Juventus_F.C.">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Individual_Corporation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Kesselkogel -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Kesselkogel">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Lajes_das_Flores_(parish) -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Lajes_das_Flores_(parish)">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Lima,_New_York -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Lima,_New_York">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Little_Dunmow -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Little_Dunmow">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Livingston_F.C. -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Livingston_F.C.">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Manger,_Norway -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Manger,_Norway">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Minnesota_gubernatorial_election,_1910 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Minnesota_gubernatorial_election,_1910">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Ngor,_Dakar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Ngor,_Dakar">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Parma_F.C. -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Parma_F.C.">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Individual_Corporation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Pennsylvania_gubernatorial_election,_1962 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Pennsylvania_gubernatorial_election,_1962">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Ravnica,_Radovljica -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Ravnica,_Radovljica">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Rawtenstall -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Rawtenstall">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Roman_Catholic_Diocese_of_Cuenca -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Roman_Catholic_Diocese_of_Cuenca">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Southampton_F.C. -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Southampton_F.C.">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Sport_Club_do_Recife -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Sport_Club_do_Recife">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Organisation"/>
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Stade_Pierre-Antoine -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Stade_Pierre-Antoine">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Tasmanian_state_election,_1972 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Tasmanian_state_election,_1972">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Te_Tai_Tokerau_by-election,_2011 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Te_Tai_Tokerau_by-election,_2011">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Tokyo_International_Anime_Fair -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Tokyo_International_Anime_Fair">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Tuscarora_Township,_Bradford_County,_Pennsylvania -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Tuscarora_Township,_Bradford_County,_Pennsylvania">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/U.S._CittC3A0_di_Palermo -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/U.S._CittC3A0_di_Palermo">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Ukrainian_presidential_election,_2010 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Ukrainian_presidential_election,_2010">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/United_Nations_Security_Council_election,_2007 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/United_Nations_Security_Council_election,_2007">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/United_States_House_of_Representatives_elections,_1858 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/United_States_House_of_Representatives_elections,_1858">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/United_States_Senate_election_in_West_Virginia,_1994 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/United_States_Senate_election_in_West_Virginia,_1994">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/United_States_presidential_election,_1904 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/United_States_presidential_election,_1904">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/United_States_presidential_election_in_Minnesota,_1992 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/United_States_presidential_election_in_Minnesota,_1992">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Victoria_United -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Victoria_United">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Wigan_Athletic_F.C. -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Wigan_Athletic_F.C.">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Organisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/id -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/id">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/Ælle_of_Sussex -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/Ælle_of_Sussex">
+        <rdf:type rdf:resource="http://www.bbc.co.uk/ontologies/coreconcepts/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ldbc.eu/1455756882#id -->
+
+    <owl:NamedIndividual rdf:about="http://www.ldbc.eu/1455756882#id">
+        <rdf:type rdf:resource="http://www.ldbc.eu/Thing"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

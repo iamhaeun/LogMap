@@ -1,0 +1,1027 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:example2="http://example.org/1"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:example="http://example.org/">
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/1类 -->
+
+    <AnnotationProperty rdf:about="http://example.org/1类"/>
+    
+
+
+    <!-- http://example.org/PSpec名称 -->
+
+    <rdf:Description rdf:about="http://example.org/PSpec名称">
+        <foaf:name>PSpec名称</foaf:name>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.org/PSpec编号 -->
+
+    <rdf:Description rdf:about="http://example.org/PSpec编号">
+        <foaf:name>PSpec编号</foaf:name>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.org/不适用 -->
+
+    <AnnotationProperty rdf:about="http://example.org/不适用"/>
+    
+
+
+    <!-- http://example.org/中 -->
+
+    <AnnotationProperty rdf:about="http://example.org/中"/>
+    
+
+
+    <!-- http://example.org/低 -->
+
+    <AnnotationProperty rdf:about="http://example.org/低"/>
+    
+
+
+    <!-- http://example.org/供应 -->
+
+    <AnnotationProperty rdf:about="http://example.org/供应"/>
+    
+
+
+    <!-- http://example.org/保修 -->
+
+    <AnnotationProperty rdf:about="http://example.org/保修"/>
+    
+
+
+    <!-- http://example.org/包含 -->
+
+    <AnnotationProperty rdf:about="http://example.org/包含"/>
+    
+
+
+    <!-- http://example.org/安装 -->
+
+    <AnnotationProperty rdf:about="http://example.org/安装"/>
+    
+
+
+    <!-- http://example.org/安装协议 -->
+
+    <AnnotationProperty rdf:about="http://example.org/安装协议"/>
+    
+
+
+    <!-- http://example.org/应用程序接口规范 -->
+
+    <AnnotationProperty rdf:about="http://example.org/应用程序接口规范"/>
+    
+
+
+    <!-- http://example.org/开发 -->
+
+    <AnnotationProperty rdf:about="http://example.org/开发"/>
+    
+
+
+    <!-- http://example.org/拥有 -->
+
+    <AnnotationProperty rdf:about="http://example.org/拥有"/>
+    
+
+
+    <!-- http://example.org/操作 -->
+
+    <AnnotationProperty rdf:about="http://example.org/操作"/>
+    
+
+
+    <!-- http://example.org/收购协议 -->
+
+    <AnnotationProperty rdf:about="http://example.org/收购协议"/>
+    
+
+
+    <!-- http://example.org/数据提供的期望 -->
+
+    <AnnotationProperty rdf:about="http://example.org/数据提供的期望"/>
+    
+
+
+    <!-- http://example.org/无 -->
+
+    <AnnotationProperty rdf:about="http://example.org/无"/>
+    
+
+
+    <!-- http://example.org/目的地 -->
+
+    <AnnotationProperty rdf:about="http://example.org/目的地"/>
+    
+
+
+    <!-- http://example.org/管理 -->
+
+    <AnnotationProperty rdf:about="http://example.org/管理"/>
+    
+
+
+    <!-- http://example.org/系统使用协议 -->
+
+    <AnnotationProperty rdf:about="http://example.org/系统使用协议"/>
+    
+
+
+    <!-- http://example.org/系统维护协议 -->
+
+    <AnnotationProperty rdf:about="http://example.org/系统维护协议"/>
+    
+
+
+    <!-- http://example.org/维护 -->
+
+    <AnnotationProperty rdf:about="http://example.org/维护"/>
+    
+
+
+    <!-- http://example.org/运营协议 -->
+
+    <AnnotationProperty rdf:about="http://example.org/运营协议"/>
+    
+
+
+    <!-- http://example.org/道路状况管理的期望 -->
+
+    <AnnotationProperty rdf:about="http://example.org/道路状况管理的期望"/>
+    
+
+
+    <!-- http://example.org/阶段 -->
+
+    <AnnotationProperty rdf:about="http://example.org/阶段"/>
+    
+
+
+    <!-- http://example.org/高 -->
+
+    <AnnotationProperty rdf:about="http://example.org/高"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/3.1.1 -->
+
+    <Class rdf:about="http://example.org/3.1.1">
+        <foaf:name>3.1.1</foaf:name>
+        <example:PSpec名称 rdf:resource="http://example.org/产生防撞和避免撞车数据"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/3.1.2 -->
+
+    <Class rdf:about="http://example.org/3.1.2">
+        <foaf:name>3.1.2</foaf:name>
+        <example:PSpec名称 rdf:resource="http://example.org/进行安全性分析"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/3.1.3 -->
+
+    <Class rdf:about="http://example.org/3.1.3">
+        <foaf:name>3.1.3</foaf:name>
+        <example:PSpec名称 rdf:resource="http://example.org/处理车辆车载数据"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/3.1.4 -->
+
+    <Class rdf:about="http://example.org/3.1.4">
+        <foaf:name>3.1.4</foaf:name>
+        <example:PSpec名称 rdf:resource="http://example.org/与远程车辆通讯"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/3.2.3.3 -->
+
+    <Class rdf:about="http://example.org/3.2.3.3">
+        <foaf:name>3.2.3.3</foaf:name>
+        <example:PSpec名称 rdf:resource="http://example.org/车辆执行器的过程数据"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/3.2.3.4.1 -->
+
+    <Class rdf:about="http://example.org/3.2.3.4.1">
+        <foaf:name>3.2.3.4.1</foaf:name>
+        <example:PSpec名称 rdf:resource="http://example.org/提供伺服控制"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/3.2.3.4.2 -->
+
+    <Class rdf:about="http://example.org/3.2.3.4.2">
+        <foaf:name>3.2.3.4.2</foaf:name>
+        <example:PSpec名称 rdf:resource="http://example.org/提供车辆控制数据接口"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/3.2.3.5 -->
+
+    <Class rdf:about="http://example.org/3.2.3.5">
+        <foaf:name>3.2.3.5</foaf:name>
+        <example:PSpec名称 rdf:resource="http://example.org/处理车辆传感器数据"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/3.4 -->
+
+    <Class rdf:about="http://example.org/3.4">
+        <foaf:name>3.4</foaf:name>
+        <example:PSpec名称 rdf:resource="http://example.org/增强驾驶员的视野"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/6.7.3.3 -->
+
+    <Class rdf:about="http://example.org/6.7.3.3">
+        <foaf:name>6.7.3.3</foaf:name>
+        <example:PSpec名称 rdf:resource="http://example.org/提供驱动程序信息界面"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/PSpec名称 -->
+
+    <Class rdf:about="http://example.org/PSpec名称">
+        <foaf:name>PSpec名称</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/PSpec编号 -->
+
+    <Class rdf:about="http://example.org/PSpec编号">
+        <foaf:name>PSpec编号</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/与远程车辆通讯 -->
+
+    <Class rdf:about="http://example.org/与远程车辆通讯">
+        <foaf:name>与远程车辆通讯</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/产生防撞和避免撞车数据 -->
+
+    <Class rdf:about="http://example.org/产生防撞和避免撞车数据">
+        <foaf:name>产生防撞和避免撞车数据</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/企业视图 -->
+
+    <Class rdf:about="http://example.org/企业视图">
+        <foaf:name>企业视图</foaf:name>
+        <example:阶段 rdf:resource="http://example.org/安装阶段"/>
+        <example:阶段 rdf:resource="http://example.org/开发阶段"/>
+        <example:阶段 rdf:resource="http://example.org/维护阶段"/>
+        <example:阶段 rdf:resource="http://example.org/运营阶段"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/保密性 -->
+
+    <Class rdf:about="http://example.org/保密性">
+        <foaf:name>保密性</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/信息流 -->
+
+    <Class rdf:about="http://example.org/信息流">
+        <foaf:name>信息流</foaf:name>
+        <example:包含 rdf:resource="http://example.org/实体状态"/>
+        <example:包含 rdf:resource="http://example.org/弱势道路使用者状态"/>
+        <example:包含 rdf:resource="http://example.org/本车状态"/>
+        <example:包含 rdf:resource="http://example.org/车辆控制"/>
+        <example:包含 rdf:resource="http://example.org/车辆特征"/>
+        <example:包含 rdf:resource="http://example.org/道路特征"/>
+        <example:包含 rdf:resource="http://example.org/驾驶员更新"/>
+        <example:包含 rdf:resource="http://example.org/驾驶员更新信息"/>
+        <example:包含 rdf:resource="http://example.org/驾驶员输入"/>
+        <example:包含 rdf:resource="http://example.org/驾驶员输入信息"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/信息流安全 -->
+
+    <Class rdf:about="http://example.org/信息流安全">
+        <foaf:name>信息流安全</foaf:name>
+        <example:包含 rdf:resource="http://example.org/保密性"/>
+        <example:包含 rdf:resource="http://example.org/可用性"/>
+        <example:包含 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/功能对象 -->
+
+    <Class rdf:about="http://example.org/功能对象">
+        <foaf:name>功能对象</foaf:name>
+        <example:包含 rdf:resource="http://example.org/车辆安全监控"/>
+        <example:包含 rdf:resource="http://example.org/车辆控制自动化"/>
+        <example:包含 rdf:resource="http://example.org/车辆控制警告"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/功能视图 -->
+
+    <Class rdf:about="http://example.org/功能视图">
+        <foaf:name>功能视图</foaf:name>
+        <example:包含 rdf:resource="http://example.org/PSpec名称"/>
+        <example:包含 rdf:resource="http://example.org/PSpec编号"/>
+        <example:包含 rdf:resource="http://example.org/功能对象"/>
+        <example:包含 rdf:resource="http://example.org/物理对象"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/可用性 -->
+
+    <Class rdf:about="http://example.org/可用性">
+        <foaf:name>可用性</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/基本车辆 -->
+
+    <Class rdf:about="http://example.org/基本车辆">
+        <foaf:name>基本车辆</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/基本车辆供应商 -->
+
+    <Class rdf:about="http://example.org/基本车辆供应商">
+        <foaf:name>基本车辆供应商</foaf:name>
+        <example:安装 rdf:resource="http://example.org/基本车辆"/>
+        <example:保修 rdf:resource="http://example.org/基本车辆所有者"/>
+        <example:保修 rdf:resource="http://example.org/基本车辆管理者"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/基本车辆安装者 -->
+
+    <Class rdf:about="http://example.org/基本车辆安装者">
+        <foaf:name>基本车辆安装者</foaf:name>
+        <example:安装 rdf:resource="http://example.org/基本车辆"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/基本车辆开发者 -->
+
+    <Class rdf:about="http://example.org/基本车辆开发者">
+        <foaf:name>基本车辆开发者</foaf:name>
+        <example:开发 rdf:resource="http://example.org/基本车辆"/>
+        <example:应用程序接口规范 rdf:resource="http://example.org/车载设备开发者"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/基本车辆所有者 -->
+
+    <Class rdf:about="http://example.org/基本车辆所有者">
+        <foaf:name>基本车辆所有者</foaf:name>
+        <example:拥有 rdf:resource="http://example.org/基本车辆"/>
+        <example:供应 rdf:resource="http://example.org/基本车辆供应商"/>
+        <example:收购协议 rdf:resource="http://example.org/基本车辆安装者"/>
+        <example:运营协议 rdf:resource="http://example.org/基本车辆管理者"/>
+        <example:数据提供的期望 rdf:resource="http://example.org/车载设备所有者"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/基本车辆管理者 -->
+
+    <Class rdf:about="http://example.org/基本车辆管理者">
+        <foaf:name>基本车辆管理者</foaf:name>
+        <example:管理 rdf:resource="http://example.org/基本车辆"/>
+        <example:系统维护协议 rdf:resource="http://example.org/基本车辆维护者"/>
+        <example:系统使用协议 rdf:resource="http://example.org/驾驶员"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/基本车辆维护人 -->
+
+    <Class rdf:about="http://example.org/基本车辆维护人">
+        <foaf:name>基本车辆维护人</foaf:name>
+        <example:维护 rdf:resource="http://example.org/基本车辆"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/基本车辆维护者 -->
+
+    <Class rdf:about="http://example.org/基本车辆维护者">
+        <foaf:name>基本车辆维护者</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/基础车辆 -->
+
+    <Class rdf:about="http://example.org/基础车辆">
+        <foaf:name>基础车辆</foaf:name>
+        <example:无 rdf:resource="http://example.org/保密性"/>
+        <example:无 rdf:resource="http://example.org/可用性"/>
+        <example:无 rdf:resource="http://example.org/安全等级"/>
+        <example:无 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/增强驾驶员的视野 -->
+
+    <Class rdf:about="http://example.org/增强驾驶员的视野">
+        <foaf:name>增强驾驶员的视野</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/处理车辆传感器数据 -->
+
+    <Class rdf:about="http://example.org/处理车辆传感器数据">
+        <foaf:name>处理车辆传感器数据</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/处理车辆车载数据 -->
+
+    <Class rdf:about="http://example.org/处理车辆车载数据">
+        <foaf:name>处理车辆车载数据</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/安全等级 -->
+
+    <Class rdf:about="http://example.org/安全等级">
+        <foaf:name>安全等级</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/安装阶段 -->
+
+    <Class rdf:about="http://example.org/安装阶段">
+        <foaf:name>安装阶段</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/完整性 -->
+
+    <Class rdf:about="http://example.org/完整性">
+        <foaf:name>完整性</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/实体状态 -->
+
+    <Class rdf:about="http://example.org/实体状态">
+        <foaf:name>实体状态</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/宿主车辆状态 -->
+
+    <Class rdf:about="http://example.org/宿主车辆状态">
+        <foaf:name>宿主车辆状态</foaf:name>
+        <example:低 rdf:resource="http://example.org/保密性"/>
+        <example:高 rdf:resource="http://example.org/可用性"/>
+        <example:中 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/开发阶段 -->
+
+    <Class rdf:about="http://example.org/开发阶段">
+        <foaf:name>开发阶段</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/弱势交通参与者 -->
+
+    <Class rdf:about="http://example.org/弱势交通参与者">
+        <foaf:name>弱势交通参与者</foaf:name>
+        <example:无 rdf:resource="http://example.org/保密性"/>
+        <example:无 rdf:resource="http://example.org/可用性"/>
+        <example:无 rdf:resource="http://example.org/安全等级"/>
+        <example:无 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/弱势道路使用者 -->
+
+    <Class rdf:about="http://example.org/弱势道路使用者">
+        <foaf:name>弱势道路使用者</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/弱势道路使用者状态 -->
+
+    <Class rdf:about="http://example.org/弱势道路使用者状态">
+        <foaf:name>弱势道路使用者状态</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/提供伺服控制 -->
+
+    <Class rdf:about="http://example.org/提供伺服控制">
+        <foaf:name>提供伺服控制</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/提供车辆控制数据接口 -->
+
+    <Class rdf:about="http://example.org/提供车辆控制数据接口">
+        <foaf:name>提供车辆控制数据接口</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/提供驱动程序信息界面 -->
+
+    <Class rdf:about="http://example.org/提供驱动程序信息界面">
+        <foaf:name>提供驱动程序信息界面</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/本车状态 -->
+
+    <Class rdf:about="http://example.org/本车状态">
+        <foaf:name>本车状态</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/源 -->
+
+    <Class rdf:about="http://example.org/源">
+        <foaf:name>源</foaf:name>
+        <example:目的地 rdf:resource="http://example.org/角色/关系"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/潜在障碍物 -->
+
+    <Class rdf:about="http://example.org/潜在障碍物">
+        <foaf:name>潜在障碍物</foaf:name>
+        <example:无 rdf:resource="http://example.org/保密性"/>
+        <example:无 rdf:resource="http://example.org/可用性"/>
+        <example:无 rdf:resource="http://example.org/安全等级"/>
+        <example:无 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/物理对象 -->
+
+    <Class rdf:about="http://example.org/物理对象">
+        <foaf:name>物理对象</foaf:name>
+        <example:包含 rdf:resource="http://example.org/基础车辆"/>
+        <example:包含 rdf:resource="http://example.org/弱势道路使用者"/>
+        <example:包含 rdf:resource="http://example.org/潜在障碍物"/>
+        <example:包含 rdf:resource="http://example.org/车辆"/>
+        <example:包含 rdf:resource="http://example.org/车辆车载设备"/>
+        <example:包含 rdf:resource="http://example.org/道路环境"/>
+        <example:包含 rdf:resource="http://example.org/驾驶员"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/物理对象安全 -->
+
+    <Class rdf:about="http://example.org/物理对象安全">
+        <foaf:name>物理对象安全</foaf:name>
+        <example:包含 rdf:resource="http://example.org/保密性"/>
+        <example:包含 rdf:resource="http://example.org/可用性"/>
+        <example:包含 rdf:resource="http://example.org/安全等级"/>
+        <example:包含 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/物理视图 -->
+
+    <Class rdf:about="http://example.org/物理视图">
+        <foaf:name>物理视图</foaf:name>
+        <example:包含 rdf:resource="http://example.org/信息流"/>
+        <example:包含 rdf:resource="http://example.org/功能对象"/>
+        <example:包含 rdf:resource="http://example.org/物理对象"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/维护阶段 -->
+
+    <Class rdf:about="http://example.org/维护阶段">
+        <foaf:name>维护阶段</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/路面特征 -->
+
+    <Class rdf:about="http://example.org/路面特征">
+        <foaf:name>路面特征</foaf:name>
+        <example:不适用 rdf:resource="http://example.org/保密性"/>
+        <example:低 rdf:resource="http://example.org/可用性"/>
+        <example:低 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/车载设备 -->
+
+    <Class rdf:about="http://example.org/车载设备">
+        <foaf:name>车载设备</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/车载设备供应商 -->
+
+    <Class rdf:about="http://example.org/车载设备供应商">
+        <foaf:name>车载设备供应商</foaf:name>
+        <example:供应 rdf:resource="http://example.org/车载设备"/>
+        <example:保修 rdf:resource="http://example.org/车载设备所有者"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/车载设备安装者 -->
+
+    <Class rdf:about="http://example.org/车载设备安装者">
+        <foaf:name>车载设备安装者</foaf:name>
+        <example:拥有 rdf:resource="http://example.org/车载设备"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/车载设备开发者 -->
+
+    <Class rdf:about="http://example.org/车载设备开发者">
+        <foaf:name>车载设备开发者</foaf:name>
+        <example:开发 rdf:resource="http://example.org/车载设备"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/车载设备所有者 -->
+
+    <Class rdf:about="http://example.org/车载设备所有者">
+        <foaf:name>车载设备所有者</foaf:name>
+        <example:数据提供的期望 rdf:resource="http://example.org/基本车辆所有者"/>
+        <example:拥有 rdf:resource="http://example.org/车载设备"/>
+        <example:安装协议 rdf:resource="http://example.org/车载设备"/>
+        <example:收购协议 rdf:resource="http://example.org/车载设备供应商"/>
+        <example:运营协议 rdf:resource="http://example.org/车载设备管理者"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/车载设备提供者 -->
+
+    <Class rdf:about="http://example.org/车载设备提供者">
+        <foaf:name>车载设备提供者</foaf:name>
+        <example:保修 rdf:resource="http://example.org/车载设备所有者"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/车载设备管理者 -->
+
+    <Class rdf:about="http://example.org/车载设备管理者">
+        <foaf:name>车载设备管理者</foaf:name>
+        <example:管理 rdf:resource="http://example.org/车载设备"/>
+        <example:系统维护协议 rdf:resource="http://example.org/车载设备维护者"/>
+        <example:系统使用协议 rdf:resource="http://example.org/驾驶员"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/车载设备维护者 -->
+
+    <Class rdf:about="http://example.org/车载设备维护者">
+        <foaf:name>车载设备维护者</foaf:name>
+        <example:维护 rdf:resource="http://example.org/车载设备"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/车辆 -->
+
+    <Class rdf:about="http://example.org/车辆">
+        <foaf:name>车辆</foaf:name>
+        <example:无 rdf:resource="http://example.org/保密性"/>
+        <example:无 rdf:resource="http://example.org/可用性"/>
+        <example:无 rdf:resource="http://example.org/安全等级"/>
+        <example:无 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/车辆安全监控 -->
+
+    <Class rdf:about="http://example.org/车辆安全监控">
+        <foaf:name>车辆安全监控</foaf:name>
+        <example:PSpec编号 rdf:resource="http://example.org/3.1.2"/>
+        <example:PSpec编号 rdf:resource="http://example.org/3.1.4"/>
+        <example:PSpec编号 rdf:resource="http://example.org/3.4"/>
+        <example:PSpec编号 rdf:resource="http://example.org/6.7.3.3"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/车辆执行器的过程数据 -->
+
+    <Class rdf:about="http://example.org/车辆执行器的过程数据">
+        <foaf:name>车辆执行器的过程数据</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/车辆控制 -->
+
+    <Class rdf:about="http://example.org/车辆控制">
+        <foaf:name>车辆控制</foaf:name>
+        <example:中 rdf:resource="http://example.org/保密性"/>
+        <example:高 rdf:resource="http://example.org/可用性"/>
+        <example:高 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/车辆控制自动化 -->
+
+    <Class rdf:about="http://example.org/车辆控制自动化">
+        <foaf:name>车辆控制自动化</foaf:name>
+        <example:PSpec编号 rdf:resource="http://example.org/3.2.3.3"/>
+        <example:PSpec编号 rdf:resource="http://example.org/3.2.3.4.1"/>
+        <example:PSpec编号 rdf:resource="http://example.org/3.2.3.4.2"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/车辆控制警告 -->
+
+    <Class rdf:about="http://example.org/车辆控制警告">
+        <foaf:name>车辆控制警告</foaf:name>
+        <example:PSpec编号 rdf:resource="http://example.org/3.1.1"/>
+        <example:PSpec编号 rdf:resource="http://example.org/3.1.3"/>
+        <example:PSpec编号 rdf:resource="http://example.org/3.2.3.3"/>
+        <example:PSpec编号 rdf:resource="http://example.org/3.2.3.5"/>
+        <example:PSpec编号 rdf:resource="http://example.org/6.7.3.3"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/车辆特征 -->
+
+    <Class rdf:about="http://example.org/车辆特征">
+        <foaf:name>车辆特征</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/车辆车载设备 -->
+
+    <Class rdf:about="http://example.org/车辆车载设备">
+        <foaf:name>车辆车载设备</foaf:name>
+        <example:不适用 rdf:resource="http://example.org/保密性"/>
+        <example:低 rdf:resource="http://example.org/可用性"/>
+        <example2:类 rdf:resource="http://example.org/安全等级"/>
+        <example:低 rdf:resource="http://example.org/完整性"/>
+        <example:包含 rdf:resource="http://example.org/车辆安全监控"/>
+        <example:包含 rdf:resource="http://example.org/车辆控制自动化"/>
+        <example:包含 rdf:resource="http://example.org/车辆控制警告"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/运营阶段 -->
+
+    <Class rdf:about="http://example.org/运营阶段">
+        <foaf:name>运营阶段</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/进行安全性分析 -->
+
+    <Class rdf:about="http://example.org/进行安全性分析">
+        <foaf:name>进行安全性分析</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/道路所有者 -->
+
+    <Class rdf:about="http://example.org/道路所有者">
+        <foaf:name>道路所有者</foaf:name>
+        <example:拥有 rdf:resource="http://example.org/道路环境"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/道路特征 -->
+
+    <Class rdf:about="http://example.org/道路特征">
+        <foaf:name>道路特征</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/道路环境 -->
+
+    <Class rdf:about="http://example.org/道路环境">
+        <foaf:name>道路环境</foaf:name>
+        <example:不适用 rdf:resource="http://example.org/保密性"/>
+        <example:低 rdf:resource="http://example.org/可用性"/>
+        <example2:类 rdf:resource="http://example.org/安全等级"/>
+        <example:低 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/道路管理者 -->
+
+    <Class rdf:about="http://example.org/道路管理者">
+        <foaf:name>道路管理者</foaf:name>
+        <example:管理 rdf:resource="http://example.org/道路环境"/>
+        <example:系统维护协议 rdf:resource="http://example.org/道路维护者"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/道路维护者 -->
+
+    <Class rdf:about="http://example.org/道路维护者">
+        <foaf:name>道路维护者</foaf:name>
+        <example:维护 rdf:resource="http://example.org/道路环境"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/驾驶员 -->
+
+    <Class rdf:about="http://example.org/驾驶员">
+        <foaf:name>驾驶员</foaf:name>
+        <example:操作 rdf:resource="http://example.org/基本车辆"/>
+        <example:操作 rdf:resource="http://example.org/车载设备"/>
+        <example:道路状况管理的期望 rdf:resource="http://example.org/道路所有者"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/驾驶员提示 -->
+
+    <Class rdf:about="http://example.org/驾驶员提示">
+        <foaf:name>驾驶员提示</foaf:name>
+        <example:不适用 rdf:resource="http://example.org/保密性"/>
+        <example:中 rdf:resource="http://example.org/可用性"/>
+        <example:中 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/驾驶员提示信息 -->
+
+    <Class rdf:about="http://example.org/驾驶员提示信息">
+        <foaf:name>驾驶员提示信息</foaf:name>
+        <example:低 rdf:resource="http://example.org/保密性"/>
+        <example:中 rdf:resource="http://example.org/可用性"/>
+        <example:中 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/驾驶员更新 -->
+
+    <Class rdf:about="http://example.org/驾驶员更新">
+        <foaf:name>驾驶员更新</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/驾驶员更新信息 -->
+
+    <Class rdf:about="http://example.org/驾驶员更新信息">
+        <foaf:name>驾驶员更新信息</foaf:name>
+    </Class>
+    
+
+
+    <!-- http://example.org/驾驶员输入 -->
+
+    <Class rdf:about="http://example.org/驾驶员输入">
+        <foaf:name>驾驶员输入</foaf:name>
+        <example:中 rdf:resource="http://example.org/保密性"/>
+        <example:高 rdf:resource="http://example.org/可用性"/>
+        <example:高 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/驾驶员输入信息 -->
+
+    <Class rdf:about="http://example.org/驾驶员输入信息">
+        <foaf:name>驾驶员输入信息</foaf:name>
+        <example:中 rdf:resource="http://example.org/保密性"/>
+        <example:高 rdf:resource="http://example.org/可用性"/>
+        <example:高 rdf:resource="http://example.org/完整性"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/角色/关系 -->
+
+    <Class rdf:about="http://example.org/角色/关系">
+        <foaf:name>角色/关系</foaf:name>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

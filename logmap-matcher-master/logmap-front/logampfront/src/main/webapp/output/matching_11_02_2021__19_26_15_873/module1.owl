@@ -1,0 +1,1586 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#"
+     xml:base="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:BOnSAI="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl">
+        <owl:imports rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl"/>
+        <owl:versionIRI rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl"/>
+        <owl:imports rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#FloorNo -->
+
+    <owl:AnnotationProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#FloorNo">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Floor"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#affectsEnvironmentalParameter -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#affectsEnvironmentalParameter">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Appliance"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#EnvironmentalParameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#belongsToMultiSensor -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#belongsToMultiSensor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#MultiSensor"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasSensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#belongsToService -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#belongsToService">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#causesFact -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#causesFact">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Action"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Fact"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isCausedByAction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#consumes -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#consumes">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Appliance"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PowerConsumption"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#exposesDevice -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#exposesDevice">
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isExposedByService"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasCommunicationProtocol -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasCommunicationProtocol">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#CommunicationProtocol"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasContext -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasContext">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Context"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasEffect -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasEffect">
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Fact"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isEffectOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasEnvironmentalParameter -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasEnvironmentalParameter">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Context"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasFloor -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasFloor">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Building"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Floor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasID -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasID">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#ID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasInput -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasInput">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isInputOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasLocation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Context"/>
+                    <rdf:Description rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasOperation -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasOperation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#belongsToService"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasOutput -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasOutput">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isOutputOf"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Fact"/>
+                    <rdf:Description rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasParameter -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasParameter">
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasPoint -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasPoint">
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Point"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Room"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isInRoom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasPowerState -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasPowerState">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Appliance"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PowerState"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isPowerStateOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasPrecondition -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasPrecondition">
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Fact"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isPreconditionOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasRoom -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasRoom">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Floor"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Room"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isOnFloor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasSensor -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasSensor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#MultiSensor"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasServiceGrounding -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasServiceGrounding">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service"/>
+        <rdfs:range rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceGrounding"/>
+        <owl:equivalentProperty rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#supports"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasServiceModel -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasServiceModel">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service"/>
+        <rdfs:range rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceModel"/>
+        <owl:equivalentProperty rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#describedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasServiceProfile -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasServiceProfile">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service"/>
+        <rdfs:range rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#ServiceProfile"/>
+        <owl:equivalentProperty rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#presents"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasTime -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasTime">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Context"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Time"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hostsService -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hostsService">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Server"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isHostedAt"/>
+        <rdfs:range rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#inverse_of_hasFloor -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#inverse_of_hasFloor"/>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isAttachedToAppliance -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isAttachedToAppliance">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Appliance"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SmartPlug"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isCausedByAction -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isCausedByAction">
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Action"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Fact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isEffectOf -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isEffectOf">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Fact"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isExposedByService -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isExposedByService">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isHostedAt -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isHostedAt">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Server"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isInBuilding -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isInBuilding">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Building"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Floor"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasFloor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isInRoom -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isInRoom">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Point"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Room"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isInputOf -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isInputOf">
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isLocationOf -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isLocationOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasLocation"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Context"/>
+                    <rdf:Description rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isOnFloor -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isOnFloor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Floor"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Room"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isOutputOf -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isOutputOf">
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isPerformedByActuator -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isPerformedByActuator">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Action"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Actuator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isPowerStateOf -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isPowerStateOf">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      Shows the Appliance that the PowerState belongs to
+    &lt;/p&gt;</rdfs:comment>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Appliance"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PowerState"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isPreconditionOf -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isPreconditionOf">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Fact"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isReturnedBy -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isReturnedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#returnsParameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#manifestatesDevice -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#manifestatesDevice">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#offersResource -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#offersResource">
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Resource"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Computer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#performsAction -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#performsAction">
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Action"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Actuator"/>
+        <owl:inverseOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#isPerformedByActuator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#returnsParameter -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#returnsParameter">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#sentFromSensor -->
+
+    <owl:ObjectProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#sentFromSensor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#describedBy -->
+
+    <rdf:Description rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#describedBy"/>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#presents -->
+
+    <rdf:Description rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#presents"/>
+    
+
+
+    <!-- http://www.daml.org/services/owl-s/1.2/Service.owl#supports -->
+
+    <rdf:Description rdf:about="http://www.daml.org/services/owl-s/1.2/Service.owl#supports"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#DeviceInterface -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#DeviceInterface">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethernet</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USB</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WiFi</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#FloorNo -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#FloorNo">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PowerStateValue -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PowerStateValue">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PowerState"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Off</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">On</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#coverRange -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#coverRange">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#WirelessCommunicationProtocol"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#dataRate -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#dataRate">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#CommunicationProtocol"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#dateTime -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#dateTime">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Time"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#email -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#email">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#energyClass -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#energyClass">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Appliance"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F</rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G</rdf:first>
+                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#frequency -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#frequency">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#WirelessCommunicationProtocol"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#latency -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#latency">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#CommunicationProtocol"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#macID -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#macID">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PlugwiseCircle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#manufacturer -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#manufacturer">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#maxNodesPerNetwork -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#maxNodesPerNetwork">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#CommunicationProtocol"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#measuringUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#measuringUnit">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#model -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#model">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#name -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#name">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#parameter -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#parameter"/>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#phone -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#phone">
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#range -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#range">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#sensorName -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#sensorName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#type -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#type">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#CommunicationProtocol"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wired</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wireless</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#value -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#value">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#x_value -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#x_value">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Point"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#y_value -->
+
+    <owl:DatatypeProperty rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#y_value">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Point"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Resource -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#Resource"/>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#User -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#User"/>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Action -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Action"/>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Actuator -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Actuator">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      Models devices that take actions and alter the state of the world
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-top: 0&quot;&gt;
+      (but are not Sensors)
+    &lt;/p&gt;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#ActuatorOperation -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#ActuatorOperation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#causesFact"/>
+                        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#causesFact"/>
+                        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation"/>
+        <owl:disjointWith rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SensoryOperation"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      Operation that results in a change of the world&apos;s state
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-top: 0&quot;&gt;
+      i.e. hasEffect object property has a value 
+    &lt;/p&gt;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#ActuatorSensor -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#ActuatorSensor">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Actuator"/>
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      Models devices that can partially perceive the state of the world 
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-top: 0&quot;&gt;
+      and change it as well (are both Sensors and Actuators)
+    &lt;/p&gt;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#AirCondition -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#AirCondition">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Appliance"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#affectsEnvironmentalParameter"/>
+                <owl:allValuesFrom rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Appliance -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Appliance">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Building -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Building">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#CCSmartClamper -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#CCSmartClamper">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SmartClamper"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#CO2level -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#CO2level">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#EnvironmentalParameter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#measuringUnit"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ppm</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#CommunicationProtocol -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#CommunicationProtocol">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#WiredCommunicationProtocol"/>
+                    <rdf:Description rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#WirelessCommunicationProtocol"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Computer -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Computer">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Appliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Context -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Context">
+        <owl:disjointWith rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#User"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      Models tha current situation surrounding an entity, at a certain time.
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-top: 0&quot;&gt;
+      Thus, is a set of Location, Time, and many environmental parameters.
+    &lt;/p&gt;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Date -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Date">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      Models Smart Devices, usually classified as either Sensors or Actuators.
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-top: 0&quot;&gt;
+      These devices can be service-enabled.
+    &lt;/p&gt;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Energy -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Energy">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      An Energy amount
+    &lt;/p&gt;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#EnvironmentalParameter -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#EnvironmentalParameter">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Fact -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Fact">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Fact models a known literal or predicate that is valid
+ for the World Model.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Floor -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Floor">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Hardware"/>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Humidity -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Humidity">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#EnvironmentalParameter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#measuringUnit"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#ID -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#ID">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Insteon -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Insteon">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PLC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Lighting -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Lighting">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Appliance"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#affectsEnvironmentalParameter"/>
+                <owl:allValuesFrom rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Luminance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      Location models the abstract notion of whereabouts.
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-top: 0&quot;&gt;
+      It can be specified further through subclasses.
+    &lt;/p&gt;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Luminance -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Luminance">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#EnvironmentalParameter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#measuringUnit"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lm/m^2</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#MultiSensor -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#MultiSensor">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      Models arrays of (single) Sensors (e.g. Sensor boards)
+    &lt;/p&gt;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Noise -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Noise">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#EnvironmentalParameter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#measuringUnit"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dB</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#OWLSmartClamper -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#OWLSmartClamper">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SmartClamper"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation">
+        <owl:disjointWith rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#User"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      A Service Operation is an actual function that can be invoked as an RPC.
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-top: 0&quot;&gt;
+      It has inherently Input and Output types.
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-top: 0&quot;&gt;
+      In the model it also has Preconditions and Effects.
+    &lt;/p&gt;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PLC -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PLC">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#WiredCommunicationProtocol"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      Power Line Communications, wired communication protocol for smart devices
+    &lt;/p&gt;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PlugwiseCircle -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PlugwiseCircle">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SmartPlug"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Point -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Point">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PowerConsumption -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PowerConsumption">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#measuringUnit"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      A Power amount
+    &lt;/p&gt;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PowerState -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PowerState">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Fact"/>
+        <rdfs:comment xml:lang="en">A PowerState models the current supply for an Electric Appliance.
+A PowerState has a value. e.g. off value means that the Appliance that has 
+    this PowerState is off.
+PowerState is also a subclass of Fact.
+e.g. a PowerState of value off, means that the connected Appliance is 
+    currently off.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Pressure -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Pressure">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#EnvironmentalParameter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#measuringUnit"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atm</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PrismaQuax -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PrismaQuax">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#MultiSensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#returnsParameter"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Humidity"/>
+                            <rdf:Description rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Luminance"/>
+                            <rdf:Description rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Temperature"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Radiator -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Radiator">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Appliance"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#affectsEnvironmentalParameter"/>
+                <owl:allValuesFrom rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Room -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Room">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Device"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      Models devices that can partially perceive the state of the world
+    &lt;/p&gt;
+    &lt;p style=&quot;margin-top: 0&quot;&gt;
+      (but cannot change it i.e. are not Actuators)
+    &lt;/p&gt;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SensoryOperation -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SensoryOperation">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasOutput"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Operation"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      Operation that returns a parameter.
+    &lt;/p&gt;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Server -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Server">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Computer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service">
+        <rdfs:subClassOf rdf:resource="http://www.daml.org/services/owl-s/1.2/Service.owl#Service"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#hasServiceModel"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SmartClamper -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SmartClamper">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SmartPlug -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SmartPlug">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#ActuatorSensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#performsAction"/>
+                <owl:allValuesFrom rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SwitchAction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#returnsParameter"/>
+                <owl:allValuesFrom rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PowerConsumption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SwitchAction -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SwitchAction">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Action"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#causesFact"/>
+                <owl:allValuesFrom rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PowerState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;p style=&quot;margin-top: 0&quot;&gt;
+      A Switch Action turns an electric Appliance On or Off (i.e. switches</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Temperature -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Temperature">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#EnvironmentalParameter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#measuringUnit"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">celcius</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Time -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Time">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Parameter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#User -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#User">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#WiredCommunicationProtocol -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#WiredCommunicationProtocol">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#type"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wired</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#CommunicationProtocol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#WirelessCommunicationProtocol -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#WirelessCommunicationProtocol">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#type"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wireless</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#CommunicationProtocol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#X10 -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#X10">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#PLC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Z-Wave -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Z-Wave">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#WirelessCommunicationProtocol"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#frequency"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">868.42</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Zigbee -->
+
+    <owl:Class rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Zigbee">
+        <rdfs:subClassOf rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#WirelessCommunicationProtocol"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#frequency"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">868</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SmartPlugService -->
+
+    <owl:NamedIndividual rdf:about="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#SmartPlugService">
+        <rdf:type rdf:resource="http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl#Service"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

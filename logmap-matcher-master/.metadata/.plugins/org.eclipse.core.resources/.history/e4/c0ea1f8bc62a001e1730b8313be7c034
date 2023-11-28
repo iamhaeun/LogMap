@@ -1,0 +1,495 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"
+     xmlns:mappings="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/actsOnProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/actsOnProperty"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/hasFeatureOfInterest -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/hasResult -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/hasResult"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/hasSample -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/hasSample"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/hosts -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/hosts"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/isActedOnBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/isActedOnBy"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/isFeatureOfInterestOf -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/isHostedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/isHostedBy"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/isObservedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/isObservedBy"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/isResultOf -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/isResultOf"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/isSampleOf -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/isSampleOf"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeActuation -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/madeActuation"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeByActuator -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/madeByActuator"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeBySampler -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/madeBySampler"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeBySensor -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/madeBySensor"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeObservation -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/madeObservation"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeSampling -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/madeSampling"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/observedProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/observedProperty"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/observes -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/observes"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/phenomenonTime -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/phenomenonTime"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/usedProcedure -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/usedProcedure"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/deployedOnPlatform -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/deployedOnPlatform"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/deployedSystem -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/deployedSystem"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/detects -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/detects"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/forProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/forProperty"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/hasDeployment -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/hasDeployment"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/hasInput -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/hasInput"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/hasOutput -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/hasOutput"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/hasProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/hasProperty"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/hasSubSystem -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/hasSubSystem"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/implementedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/implementedBy"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/implements -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/implements"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/inDeployment -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/inDeployment"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/isPropertyOf -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/isPropertyOf"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/isProxyFor -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/isProxyFor"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/wasOriginatedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/wasOriginatedBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/hasSimpleResult -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/hasSimpleResult"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/resultTime -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/resultTime"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/vocommons/voaf#Vocabulary -->
+
+    <rdf:Description rdf:about="http://purl.org/vocommons/voaf#Vocabulary"/>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Input -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Input">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/ns/ssn/Input"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Input</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/Input</entity2>
+        <owl:annotatedSource rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Input"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/ns/ssn/Input"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://spider.sigappfr.org/Research_Projects/Mob-SSN#Output -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Output">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/ns/ssn/Output"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Output</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/Output</entity2>
+        <owl:annotatedSource rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Output"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/ns/ssn/Output"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalEntity -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#TemporalEntity"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/ActuatableProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/ActuatableProperty"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Actuation -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Actuation"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Actuator -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Actuator"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/FeatureOfInterest -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/ObservableProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Observation -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Observation"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Platform -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Platform"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Procedure -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Procedure"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Result -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Result"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sample -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Sample"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sampler -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Sampler"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sampling -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Sampling"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sensor -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Sensor"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Deployment -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/Deployment"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Input -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/ssn/Input"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Input</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/Input</entity2>
+        <owl:annotatedSource rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Input"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/ns/ssn/Input"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Output -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/ssn/Output"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://spider.sigappfr.org/Research_Projects/Mob-SSN#Output</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/ns/ssn/Output</entity2>
+        <owl:annotatedSource rdf:resource="http://spider.sigappfr.org/Research_Projects/Mob-SSN#Output"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/ns/ssn/Output"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Property -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/Property"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Stimulus -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/Stimulus"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/System -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/System"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

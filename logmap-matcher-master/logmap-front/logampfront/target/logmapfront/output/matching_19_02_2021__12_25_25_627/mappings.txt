@@ -1,0 +1,14 @@
+http://xmlns.com/foaf/0.1/Document|http://www.iec.ch/TC57/CIM#Document|=|0.7|CLS
+https://w3id.org/seas/Sensor|http://www.iec.ch/TC57/CIM#Sensor|=|0.5|CLS
+http://schema.org/Organization|http://www.iec.ch/TC57/CIM#Organisation|=|0.5|CLS
+http://purl.org/goodrelations/v1#BusinessEntity|http://www.iec.ch/TC57/CIM#BusinessRole|=|0.53|CLS
+https://w3id.org/seas/Transaction|http://www.iec.ch/TC57/CIM#Transaction|=|0.7|CLS
+http://www.w3.org/2006/time#DateTimeInterval|http://www.iec.ch/TC57/CIM#DateTimeInterval|=|0.7|CLS
+https://w3id.org/seas/StreetLight|http://www.iec.ch/TC57/CIM#Streetlight|=|0.5|CLS
+http://www.w3.org/2006/time#Duration|http://www.iec.ch/TC57/CIM#Duration|=|0.7|CLS
+https://w3id.org/pep/Process|http://www.iec.ch/TC57/CIM#Process|=|0.5|CLS
+http://purl.org/goodrelations/v1#Location|http://www.iec.ch/TC57/CIM#Location|=|0.7|CLS
+http://xmlns.com/foaf/0.1/Person|http://www.iec.ch/TC57/CIM#Person|=|0.7|CLS
+https://w3id.org/seas/Meter|http://www.iec.ch/TC57/CIM#Meter|=|0.82|CLS
+http://purl.org/goodrelations/v1#Repair|http://www.iec.ch/TC57/CIM#repair|=|1.0|INST
+http://purl.org/goodrelations/v1#Cash|http://www.iec.ch/TC57/CIM#cash|=|1.0|INST

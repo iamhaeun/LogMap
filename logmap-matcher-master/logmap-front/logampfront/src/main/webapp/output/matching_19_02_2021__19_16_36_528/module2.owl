@@ -1,0 +1,2704 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#"
+     xml:base="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:onto="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf">
+        <rdfs:label>Bibliographic references</rdfs:label>
+        <owl:versionInfo>$Id: onto.rdf,v 1.30 2008/05/27 14:41:13 euzenat Exp $</owl:versionInfo>
+        <rdfs:comment>Possible ontology to describe bibTeX entries.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gDay -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gDay"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gMonth -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gMonth"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gYear -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#address -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#address">
+        <rdfs:label xml:lang="en">address</rdfs:label>
+        <rdfs:comment xml:lang="en">The address of an institution or the place of a conference.</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Address"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#articles -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#articles">
+        <rdfs:label xml:lang="en">articles</rdfs:label>
+        <rdfs:comment xml:lang="en">The papers published by a journal.</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Article"/>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Journal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#author -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#author">
+        <rdfs:label xml:lang="en">author</rdfs:label>
+        <rdfs:comment xml:lang="en">The list of the author(s) of a work.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#humanCreator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#book -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#book">
+        <rdfs:label xml:lang="en">book</rdfs:label>
+        <rdfs:comment xml:lang="en">A reference to the book that contains the entry.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook"/>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Monograph"/>
+        <rdfs:subPropertyOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#isPartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#chapters -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#chapters">
+        <rdfs:label xml:lang="en">chapters</rdfs:label>
+        <rdfs:comment xml:lang="en">The chapters of a book (monograph or collection).</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Chapter"/>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#collection -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#collection">
+        <rdfs:label xml:lang="en">collection</rdfs:label>
+        <rdfs:comment xml:lang="en">A reference to the book that contains the entry.</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Collection"/>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection"/>
+        <rdfs:subPropertyOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#isPartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#communications -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#communications">
+        <rdfs:label xml:lang="en">communications</rdfs:label>
+        <rdfs:comment xml:lang="en">The communications to a conference as collected in proceedings.</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings"/>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#contract -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#contract">
+        <rdfs:label xml:lang="en">Contract</rdfs:label>
+        <rdfs:comment xml:lang="en">The contract in relation of which a particular reference has been made.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#date -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#date">
+        <rdfs:label xml:lang="en">date</rdfs:label>
+        <rdfs:comment xml:lang="en">The date when the work was published or, for an unpublished work, in which it was written. This date can be incomplete (i.e., no known day or month) but must contain a year.</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference"/>
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#directors -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#directors">
+        <rdfs:label xml:lang="en">directors</rdfs:label>
+        <rdfs:comment xml:lang="en">The list of directors of a motion picture or theater play.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#MotionPicture"/>
+        <rdfs:subPropertyOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#humanCreator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#editor -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#editor">
+        <rdfs:label xml:lang="en">editor</rdfs:label>
+        <rdfs:comment xml:lang="en">The list of persons who edited or coordinated a work.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#humanCreator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#event -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#event">
+        <rdfs:label xml:lang="en">event</rdfs:label>
+        <rdfs:comment xml:lang="en">The event concerned with the proceedings.</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference"/>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#humanCreator -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#humanCreator">
+        <rdfs:label xml:lang="en">human creator</rdfs:label>
+        <rdfs:comment xml:lang="en">The list of the human creators of a work.</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#institution -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#institution">
+        <rdfs:label xml:lang="en">institution</rdfs:label>
+        <rdfs:comment xml:lang="en">The sponsoring institution of a technical report.</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Institution"/>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Report"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#isPartOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+        <rdfs:comment xml:lang="en">The document that contains a text or article.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Part"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#journal -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#journal">
+        <rdfs:label xml:lang="en">journal</rdfs:label>
+        <rdfs:comment xml:lang="en">The journal in which an article is published.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Article"/>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Journal"/>
+        <rdfs:subPropertyOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#isPartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#location -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#location">
+        <rdfs:label xml:lang="en">location</rdfs:label>
+        <rdfs:comment xml:lang="en">A location associated with the entry, such as the city in which a conference took place (this is now obsolete).</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Address"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference"/>
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#organization -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#organization">
+        <rdfs:label xml:lang="en">organization</rdfs:label>
+        <rdfs:comment xml:lang="en">The organization that sponsors a conference or that publishes a manual.</rdfs:comment>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Manual"/>
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#organizer -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#organizer">
+        <rdfs:label xml:lang="en">organizer</rdfs:label>
+        <rdfs:comment xml:lang="en">The organization taking in charge a conference.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#pages -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#pages">
+        <rdfs:label xml:lang="en">pages</rdfs:label>
+        <rdfs:comment xml:lang="en">A range of page, with an upper and lower limit.</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PageRange"/>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Part"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#parts -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#parts">
+        <rdfs:label xml:lang="en">parts</rdfs:label>
+        <rdfs:comment xml:lang="en">The parts of some reference (chapters, sections).</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Part"/>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#proceedings -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#proceedings">
+        <rdfs:label xml:lang="en">proceedings</rdfs:label>
+        <rdfs:comment xml:lang="en">A reference to the proceedings in which the entry appears.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings"/>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings"/>
+        <rdfs:subPropertyOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#isPartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#publisher -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#publisher">
+        <rdfs:label xml:lang="en">publisher</rdfs:label>
+        <rdfs:comment xml:lang="en">The publisher of a work.</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Publisher"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Journal"/>
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#school -->
+
+    <owl:ObjectProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#school">
+        <rdfs:label xml:lang="en">school</rdfs:label>
+        <rdfs:comment xml:lang="en">The name of the school where a thesis was written.</rdfs:comment>
+        <rdfs:range rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#School"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Academic"/>
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#LectureNotes"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#first -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+        <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#rest -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#abstract -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#abstract">
+        <rdfs:label xml:lang="en">abstract</rdfs:label>
+        <rdfs:comment xml:lang="en">The abstract of the work.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#affiliation -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#affiliation">
+        <rdfs:label xml:lang="en">affiliation</rdfs:label>
+        <rdfs:comment xml:lang="en">The authors affiliation.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#annote -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#annote">
+        <rdfs:label xml:lang="en">annote</rdfs:label>
+        <rdfs:comment xml:lang="en">An annotation. It is not used by the standard bibliography styles, but may be used by others that produce an annotated bibliography.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#chapter -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#chapter">
+        <rdfs:label xml:lang="en">chapter</rdfs:label>
+        <rdfs:comment xml:lang="en">The chapter (or section or whatever) number in which the entry is found.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Part"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#city -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#city">
+        <rdfs:label xml:lang="en">city</rdfs:label>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#contents -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#contents">
+        <rdfs:label xml:lang="en">ontents</rdfs:label>
+        <rdfs:comment xml:lang="en">The Table of Contents.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#copyright -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#copyright">
+        <rdfs:label xml:lang="en">copyright</rdfs:label>
+        <rdfs:comment xml:lang="en">The Copyright information.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#country -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#country">
+        <rdfs:label xml:lang="en">country</rdfs:label>
+        <rdfs:comment xml:lang="en">Usually in ISO format</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#day -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#day">
+        <rdfs:label xml:lang="en">day</rdfs:label>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gDay"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#edition -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#edition">
+        <rdfs:label xml:lang="en">edition</rdfs:label>
+        <rdfs:comment xml:lang="en">The edition of a book (for example, &quot;Second&quot;). This should be an ordinal.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book"/>
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Manual"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#endPage -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#endPage">
+        <rdfs:label xml:lang="en">end page</rdfs:label>
+        <rdfs:comment xml:lang="en">The end of a range of pages.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PageRange"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#firstPublished -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#firstPublished">
+        <rdfs:label xml:lang="en">First published</rdfs:label>
+        <rdfs:comment xml:lang="en">When the reference was first published.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Chapter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#howPublished -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#howPublished">
+        <rdfs:label xml:lang="en">published</rdfs:label>
+        <rdfs:comment xml:lang="en">How something strange has been published.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Booklet"/>
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Misc"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#isbn -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#isbn">
+        <rdfs:label xml:lang="en">ISBN</rdfs:label>
+        <rdfs:comment xml:lang="en">The International Standard Book Number.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#issn -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#issn">
+        <rdfs:label xml:lang="en">ISSN</rdfs:label>
+        <rdfs:comment xml:lang="en">The International Standard Serial Number. Used to identify a journal.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#issue -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#issue">
+        <rdfs:label xml:lang="en">Issue</rdfs:label>
+        <rdfs:comment xml:lang="en">The issue of a conference.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#numberOrVolume"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference"/>
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#key -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#key">
+        <rdfs:label xml:lang="en">key</rdfs:label>
+        <rdfs:comment xml:lang="en">The key for a particular entry. Note that the rdf:ID for each Reference instance could be the key as well, possibly making this property redundant.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#keywords -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#keywords">
+        <rdfs:label xml:lang="en">keywords</rdfs:label>
+        <rdfs:comment xml:lang="en">Key words used for searching or possibly for annotation (as given by the author or publisher).</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#language -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#language">
+        <rdfs:label xml:lang="en">language</rdfs:label>
+        <rdfs:comment xml:lang="en">The language in which the referenced publication is written or performed (use ISO two-letter codes).</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#lastName -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#lastName"/>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#lccn -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#lccn">
+        <rdfs:label xml:lang="en">LCCN</rdfs:label>
+        <rdfs:comment xml:lang="en">The Library of Congress Call Number (this the Congress of the United State of America).</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#month -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#month">
+        <rdfs:label xml:lang="en">month</rdfs:label>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gMonth"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#mrNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#mrNumber">
+        <rdfs:label xml:lang="en">MR number</rdfs:label>
+        <rdfs:comment xml:lang="en">The Mathematical Reviews number.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#name -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#name">
+        <rdfs:label xml:lang="en">The name of an entity.</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#note -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#note">
+        <rdfs:label xml:lang="en">note</rdfs:label>
+        <rdfs:comment xml:lang="en">Any additional information that can help the reader.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#number -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#number">
+        <rdfs:label xml:lang="en">number</rdfs:label>
+        <rdfs:comment xml:lang="en">The number of a journal, magazine, technical report, or of a work in a series. An issue of a journal or magazine is usually identified by its volume and number; the organization that issues a technical report usually gives it a number; and sometimes books are given numbers in a named series.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:subPropertyOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#numberOrVolume"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#numberOrVolume -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#numberOrVolume">
+        <rdfs:label xml:lang="en">volume or number</rdfs:label>
+        <rdfs:comment xml:lang="en">The number of a journal, magazine, technical report, or of a work in a series. An issue of a journal or magazine is usually identified by its volume and number; the organization that issues a technical report usually gives it a number; and sometimes books are given numbers in a named series.</rdfs:comment>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference"/>
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#periodicity -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#periodicity">
+        <rdfs:label xml:lang="en">Periodicity</rdfs:label>
+        <rdfs:comment xml:lang="en">The periodicity of a serial publication (yearly, biannual, quarterly, monthly, bimonthly, weekly, biweekly, dayly).</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Journal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#price -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#price">
+        <rdfs:label xml:lang="en">price</rdfs:label>
+        <rdfs:comment xml:lang="en">The price of the document.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#reviewed -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#reviewed">
+        <rdfs:label xml:lang="en">howReviewed</rdfs:label>
+        <rdfs:comment xml:lang="en">The selection process overcome by the publication (full, none, poster, invited are possible values).</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#series -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#series">
+        <rdfs:label xml:lang="en">series</rdfs:label>
+        <rdfs:comment xml:lang="en">The name of a series or set of books. When citing an entire book, the the title field gives its title and an optional series field gives the name of a series or multi-volume set in which the book is published.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#shortName -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#shortName">
+        <rdfs:label xml:lang="en">The name of an entity.</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#size -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#size">
+        <rdfs:label xml:lang="en">size</rdfs:label>
+        <rdfs:comment xml:lang="en">The physical dimensions of a document.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#startPage -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#startPage">
+        <rdfs:label xml:lang="en">start page</rdfs:label>
+        <rdfs:comment xml:lang="en">The beginning of a range of pages.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PageRange"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#state -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#state">
+        <rdfs:label xml:lang="en">state</rdfs:label>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#title -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#title">
+        <rdfs:label xml:lang="en">title</rdfs:label>
+        <rdfs:comment xml:lang="en">The title of the work.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#type -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#type">
+        <rdfs:label xml:lang="en">type</rdfs:label>
+        <rdfs:comment xml:lang="en">The type of a technical report (for example, &quot;Research Note&quot;).</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Academic"/>
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Chapter"/>
+                    <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#TechReport"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#url -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#url">
+        <rdfs:label xml:lang="en">URL</rdfs:label>
+        <rdfs:comment xml:lang="en">The Universal Resource Locator that points to the item being referenced.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#volume -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#volume">
+        <rdfs:label xml:lang="en">volume</rdfs:label>
+        <rdfs:comment xml:lang="en">The volume of a journal or multivolume book.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:subPropertyOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#numberOrVolume"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#year -->
+
+    <owl:DatatypeProperty rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#year">
+        <rdfs:label xml:lang="en">year</rdfs:label>
+        <rdfs:domain rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/firstName -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/firstName"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Academic -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Academic">
+        <rdfs:label xml:lang="en">Academic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#author"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#school"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#title"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#date"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A Master&apos;s or PhD thesis.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Address -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Address">
+        <rdfs:label xml:lang="en">Address</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#country"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#state"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#country"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#city"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#city"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#state"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The street address of the location of some organization or event.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Article -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Article">
+        <rdfs:label xml:lang="en">Article</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Part"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#author"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#journal"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#number"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#date"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#date"/>
+                <owl:allValuesFrom rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#pages"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#volume"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An article from a journal or magazine.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book">
+        <rdfs:label xml:lang="en">Book</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#volume"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#publisher"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#title"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#author"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#edition"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#date"/>
+                <owl:allValuesFrom rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#series"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#date"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A book that may be a monograph or a collection of written texts.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Booklet -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Booklet">
+        <rdfs:label xml:lang="en">Booklet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Informal"/>
+        <rdfs:comment xml:lang="en">A work that is printed and bound, but without a named publisher or sponsoring institution.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Chapter -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Chapter">
+        <rdfs:label xml:lang="en">BookPart</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Part"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#chapter"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A chapter (or section or whatever) of a book having its own title.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Collection -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Collection">
+        <rdfs:label xml:lang="en">Collection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#parts"/>
+                <owl:allValuesFrom rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#chapters"/>
+                <owl:allValuesFrom rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Chapter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A book that is collection of texts or articles.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference">
+        <rdfs:label xml:lang="en">The location of an event</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#shortName"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#issue"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#location"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#name"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#organizer"/>
+                <owl:allValuesFrom rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Institution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An event presenting work.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date">
+        <rdfs:label xml:lang="en">Date</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#day"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#gDay"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#month"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#day"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#year"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#year"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#month"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#gMonth"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Date of a day which can be unknown (i.e., only the year is known or only the year and month). This is for overcoming the limits of XML-Schema for wich a date is not separable.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Deliverable -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Deliverable">
+        <rdfs:label xml:lang="en">Deliverable report</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Report"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#contract"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A report delivered for accomplishing a contract.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook">
+        <rdfs:label xml:lang="en">InBook</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Part"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#pages"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#author"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#book"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A subpart of a book given by a range of pages.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InCollection">
+        <rdfs:label xml:lang="en">Incollection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Part"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#collection"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#author"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A part of a book having its own title.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings">
+        <rdfs:label xml:lang="en">InProceedings</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Part"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#proceedings"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#author"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An article in a conference proceedings.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Informal -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Informal">
+        <rdfs:label xml:lang="en">Informal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#title"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A document that was informally published or not published.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Institution -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Institution">
+        <rdfs:label xml:lang="en">Institution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#name"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#shortName"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#address"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An institution.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Journal -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Journal">
+        <rdfs:label xml:lang="en">Journal or magazine</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#articles"/>
+                <owl:allValuesFrom rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Article"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#shortName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#series"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#name"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#firstPublished"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#name"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#publisher"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#periodicity"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A periodical publication collecting works from different authors.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#LectureNotes -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#LectureNotes">
+        <rdfs:label xml:lang="en">LectureNotes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Informal"/>
+        <rdfs:comment xml:lang="en">Lecture notes.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Manual -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Manual">
+        <rdfs:label xml:lang="en">Manual</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Informal"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#organization"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#edition"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#title"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Technical documentation.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#MastersThesis -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#MastersThesis">
+        <rdfs:label xml:lang="en">MastersThesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Academic"/>
+        <rdfs:comment xml:lang="en">A Master&apos;s thesis.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Misc -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Misc">
+        <rdfs:label xml:lang="en">Misc</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:comment xml:lang="en">Use this type when nothing else fits.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Monograph -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Monograph">
+        <rdfs:label xml:lang="en">Monograph</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#chapters"/>
+                <owl:allValuesFrom rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Chapter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A book that is a single entity, as opposed to a collection.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#MotionPicture -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#MotionPicture">
+        <rdfs:label xml:lang="en">MotionPicture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:comment xml:lang="en">A film/movie/motion picture.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PageRange -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PageRange">
+        <rdfs:label xml:lang="en">PageRange</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#endPage"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#startPage"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A range of pages.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Part -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Part">
+        <rdfs:label xml:lang="en">Part</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#pages"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#title"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A part of something (either Book or Proceedings).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList">
+        <rdfs:label xml:lang="en">Person list</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+                <owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A list of persons.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PhdThesis -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PhdThesis">
+        <rdfs:label xml:lang="en">PhdThesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Academic"/>
+        <rdfs:comment xml:lang="en">A PhD thesis.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings">
+        <rdfs:label xml:lang="en">Proceedings</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Book"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#event"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#editor"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#communications"/>
+                <owl:allValuesFrom rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#organization"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#event"/>
+                <owl:allValuesFrom rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A proceedings may be implicitly defined with an inproceedings.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The proceedings of a conference.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Publisher -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Publisher">
+        <rdfs:label xml:lang="en">Publisher</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Institution"/>
+        <rdfs:comment xml:lang="en">The publisher of books or journals.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference">
+        <rdfs:label xml:lang="en">Reference</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#humanCreator"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#title"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#date"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Base class for all entries</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Report -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Report">
+        <rdfs:label xml:lang="en">Report</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Reference"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#date"/>
+                <owl:allValuesFrom rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#number"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#title"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#institution"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#date"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#author"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A report published by an institution with some explicit policy.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#School -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#School">
+        <rdfs:label xml:lang="en">School</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Institution"/>
+        <rdfs:comment xml:lang="en">A school or university.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#TechReport -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#TechReport">
+        <rdfs:label xml:lang="en">TechReport</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Report"/>
+        <rdfs:comment xml:lang="en">A report published by a school or other institution, usually numbered within a series.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Unpublished -->
+
+    <owl:Class rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Unpublished">
+        <rdfs:label xml:lang="en">Unpublished</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Informal"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#title"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#note"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#author"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A document having an author and title, but not formally published.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#List -->
+
+    <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf">
+        <dc:description>Bibliographic references in OWL</dc:description>
+        <dc:date>08/06/2005</dc:date>
+        <dc:contributor>Jérôme Euzenat</dc:contributor>
+        <dc:contributor>Antoine Zimmermann &lt;antoine.zimmermann@inrialpes.fr&gt;</dc:contributor>
+        <dc:creator>Nick Knouf &lt;nknouf@mit.edu&gt;</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a04570373 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a04570373">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>John-Jules Meyer</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John-Jules</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John-Jules Meyer</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meyer</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a060097576 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a060097576">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings"/>
+        <rdfs:label>Proceedings of the SemPGrid 04 Workshop</rdfs:label>
+        <title>Proceedings of the SemPGrid 04 Workshop</title>
+        <event rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#spg04"/>
+        <date>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+                <year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</year>
+            </rdf:Description>
+        </date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a066600210 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a066600210">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Danilo Montesi</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danilo</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danilo Montesi</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montesi</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a086379337 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a086379337">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Wiebe Hoek</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoek</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiebe</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiebe Hoek</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a093016135 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a093016135">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Rogier Eijk</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eijk</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rogier</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rogier Eijk</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a108048723 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a108048723">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Monograph"/>
+        <rdfs:label>Object-Oriented Data Modeling</rdfs:label>
+        <title>Object-Oriented Data Modeling</title>
+        <publisher rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a85849488"/>
+        <date>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+                <year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</year>
+            </rdf:Description>
+        </date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a11065952 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a11065952">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings"/>
+        <rdfs:label>Ontology Mapping - An Integrated Approach</rdfs:label>
+        <url>http://www.aifb.uni-karlsruhe.de/WBS/meh/publications/ehrig04ontology_ESWS04.pdf</url>
+        <title>Ontology Mapping - An Integrated Approach</title>
+        <proceedings rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a32071928"/>
+        <author>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+            </rdf:Description>
+        </author>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a11090777 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a11090777">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Christine Parent</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christine</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christine Parent</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a131020767 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a131020767">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Publisher"/>
+        <rdfs:label>Springer-Verlag</rdfs:label>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Springer-Verlag</name>
+        <address>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Address"/>
+                <country>DE</country>
+                <city>Heidelberg</city>
+            </rdf:Description>
+        </address>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a139477786 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a139477786">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Maarten Menken</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maarten</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maarten Menken</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Menken</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a140583454 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a140583454">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Misc"/>
+        <rdfs:label>{QOM} - Quick Ontology Mapping</rdfs:label>
+        <title>{QOM} - Quick Ontology Mapping</title>
+        <note>submitted to the ISWC 04</note>
+        <author>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+            </rdf:Description>
+        </author>
+        <date>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+                <year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</year>
+            </rdf:Description>
+        </date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a246119474 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a246119474">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Journal"/>
+        <rdfs:label>Journal of Web Semantics</rdfs:label>
+        <shortName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JWS</shortName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Journal of Web Semantics</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a250331360 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a250331360">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>R. Schmidt</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R.</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R. Schmidt</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schmidt</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a29105611 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a29105611">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Karl Aberer</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aberer</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karl</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karl Aberer</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a3105947 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a3105947">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Ronny Siebes</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ronny</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ronny Siebes</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Siebes</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a32071928 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a32071928">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings"/>
+        <rdfs:label>Proceedings of the First European Semantic Web Symposium</rdfs:label>
+        <title>Proceedings of the First European Semantic Web Symposium</title>
+        <publisher rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a131020767"/>
+        <event rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a32071928c"/>
+        <date>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+                <year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</year>
+            </rdf:Description>
+        </date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a32071928c -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a32071928c">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference"/>
+        <rdfs:label>First European Semantic Web Symposium</rdfs:label>
+        <name>European Semantic Web Symposium</name>
+        <shortName>ESWS</shortName>
+        <issue>1</issue>
+        <date>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+                <month rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonth">--05</month>
+                <year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</year>
+            </rdf:Description>
+        </date>
+        <location>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Address"/>
+                <city rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heraklion</city>
+                <country>GR</country>
+            </rdf:Description>
+        </location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a337716610 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a337716610">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Manfred Hauswirth</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hauswirth</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manfred</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manfred Hauswirth</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a362042121 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a362042121">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Journal"/>
+        <rdfs:label>International journal of intelligent system</rdfs:label>
+        <shortName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IJIS</shortName>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International journal of intelligent system</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a39510672 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a39510672">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Z. Despotovic</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Despotovic</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z.</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z. Despotovic</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a431956276 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a431956276">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Stefano Spaccapietra</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spaccapietra</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stefano</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stefano Spaccapietra</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a431956276b -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a431956276b">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Mike Papazoglou</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mike</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mike Papazoglou</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papazoglou</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a431956276c -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a431956276c">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Zahir Tari</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tari</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zahir</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zahir Tari</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a43836633 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a43836633">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Jeen Broekstra</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broekstra</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeen</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeen Broekstra</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a439508789 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a439508789">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings"/>
+        <rdfs:label>Measuring Similarity between Ontologies</rdfs:label>
+        <title>Measuring Similarity between Ontologies</title>
+        <proceedings rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a72192307"/>
+        <author>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+            </rdf:Description>
+        </author>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a456080390 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a456080390">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Article"/>
+        <rdfs:label>On dynamically generated ontology translators in agent communication</rdfs:label>
+        <title>On dynamically generated ontology translators in agent communication</title>
+        <journal rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a362042121"/>
+        <date>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+                <month rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonth">--12</month>
+                <year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2001</year>
+            </rdf:Description>
+        </date>
+        <author>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+            </rdf:Description>
+        </author>
+        <pages>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PageRange"/>
+                <startPage rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">587</startPage>
+                <endPage rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">607</endPage>
+            </rdf:Description>
+        </pages>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a467748807 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a467748807">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Ateret Anaby-Tavor</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaby-Tavor</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ateret</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ateret Anaby-Tavor</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a475526642 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a475526642">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Article"/>
+        <rdfs:label>Binary Codes capable of correcting deletions, insertions, and reversals</rdfs:label>
+        <title>Binary Codes capable of correcting deletions, insertions, and reversals</title>
+        <journal rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a70981683"/>
+        <author>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+            </rdf:Description>
+        </author>
+        <date>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+                <year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1996</year>
+            </rdf:Description>
+        </date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a48552212 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a48552212">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Björn Schnizler</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Björn</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Björn Schnizler</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schnizler</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a492378321 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a492378321">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Article"/>
+        <rdfs:label>{P-Grid: A Self-organizing Structured P2P System}</rdfs:label>
+        <title>{P-Grid}: A Self-organizing Structured P2P System</title>
+        <journal rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a674639524"/>
+        <date>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+                <year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</year>
+            </rdf:Description>
+        </date>
+        <author>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+            </rdf:Description>
+        </author>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a572406328 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a572406328">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Frank Boer</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boer</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frank</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frank Boer</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a64263824 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a64263824">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InProceedings"/>
+        <rdfs:label>Bibster - A Semantics-Based Bibliographic Peer-to-Peer System</rdfs:label>
+        <title>Bibster - A Semantics-Based Bibliographic Peer-to-Peer System</title>
+        <proceedings rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a060097576"/>
+        <author>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+            </rdf:Description>
+        </author>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a674639524 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a674639524">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Journal"/>
+        <rdfs:label>ACM SIGMOD Record</rdfs:label>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACM SIGMOD Record</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a70955601 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a70955601">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>A. Datta</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A.</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A. Datta</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Datta</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a70981683 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a70981683">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Journal"/>
+        <rdfs:label>Cybernetics and Control Theory</rdfs:label>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cybernetics and Control Theory</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a71003986 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a71003986">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Steffen Staab</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staab</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steffen</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steffen Staab</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a712561038 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a712561038">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Marc Ehrig</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ehrig</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marc</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marc Ehrig</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a71568377 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a71568377">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#InBook"/>
+        <rdfs:label>Database integration: the key to data interoperability</rdfs:label>
+        <title>Database integration: the key to data interoperability</title>
+        <book rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a108048723"/>
+        <author>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+            </rdf:Description>
+        </author>
+        <editor>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+            </rdf:Description>
+        </editor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a72192307 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a72192307">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Proceedings"/>
+        <rdfs:label>Proc. Of the 13th Int. Conference on Knowledge Engineering and Management (EKAW-2002)</rdfs:label>
+        <title>Proc. Of the 13th Int. Conference on Knowledge Engineering and Management (EKAW-2002)</title>
+        <publisher rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a131020767"/>
+        <event rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a72192307c"/>
+        <date>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+                <year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2002</year>
+            </rdf:Description>
+        </date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a72192307c -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a72192307c">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference"/>
+        <rdfs:label>13th Int. Conference on Knowledge Engineering and Management (EKAW-2002)</rdfs:label>
+        <shortName>EKAW</shortName>
+        <name>Int. Conference on Knowledge Engineering and Management</name>
+        <issue>13</issue>
+        <date>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+                <month rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonth">--10</month>
+                <year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2002</year>
+            </rdf:Description>
+        </date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a74993404 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a74993404">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>I. V. Levenshtein</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I. V.</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I. V. Levenshtein</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levenshtein</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a79573306 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a79573306">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>York Sure</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sure</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">York</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">York Sure</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a80299267 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a80299267">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Article"/>
+        <rdfs:label>Start making sense: The Chatty Web approach for global semantic agreements</rdfs:label>
+        <title>Start making sense: The Chatty Web approach for global semantic agreements</title>
+        <journal rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a246119474"/>
+        <author>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+            </rdf:Description>
+        </author>
+        <date>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+                <month rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonth">--12</month>
+                <year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</year>
+            </rdf:Description>
+        </date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a846015923 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a846015923">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Article"/>
+        <rdfs:label>A Framework for Modeling and Evaluating Automatic Semantic Reconciliation</rdfs:label>
+        <title>A Framework for Modeling and Evaluating Automatic Semantic Reconciliation</title>
+        <note>to appear</note>
+        <journal rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a906774044"/>
+        <date>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+                <year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</year>
+            </rdf:Description>
+        </date>
+        <author>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+            </rdf:Description>
+        </author>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a85228505 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a85228505">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Alexander Mädche</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexander</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexander Mädche</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mädche</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a85849488 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a85849488">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Publisher"/>
+        <rdfs:label>The MIT Press</rdfs:label>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The MIT Press</name>
+        <address>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Address"/>
+                <city rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cambridge</city>
+                <state rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA</state>
+                <country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">US</country>
+            </rdf:Description>
+        </address>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a885257047 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a885257047">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>M. Punceva</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M.</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M. Punceva</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Punceva</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a900366022 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a900366022">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Avigdor Gal</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avigdor</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avigdor Gal</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gal</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a906774044 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a906774044">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Journal"/>
+        <rdfs:label>VLDB Journal</rdfs:label>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLDB Journal</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a944339054 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a944339054">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Frank van Harmelen</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frank</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frank van Harmelen</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">van Harmelen</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a94533498 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a94533498">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Peter Haase</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haase</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Haase</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a958684218 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a958684218">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Peter Mika</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mika</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Mika</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a971541439 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a971541439">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Alberto Trombetta</rdfs:label>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alberto</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alberto Trombetta</foaf:name>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trombetta</lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a98078619 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#a98078619">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Philippe Cudré-Mauroux</rdfs:label>
+        <lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cudré-Mauroux</lastName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe</foaf:firstName>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Cudré-Mauroux</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#spg04 -->
+
+    <owl:NamedIndividual rdf:about="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#spg04">
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Conference"/>
+        <rdfs:label>SemPGrid 04 Workshop</rdfs:label>
+        <name>SemPGrid 04 Workshop</name>
+        <location>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Address"/>
+                <state>NY</state>
+                <country>US</country>
+                <city>New-York</city>
+            </rdf:Description>
+        </location>
+        <date>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#Date"/>
+                <month rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonth">--05</month>
+                <year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</year>
+            </rdf:Description>
+        </date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#nil -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://oaei.ontologymatching.org/2009/benchmarks/101/onto.rdf#PersonList"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

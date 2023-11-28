@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app 
+   xmlns="http://java.sun.com/xml/ns/j2ee" 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee" 
+   version="2.4"> 
+
+   <!-- General description of your web application -->
+
+   <display-name>LogMap Web Access</display-name>
+   <description>
+ 	LogMap's web facility (compliant with version 2.4) has been sucessfuly tested with Firefox, Chrome and Konqueror. It may fail with iExplorer.
+   </description>
+
+   <!-- Context initialization parameters that define shared
+                 String constants used within your application, which
+         can be customized by the system administrator who is
+         installing your application.  The values actually
+         assigned to these parameters can be retrieved in a
+         servlet or JSP page by calling:
+
+             String value =
+               getServletContext().getInitParameter("name");
+
+         where "name" matches the <param-name> element of
+         one of these initialization parameters.
+
+         You can define any number of context initialization
+         parameters, including zero.
+    -->
+
+  <context-param>
+      <param-name>email</param-name>
+      <param-value>logmap.om.tool@gmail.com</param-value>
+      <description>
+        The EMAIL address of the administrator to whom questions
+        and comments about this application should be addressed.
+      </description>
+  </context-param>
+
+
+  <context-param>
+      <param-name>passwd</param-name>
+      <param-value>elmolikeslogmap</param-value>
+      <description>
+        Password email admin.
+      </description>
+  </context-param>
+
+
+  <context-param>
+      <param-name>path</param-name>
+      <param-value>logmap</param-value>
+      <description>
+	Relative path of LogMap within tomcat webapps.
+      </description>
+  </context-param>
+
+  <context-param>
+      <param-name>smtphost</param-name>
+      <param-value>smtp.gmail.com</param-value>
+      <description>
+        smtp.gmail.com or 74.125.206.109
+      </description>
+  </context-param>
+ 
+
+  <servlet>
+    <display-name>LogMap Web Access</display-name>
+    <servlet-name>LogMap</servlet-name>
+    <servlet-class>uk.ac.ox.krr.logmap2.web_service.LogMapRequest</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Interactivity</servlet-name>          
+    <servlet-class>uk.ac.ox.krr.logmap2.web_service.InteractiveProcessRequest</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+
+  <servlet>
+    <servlet-name>Upload</servlet-name>          
+    <servlet-class>uk.ac.ox.krr.logmap2.web_service.UploadFileRequest</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <servlet-name>Library</servlet-name>          
+    <servlet-class>uk.ac.ox.krr.logmap2.web_service.OntologyLibraryRequest</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>LogMap</servlet-name>
+    <url-pattern>/logmap.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+    <servlet-name>Interactivity</servlet-name>
+    <url-pattern>/interactivity.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+    <servlet-name>Upload</servlet-name>
+    <url-pattern>/upload.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Library</servlet-name>
+    <url-pattern>/library.do</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+
+

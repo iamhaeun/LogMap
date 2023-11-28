@@ -1,0 +1,520 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"
+     xmlns:mappings="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/goodrelations/v1#BusinessEntity -->
+
+    <owl:Class rdf:about="http://purl.org/goodrelations/v1#BusinessEntity">
+        <owl:equivalentClass rdf:resource="http://www.iec.ch/TC57/CIM#BusinessRole"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5263457216940364</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#BusinessEntity</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#BusinessRole</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#BusinessEntity"/>
+        <owl:annotatedTarget rdf:resource="http://www.iec.ch/TC57/CIM#BusinessRole"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.org/goodrelations/v1#Location -->
+
+    <owl:Class rdf:about="http://purl.org/goodrelations/v1#Location">
+        <owl:equivalentClass rdf:resource="http://www.iec.ch/TC57/CIM#Location"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Location</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Location</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Location"/>
+        <owl:annotatedTarget rdf:resource="http://www.iec.ch/TC57/CIM#Location"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://schema.org/Organization -->
+
+    <owl:Class rdf:about="http://schema.org/Organization">
+        <owl:equivalentClass rdf:resource="http://www.iec.ch/TC57/CIM#Organisation"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://schema.org/Organization</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Organisation</entity2>
+        <owl:annotatedSource rdf:resource="http://schema.org/Organization"/>
+        <owl:annotatedTarget rdf:resource="http://www.iec.ch/TC57/CIM#Organisation"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#BusinessRole -->
+
+    <owl:Class rdf:about="http://www.iec.ch/TC57/CIM#BusinessRole"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5263457216940364</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#BusinessEntity</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#BusinessRole</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#BusinessEntity"/>
+        <owl:annotatedTarget rdf:resource="http://www.iec.ch/TC57/CIM#BusinessRole"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#DateTimeInterval -->
+
+    <owl:Class rdf:about="http://www.iec.ch/TC57/CIM#DateTimeInterval">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2006/time#DateTimeInterval"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#DateTimeInterval</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#DateTimeInterval</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#DateTimeInterval"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#DateTimeInterval"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#Document -->
+
+    <owl:Class rdf:about="http://www.iec.ch/TC57/CIM#Document">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Document</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Document</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Document"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#Duration -->
+
+    <owl:Class rdf:about="http://www.iec.ch/TC57/CIM#Duration">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2006/time#Duration"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Duration</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#Duration</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Duration"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#Duration"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#Location -->
+
+    <owl:Class rdf:about="http://www.iec.ch/TC57/CIM#Location"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Location</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Location</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Location"/>
+        <owl:annotatedTarget rdf:resource="http://www.iec.ch/TC57/CIM#Location"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#Meter -->
+
+    <owl:Class rdf:about="http://www.iec.ch/TC57/CIM#Meter">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Meter"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8200000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Meter</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Meter</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Meter"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Meter"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#Organisation -->
+
+    <owl:Class rdf:about="http://www.iec.ch/TC57/CIM#Organisation"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://schema.org/Organization</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Organisation</entity2>
+        <owl:annotatedSource rdf:resource="http://schema.org/Organization"/>
+        <owl:annotatedTarget rdf:resource="http://www.iec.ch/TC57/CIM#Organisation"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#Person -->
+
+    <owl:Class rdf:about="http://www.iec.ch/TC57/CIM#Person">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Person</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Person</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Person"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#Process -->
+
+    <owl:Class rdf:about="http://www.iec.ch/TC57/CIM#Process">
+        <owl:equivalentClass rdf:resource="https://w3id.org/pep/Process"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Process</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/pep/Process</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Process"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/pep/Process"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#Sensor -->
+
+    <owl:Class rdf:about="http://www.iec.ch/TC57/CIM#Sensor">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Sensor"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Sensor</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Sensor</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Sensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Sensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#Streetlight -->
+
+    <owl:Class rdf:about="http://www.iec.ch/TC57/CIM#Streetlight">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/StreetLight"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Streetlight</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/StreetLight</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Streetlight"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/StreetLight"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#Transaction -->
+
+    <owl:Class rdf:about="http://www.iec.ch/TC57/CIM#Transaction">
+        <owl:equivalentClass rdf:resource="https://w3id.org/seas/Transaction"/>
+    </owl:Class>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Transaction</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Transaction</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Transaction"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Transaction"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DateTimeInterval -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#DateTimeInterval"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#DateTimeInterval</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#DateTimeInterval</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#DateTimeInterval"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#DateTimeInterval"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Duration -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Duration"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Duration</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2006/time#Duration</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Duration"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#Duration"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Document -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Document"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Document</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Document</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Document"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Person</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Person</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Person"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/pep/Process -->
+
+    <owl:Class rdf:about="https://w3id.org/pep/Process"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Process</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/pep/Process</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Process"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/pep/Process"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Meter -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Meter"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8200000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Meter</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Meter</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Meter"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Meter"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Sensor -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Sensor"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Sensor</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Sensor</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Sensor"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Sensor"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/StreetLight -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/StreetLight"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Streetlight</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/StreetLight</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Streetlight"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/StreetLight"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/seas/Transaction -->
+
+    <owl:Class rdf:about="https://w3id.org/seas/Transaction"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#Transaction</entity2>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/seas/Transaction</entity1>
+        <owl:annotatedSource rdf:resource="http://www.iec.ch/TC57/CIM#Transaction"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/seas/Transaction"/>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/goodrelations/v1#Cash -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/goodrelations/v1#Cash">
+        <owl:sameAs rdf:resource="http://www.iec.ch/TC57/CIM#cash"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Cash</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#cash</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Cash"/>
+        <owl:annotatedTarget rdf:resource="http://www.iec.ch/TC57/CIM#cash"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.org/goodrelations/v1#Repair -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/goodrelations/v1#Repair">
+        <owl:sameAs rdf:resource="http://www.iec.ch/TC57/CIM#repair"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Repair</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#repair</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Repair"/>
+        <owl:annotatedTarget rdf:resource="http://www.iec.ch/TC57/CIM#repair"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#cash -->
+
+    <owl:NamedIndividual rdf:about="http://www.iec.ch/TC57/CIM#cash"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Cash</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#cash</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Cash"/>
+        <owl:annotatedTarget rdf:resource="http://www.iec.ch/TC57/CIM#cash"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.iec.ch/TC57/CIM#repair -->
+
+    <owl:NamedIndividual rdf:about="http://www.iec.ch/TC57/CIM#repair"/>
+    <owl:Axiom>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/goodrelations/v1#Repair</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iec.ch/TC57/CIM#repair</entity2>
+        <owl:annotatedSource rdf:resource="http://purl.org/goodrelations/v1#Repair"/>
+        <owl:annotatedTarget rdf:resource="http://www.iec.ch/TC57/CIM#repair"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+
